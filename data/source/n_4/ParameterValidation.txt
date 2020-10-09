@@ -1,0 +1,22 @@
+1. FDTD stability condition:
+   c * dt < dx --- PASSED
+   3.75e-07 < 7.5e-07
+   dt = 1.25087e-17
+   dx = 7.5e-07
+
+2. Plasma period resolution:
+   Tp / dt > 8 --- PASSED
+   106.667 > 8
+   Ne = 6.96784e+21
+   Tp = 1.33426e-15
+
+3. Debye radius:
+   R / dx >= 0.5 --- FAILED
+   0.118702 < 0.5
+   R = 8.90266e-08
+
+
+Estimated memory consumption for whole simulation area:
+   Particles: 0.0341248 GB, approximately 266600 particles
+   Grid:      0.000576 GB, approximately 8000 grid values
+   Total:     0.0347008 GB
