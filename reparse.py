@@ -309,3 +309,36 @@ class reparse:
             ey_field_2.append(ez_mom_field)
 
         return ez_field_2, ey_field_2
+    def angle_2D_energy(self, theta, energy_r, data_file_name):
+        """
+        #----------Description-----------#
+        # Reparce energy from file
+        #
+        #---------Input------------------#
+        # data_file_name - str, self explanatory.
+        # theta, energy_i, energy_r - blank lists.
+        #
+        #----------Output------------------#
+        # max_Ei - float, maximum energy of incident pulse,
+        # theta - numpy.ndarray shape (1, 20*t), angles,
+        # energy_r - numpy.ndarray shape (1, 20*t), energies of incident and reflected pulse devided by max_Ei.
+
+        """
+        with open(data_file_name, "r") as file:
+            theta.append(0)
+            energy_r.append(0)
+            check = True
+            for line in file:
+                theta.append(0)
+                energy_r.append(0)
+                if check == True:
+                    print(line)
+                    max_Ei, theta[-1], energy_r[-1] = (line.rstrip()).split("    ")
+                    check = False
+                else:
+                    theta[-1], energy_r[-1] = (line.rstrip()).split("    ")
+                theta[-1] = float(theta[-1])
+                energy_r[-1] = float(energy_r[-1])
+        theta = np.array((theta))
+        energy_r = np.array((energy_r))
+        return max_Ei, theta, energy_r
