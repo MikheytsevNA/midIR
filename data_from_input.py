@@ -27,41 +27,43 @@ def parameters_from_input(path_to_solution_folder):
     
     input_BOI = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['BOI'],path_to_solution_folder) 
     args_BOI = shlex.split(input_BOI)
-    BOI = subprocess.check_output(args_BOI, text=None, encoding='UTF-8')
+    BOI = subprocess.check_output(args_BOI, encoding='UTF-8')
     BOI = float(BOI[len(key_phrases['BOI']):-1])
+    
+    
     input_time_step = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['time_step'],path_to_solution_folder) 
     args_time_step = shlex.split(input_time_step)
-    time_step = subprocess.check_output(args_time_step, text=None, encoding='UTF-8')
+    time_step = subprocess.check_output(args_time_step, encoding='UTF-8')
     time_step = float(time_step[len(key_phrases['time_step']):-1])
     delta_t = time_step*math.floor(BOI)
     
     input_delta_x = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['delta_x'],path_to_solution_folder) 
     args_delta_x = shlex.split(input_delta_x)
-    delta_x = subprocess.check_output(args_delta_x, text=None, encoding='UTF-8')
+    delta_x = subprocess.check_output(args_delta_x, encoding='UTF-8')
     delta_x = float(delta_x[len(key_phrases['delta_x']):-1])/100 # /100 need for meters
     
     input_a_rel = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['a_rel'],path_to_solution_folder) 
     args_a_rel = shlex.split(input_a_rel)
-    a_rel = subprocess.check_output(args_a_rel, text=None, encoding='UTF-8')
+    a_rel = subprocess.check_output(args_a_rel, encoding='UTF-8')
     a_rel = float(a_rel[len(key_phrases['a_rel']):-1])
     
     input_n_cr = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['n_cr'],path_to_solution_folder) 
     args_n_cr = shlex.split(input_n_cr)
-    n_cr = subprocess.check_output(args_n_cr, text=None, encoding='UTF-8')
+    n_cr = subprocess.check_output(args_n_cr, encoding='UTF-8')
     n_cr = float(n_cr[len(key_phrases['n_cr']):-1])
     input_n_0 = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['n_0'],path_to_solution_folder) 
     args_n_0 = shlex.split(input_n_0)
-    n_0 = subprocess.check_output(args_n_0, text=None, encoding='UTF-8')
+    n_0 = subprocess.check_output(args_n_0, encoding='UTF-8')
     n_0 = float(n_0[len(key_phrases['n_0']):-1])
     input_PerCell = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['PerCell'],path_to_solution_folder) 
     args_PerCell = shlex.split(input_PerCell)
-    PerCell = subprocess.check_output(args_PerCell, text=None, encoding='UTF-8')
+    PerCell = subprocess.check_output(args_PerCell, encoding='UTF-8')
     PerCell = float(PerCell[len(key_phrases['PerCell']):-1])
     n = PerCell*n_cr/n_0
     
     input_focal_spot_fwhm = 'grep \"{}\" {}/ParsedInput.txt'.format(key_phrases['focal_spot_fwhm'],path_to_solution_folder) 
     args_focal_spot_fwhm = shlex.split(input_focal_spot_fwhm)
-    focal_spot_fwhm = subprocess.check_output(args_focal_spot_fwhm, text=None, encoding='UTF-8')
+    focal_spot_fwhm = subprocess.check_output(args_focal_spot_fwhm, encoding='UTF-8')
     focal_spot_fwhm = float(focal_spot_fwhm[len(key_phrases['focal_spot_fwhm']):-1])
     
     return delta_t, delta_x, a_rel, n, focal_spot_fwhm
