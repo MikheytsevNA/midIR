@@ -1,0 +1,425 @@
+Setting variable: p0=0.0000000000000000273092406560982479909916
+Setting variable: P0=0.000000000000050143974968480550243322582
+Setting variable: eV=0.0000000000016010680899999999905840223322
+Setting variable: keV=0.0000000016010680899999999017267299681005
+Setting variable: MeV=0.000001601068090000000088669548405084786
+Setting variable: GeV=0.0016010680900000000530941646204041717283
+Setting variable: Joule=10000000
+Setting function: Gauss=exp((-((x) * (x))))
+Setting function: SuperGauss=exp((-((((x) * (x))) * (((x) * (x))))))
+Setting function: Trpz=(0.5 * (tanh(x0) - tanh(x1)))
+Setting function: Step=sign(x)
+Setting function: Block=((((sign((x - xmin)))) + ((sign((xmax - x))))) / 2)
+Setting function: Line=((((((((sign((x - xmin)))) + ((sign((xmax - x))))) / 2))) * (((x - xmin) * ymax) + ((xmax - x) * ymin))) / (xmax - xmin))
+Setting function: R=sqrt(((((x) * (x)) + ((y) * (y))) + ((z) * (z))))
+Setting function: Minimum=((((((sign((a - b)))) + 1) * b) + ((((sign((b - a)))) + 1) * a)) / 2)
+Setting function: Energy_vs_p=((sqrt(((((px * px) + (py * py)) + (pz * pz)) + 0.0000000000000000000000000000000007457946)) - 0.0000000000000000273092406560982479909916) * 29979245800)
+Setting function: Velocity_vs_p=((p * 29979245800) / sqrt(((((px * px) + (py * py)) + (pz * pz)) + 0.0000000000000000000000000000000007457946)))
+Setting variable: Wavelength=0.0000800000000000000065442443131225047637
+Setting variable: k=78539.816339744822471402585506439208984375
+Setting variable: Omega=2354564459136066
+Setting variable: RelativisticField=133871815.230632781982421875
+Setting module: Module-'PML'
+Setting variable: PML.Size_X=16
+Setting variable: PML.Size_Y=0
+Setting variable: PML.Size_Z=0
+Setting module: Module-'FieldInterpolation'
+Setting string: FieldInterpolation.type=TSC
+Setting module: Module-'CurrentDeposition'
+Setting string: CurrentDeposition.type=VB
+Setting variable: NumStepsPerPlasmaPeriod=8
+Setting variable: Ncr=1741959738038488137728
+Setting variable: w_cr=2356154475414873.5
+Setting variable: Tcr=0.0000000000000026667119548998323564625046
+Setting module: Module-'ParticleBC'
+Setting string: ParticleBC.x=absorbing
+Setting string: ParticleBC.y=periodic
+Setting string: ParticleBC.z=periodic
+Setting variable: MatrixSize_X=8000
+Setting variable: MatrixSize_Y=1
+Setting variable: MatrixSize_Z=1
+Setting variable: X_Min=-0.0030000000000000000624500451351650553988
+Setting variable: X_Max=0.0030000000000000000624500451351650553988
+Setting variable: Y_Min=0
+Setting variable: Y_Max=1
+Setting variable: Z_Min=0
+Setting variable: Z_Max=1
+Setting variable: DeltaX=0.0000007500000000000000190006430728084652
+Setting variable: ParticlesPerCell=100
+Setting variable: PulseDurationFWHM1=0.0000000000000020000000000000001554107998
+Setting variable: PulseTau1=0.0000000000000016986436005760383323956347
+Setting variable: PulseDurationFWHM2=0.0000000000000199999999999999999763861871
+Setting variable: PulseTau2=0.0000000000000169864360057603821406649894
+Setting variable: PulseEnergy=110000000
+Setting variable: FocalSpotWidthFWHM=0.0005000000000000000104083408558608425665
+Setting variable: FocalSpotRadius=0.0004246609001440095586266121330254463828
+Setting variable: PulseIntensityCGS=33163729246667429666181087232
+Setting variable: PulseIntensitySI=3316372924666742833152
+Setting variable: PulseAmplitudeAtFocus=3728432293.899980068206787109375
+Setting variable: A_0=27.85076371360678848532188567332923412323
+Setting function: PulseEnvelope=((((exp((-(((t / 0.0000000000000016986436005760383323956347)) * ((t / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((t - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - t))))) / 2)))) + (((exp((-(((t / 0.0000000000000169864360057603821406649894)) * ((t / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((t - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - t))))) / 2)))))
+Setting function: Pulse=(3728432293.899980068206787109375 * ((((((exp((-(((t / 0.0000000000000016986436005760383323956347)) * ((t / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((t - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - t))))) / 2)))) + (((exp((-(((t / 0.0000000000000169864360057603821406649894)) * ((t / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((t - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - t))))) / 2))))))))
+Setting function: Ey0=((((3728432293.899980068206787109375 * ((((((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))) + (((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))))))))) * sin((78539.816339744822471402585506439208984375 * x)))
+Setting function: Bz0=((((3728432293.899980068206787109375 * ((((((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))) + (((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))))))))) * sin((78539.816339744822471402585506439208984375 * x)))
+Setting function: Ez0=0
+Setting function: By0=0
+Setting variable: AuMass=197
+Setting variable: AuCharge=69
+Setting variable: n0=10
+Setting variable: N=17419597380384882425856
+Setting variable: w_p=7450814661510202
+Setting variable: Tp=0.0000000000000008432883641083686043854774
+Setting variable: ElectronsPerCell=13064698035288662
+Setting variable: ParticlesFactor=130646980352886.625
+Setting variable: Temperature=0.0000000001601068089999999901726729968101
+Setting variable: Debye=0.0000000563053750744915158325720121006153
+Setting variable: FoilThickness=0.0030000000000000000624500451351650553988
+Setting module: Add_particles-'electron'
+Setting variable: electron.charge=-0.0000000004803204269999999705180189904302
+Setting variable: electron.mass=0.000000000000000000000000000910938215
+Setting function: electron.distribution=(((17419597380384882425856 * ((((((sign((x - 0)))) + ((sign((0.0030000000000000000624500451351650553988 - x))))) / 2)))) * ((((((sign((y - 0)))) + ((sign((1 - y))))) / 2)))) * ((((((sign((z - 0)))) + ((sign((1 - z))))) / 2))))
+Setting function: electron.initialTemperature=0.0000000001601068089999999901726729968101
+Setting module: Add_particles-'au'
+Setting variable: au.charge=0.0000000004803204269999999705180189904302
+Setting variable: au.mass=0.0000000000000000000004775459766782607771
+Setting function: au.distribution=(((17419597380384882425856 * ((((((sign((x - 0)))) + ((sign((0.0030000000000000000624500451351650553988 - x))))) / 2)))) * ((((((sign((y - 0)))) + ((sign((1 - y))))) / 2)))) * ((((((sign((z - 0)))) + ((sign((1 - z))))) / 2))))
+Setting function: au.initialTemperature=0.0000000001601068089999999901726729968101
+Setting variable: InitialTime=0
+Setting variable: TimeStep=0.0000000000000000125086535699307018464553
+Setting variable: IterationsNumber=31977.86218666666900389827787876129150390625
+Setting variable: IterationsBetweenDumps=0.0000000045297162682027690471729371515797
+Setting variable: pau=0.0000000000143164682156386464248099730649
+Setting variable: IfBasicOutputIsNeeded=1
+Setting variable: IfBODataIsNeeded=1
+Setting string: BODataFormat=bin
+Setting variable: IfBOPicsIsNeeded=0
+Setting variable: BOIterationPass=15.9889310933333348430096521042287349700928
+Setting variable: PlotGridNX=1
+Setting variable: PlotGridNY=1
+Setting module: BO_Field-'by2dxy'
+Setting variable: by2dxy.dim=2
+Setting variable: by2dxy.SetPosition_0=1
+Setting variable: by2dxy.SetPosition_1=1
+Setting variable: by2dxy.SetPosition_2=7
+Setting variable: by2dxy.SetMatrixSize_0=8000
+Setting variable: by2dxy.SetMatrixSize_1=1
+Setting variable: by2dxy.SetBounds_0=-0.0030000000000000000624500451351650553988
+Setting variable: by2dxy.SetBounds_1=0.0030000000000000000624500451351650553988
+Setting variable: by2dxy.SetBounds_2=0
+Setting variable: by2dxy.SetBounds_3=1
+Setting variable: by2dxy.SetValues_0=-3728432293.899980068206787109375
+Setting variable: by2dxy.SetValues_1=3728432293.899980068206787109375
+Setting function: by2dxy.X=x
+Setting function: by2dxy.Y=0.5
+Setting function: by2dxy.Z=0.5
+Setting function: by2dxy.Value=By
+Setting string: by2dxy.Color=BbwrR
+Setting module: BO_Field-'bz2dxy'
+Setting variable: bz2dxy.dim=2
+Setting variable: bz2dxy.SetPosition_0=1
+Setting variable: bz2dxy.SetPosition_1=1
+Setting variable: bz2dxy.SetPosition_2=7
+Setting variable: bz2dxy.SetMatrixSize_0=8000
+Setting variable: bz2dxy.SetMatrixSize_1=1
+Setting variable: bz2dxy.SetBounds_0=-0.0030000000000000000624500451351650553988
+Setting variable: bz2dxy.SetBounds_1=0.0030000000000000000624500451351650553988
+Setting variable: bz2dxy.SetBounds_2=0
+Setting variable: bz2dxy.SetBounds_3=1
+Setting variable: bz2dxy.SetValues_0=-3728432293.899980068206787109375
+Setting variable: bz2dxy.SetValues_1=3728432293.899980068206787109375
+Setting function: bz2dxy.X=x
+Setting function: bz2dxy.Y=0.5
+Setting function: bz2dxy.Z=0.5
+Setting function: bz2dxy.Value=Bz
+Setting string: bz2dxy.Color=BbwrR
+Setting module: BO_Density-'electron2dxy'
+Setting variable: electron2dxy.dim=2
+Setting string: electron2dxy.type=electron
+Setting variable: electron2dxy.SetPosition_0=1
+Setting variable: electron2dxy.SetPosition_1=1
+Setting variable: electron2dxy.SetPosition_2=0
+Setting variable: electron2dxy.SetMatrixSize_0=8000
+Setting variable: electron2dxy.SetMatrixSize_1=1
+Setting variable: electron2dxy.SetBounds_0=-0.0030000000000000000624500451351650553988
+Setting variable: electron2dxy.SetBounds_1=0.0030000000000000000624500451351650553988
+Setting variable: electron2dxy.SetBounds_2=0
+Setting variable: electron2dxy.SetBounds_3=1
+Setting variable: electron2dxy.SetValues_0=0
+Setting variable: electron2dxy.SetValues_1=26129396070577324
+Setting function: electron2dxy.x=x
+Setting function: electron2dxy.y=0.5
+Setting function: electron2dxy.Weight=1
+Setting string: electron2dxy.Color=wegG
+Setting module: BO_Density-'au2dxy'
+Setting variable: au2dxy.dim=2
+Setting string: au2dxy.type=au
+Setting variable: au2dxy.SetPosition_0=1
+Setting variable: au2dxy.SetPosition_1=1
+Setting variable: au2dxy.SetPosition_2=1
+Setting variable: au2dxy.SetMatrixSize_0=8000
+Setting variable: au2dxy.SetMatrixSize_1=1
+Setting variable: au2dxy.SetBounds_0=-0.0030000000000000000624500451351650553988
+Setting variable: au2dxy.SetBounds_1=0.0030000000000000000624500451351650553988
+Setting variable: au2dxy.SetBounds_2=0
+Setting variable: au2dxy.SetBounds_3=1
+Setting variable: au2dxy.SetValues_0=0
+Setting variable: au2dxy.SetValues_1=13064698035288662
+Setting function: au2dxy.x=x
+Setting function: au2dxy.y=0.5
+Setting function: au2dxy.Weight=1
+Setting string: au2dxy.Color=wrR
+Setting variable: P0=0.0000000000000000273092406560982479909916
+Setting module: BO_Density-'electron_px'
+Setting variable: electron_px.dim=2
+Setting string: electron_px.type=electron
+Setting variable: electron_px.SetPosition_0=1
+Setting variable: electron_px.SetPosition_1=1
+Setting variable: electron_px.SetPosition_2=1
+Setting variable: electron_px.SetMatrixSize_0=8000
+Setting variable: electron_px.SetMatrixSize_1=1
+Setting variable: electron_px.SetBounds_0=-0.0030000000000000000624500451351650553988
+Setting variable: electron_px.SetBounds_1=0.0030000000000000000624500451351650553988
+Setting variable: electron_px.SetBounds_2=-0.0000000000000000273092406560982479909916
+Setting variable: electron_px.SetBounds_3=0.0000000000000000273092406560982479909916
+Setting variable: electron_px.SetValues_0=0
+Setting variable: electron_px.SetValues_1=1000
+Setting function: electron_px.x=x
+Setting function: electron_px.y=px
+Setting function: electron_px.Weight=1
+Setting string: electron_px.Color=wrR
+
+List of common variables:
+A_0 = 27.8508
+AuCharge = 69
+AuMass = 197
+BOIterationPass = 15.9889
+Debye = 5.63054e-08
+DeltaX = 7.5e-07
+ElectronCharge = -4.8032e-10
+ElectronMass = 9.10938e-28
+ElectronsPerCell = 1.30647e+16
+FocalSpotRadius = 0.000424661
+FocalSpotWidthFWHM = 0.0005
+FoilThickness = 0.003
+GeV = 0.00160107
+IfBODataIsNeeded = 1
+IfBOPicsIsNeeded = 0
+IfBasicOutputIsNeeded = 1
+InitialTime = 0
+IterationsBetweenDumps = 4.52972e-09
+IterationsNumber = 31977.9
+Joule = 1e+07
+LightVelocity = 2.99792e+10
+MatrixSize_X = 8000
+MatrixSize_Y = 1
+MatrixSize_Z = 1
+MeV = 1.60107e-06
+N = 1.74196e+22
+Ncr = 1.74196e+21
+NumStepsPerPlasmaPeriod = 8
+Omega = 2.35456e+15
+P0 = 2.73092e-17
+ParticlesFactor = 1.30647e+14
+ParticlesPerCell = 100
+PhotonMass = 1e-100
+Pi = 3.14159
+PlotGridNX = 1
+PlotGridNY = 1
+ProtonMass = 1.67262e-24
+PulseAmplitudeAtFocus = 3.72843e+09
+PulseDurationFWHM1 = 2e-15
+PulseDurationFWHM2 = 2e-14
+PulseEnergy = 1.1e+08
+PulseIntensityCGS = 3.31637e+28
+PulseIntensitySI = 3.31637e+21
+PulseTau1 = 1.69864e-15
+PulseTau2 = 1.69864e-14
+RelativisticField = 1.33872e+08
+Tcr = 2.66671e-15
+Temperature = 1.60107e-10
+TimeStep = 1.25087e-17
+Tp = 8.43288e-16
+Wavelength = 8e-05
+X_Max = 0.003
+X_Min = -0.003
+Y_Max = 1
+Y_Min = 0
+Z_Max = 1
+Z_Min = 0
+e = 2.71828
+eV = 1.60107e-12
+k = 78539.8
+keV = 1.60107e-09
+n0 = 10
+p0 = 2.73092e-17
+pau = 1.43165e-11
+w_cr = 2.35615e+15
+w_p = 7.45081e+15
+
+List of module variables:
+
+Add_particles(au)
+au.charge = 4.8032e-10
+au.mass = 4.77546e-22
+
+Add_particles(electron)
+electron.charge = -4.8032e-10
+electron.mass = 9.10938e-28
+
+BO_Density(au2dxy)
+au2dxy.SetBounds_0 = -0.003
+au2dxy.SetBounds_1 = 0.003
+au2dxy.SetBounds_2 = 0
+au2dxy.SetBounds_3 = 1
+au2dxy.SetMatrixSize_0 = 8000
+au2dxy.SetMatrixSize_1 = 1
+au2dxy.SetPosition_0 = 1
+au2dxy.SetPosition_1 = 1
+au2dxy.SetPosition_2 = 1
+au2dxy.SetValues_0 = 0
+au2dxy.SetValues_1 = 1.30647e+16
+au2dxy.dim = 2
+
+BO_Density(electron2dxy)
+electron2dxy.SetBounds_0 = -0.003
+electron2dxy.SetBounds_1 = 0.003
+electron2dxy.SetBounds_2 = 0
+electron2dxy.SetBounds_3 = 1
+electron2dxy.SetMatrixSize_0 = 8000
+electron2dxy.SetMatrixSize_1 = 1
+electron2dxy.SetPosition_0 = 1
+electron2dxy.SetPosition_1 = 1
+electron2dxy.SetPosition_2 = 0
+electron2dxy.SetValues_0 = 0
+electron2dxy.SetValues_1 = 2.61294e+16
+electron2dxy.dim = 2
+
+BO_Density(electron_px)
+electron_px.SetBounds_0 = -0.003
+electron_px.SetBounds_1 = 0.003
+electron_px.SetBounds_2 = -2.73092e-17
+electron_px.SetBounds_3 = 2.73092e-17
+electron_px.SetMatrixSize_0 = 8000
+electron_px.SetMatrixSize_1 = 1
+electron_px.SetPosition_0 = 1
+electron_px.SetPosition_1 = 1
+electron_px.SetPosition_2 = 1
+electron_px.SetValues_0 = 0
+electron_px.SetValues_1 = 1000
+electron_px.dim = 2
+
+BO_Field(by2dxy)
+by2dxy.SetBounds_0 = -0.003
+by2dxy.SetBounds_1 = 0.003
+by2dxy.SetBounds_2 = 0
+by2dxy.SetBounds_3 = 1
+by2dxy.SetMatrixSize_0 = 8000
+by2dxy.SetMatrixSize_1 = 1
+by2dxy.SetPosition_0 = 1
+by2dxy.SetPosition_1 = 1
+by2dxy.SetPosition_2 = 7
+by2dxy.SetValues_0 = -3.72843e+09
+by2dxy.SetValues_1 = 3.72843e+09
+by2dxy.dim = 2
+
+BO_Field(bz2dxy)
+bz2dxy.SetBounds_0 = -0.003
+bz2dxy.SetBounds_1 = 0.003
+bz2dxy.SetBounds_2 = 0
+bz2dxy.SetBounds_3 = 1
+bz2dxy.SetMatrixSize_0 = 8000
+bz2dxy.SetMatrixSize_1 = 1
+bz2dxy.SetPosition_0 = 1
+bz2dxy.SetPosition_1 = 1
+bz2dxy.SetPosition_2 = 7
+bz2dxy.SetValues_0 = -3.72843e+09
+bz2dxy.SetValues_1 = 3.72843e+09
+bz2dxy.dim = 2
+
+Module(CurrentDeposition)
+
+Module(FieldInterpolation)
+
+Module(PML)
+PML.Size_X = 16
+PML.Size_Y = 0
+PML.Size_Z = 0
+
+Module(ParticleBC)
+
+List of functions and string variables:
+BODataFormat = 'bin'
+Block(x, xmin, xmax) = ((((sign((x - xmin)))) + ((sign((xmax - x))))) / 2)
+By0(x, y, z) = 0
+Bz0(x, y, z) = ((((3728432293.899980068206787109375 * ((((((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))) + (((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))))))))) * sin((78539.816339744822471402585506439208984375 * x)))
+Energy_vs_p(px, py, pz, 0.0000000000000000273092406560982479909916) = ((sqrt(((((px * px) + (py * py)) + (pz * pz)) + 0.0000000000000000000000000000000007457946)) - 0.0000000000000000273092406560982479909916) * 29979245800)
+Ey0(x, y, z) = ((((3728432293.899980068206787109375 * ((((((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))) + (((exp((-(((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894)) * ((((x - -0.0015000000000000000312250225675825276994) / 29979245800) / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((((x - -0.0015000000000000000312250225675825276994) / 29979245800) - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - ((x - -0.0015000000000000000312250225675825276994) / 29979245800)))))) / 2)))))))))) * sin((78539.816339744822471402585506439208984375 * x)))
+Ez0(x, y, z) = 0
+Gauss(x) = exp((-((x) * (x))))
+Line(x, xmin, xmax, ymin, ymax) = ((((((((sign((x - xmin)))) + ((sign((xmax - x))))) / 2))) * (((x - xmin) * ymax) + ((xmax - x) * ymin))) / (xmax - xmin))
+Minimum(a, b) = ((((((sign((a - b)))) + 1) * b) + ((((sign((b - a)))) + 1) * a)) / 2)
+Pulse(t) = (3728432293.899980068206787109375 * ((((((exp((-(((t / 0.0000000000000016986436005760383323956347)) * ((t / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((t - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - t))))) / 2)))) + (((exp((-(((t / 0.0000000000000169864360057603821406649894)) * ((t / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((t - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - t))))) / 2))))))))
+PulseEnvelope(t) = ((((exp((-(((t / 0.0000000000000016986436005760383323956347)) * ((t / 0.0000000000000016986436005760383323956347))))))) * ((((((sign((t - 0)))) + ((sign((0.0000000000000101918616034562295999433557 - t))))) / 2)))) + (((exp((-(((t / 0.0000000000000169864360057603821406649894)) * ((t / 0.0000000000000169864360057603821406649894))))))) * ((((((sign((t - (-0.0000000000000509593080172811432665513473))))) + ((sign((0 - t))))) / 2)))))
+R(x, y, z) = sqrt(((((x) * (x)) + ((y) * (y))) + ((z) * (z))))
+Step(x) = sign(x)
+SuperGauss(x) = exp((-((((x) * (x))) * (((x) * (x))))))
+Trpz(x0, x1) = (0.5 * (tanh(x0) - tanh(x1)))
+Velocity_vs_p(p, px, py, pz, 0.0000000000000000273092406560982479909916) = ((p * 29979245800) / sqrt(((((px * px) + (py * py)) + (pz * pz)) + 0.0000000000000000000000000000000007457946)))
+
+Add_particles(au)
+au.distribution(x, y, z) = (((17419597380384882425856 * ((((((sign((x - 0)))) + ((sign((0.0030000000000000000624500451351650553988 - x))))) / 2)))) * ((((((sign((y - 0)))) + ((sign((1 - y))))) / 2)))) * ((((((sign((z - 0)))) + ((sign((1 - z))))) / 2))))
+au.initialTemperature(x, y, z) = 0.0000000001601068089999999901726729968101
+
+Add_particles(electron)
+electron.distribution(x, y, z) = (((17419597380384882425856 * ((((((sign((x - 0)))) + ((sign((0.0030000000000000000624500451351650553988 - x))))) / 2)))) * ((((((sign((y - 0)))) + ((sign((1 - y))))) / 2)))) * ((((((sign((z - 0)))) + ((sign((1 - z))))) / 2))))
+electron.initialTemperature(x, y, z) = 0.0000000001601068089999999901726729968101
+
+BO_Density(au2dxy)
+au2dxy.Color = 'wrR'
+au2dxy.Weight(x, y, z, px, py, pz) = 1
+au2dxy.type = 'au'
+au2dxy.x(x, y, z, px, py, pz) = x
+au2dxy.y(x, y, z, px, py, pz) = 0.5
+
+BO_Density(electron2dxy)
+electron2dxy.Color = 'wegG'
+electron2dxy.Weight(x, y, z, px, py, pz) = 1
+electron2dxy.type = 'electron'
+electron2dxy.x(x, y, z, px, py, pz) = x
+electron2dxy.y(x, y, z, px, py, pz) = 0.5
+
+BO_Density(electron_px)
+electron_px.Color = 'wrR'
+electron_px.Weight(x, y, z, px, py, pz) = 1
+electron_px.type = 'electron'
+electron_px.x(x, y, z, px, py, pz) = x
+electron_px.y(x, y, z, px, py, pz) = px
+
+BO_Field(by2dxy)
+by2dxy.Color = 'BbwrR'
+by2dxy.Value(Ex, Ey, Ez, Bx, By, Bz) = By
+by2dxy.X(x, y) = x
+by2dxy.Y(x, y) = 0.5
+by2dxy.Z(x, y) = 0.5
+
+BO_Field(bz2dxy)
+bz2dxy.Color = 'BbwrR'
+bz2dxy.Value(Ex, Ey, Ez, Bx, By, Bz) = Bz
+bz2dxy.X(x, y) = x
+bz2dxy.Y(x, y) = 0.5
+bz2dxy.Z(x, y) = 0.5
+
+Module(CurrentDeposition)
+CurrentDeposition.type = 'VB'
+
+Module(FieldInterpolation)
+FieldInterpolation.type = 'TSC'
+
+Module(PML)
+
+Module(ParticleBC)
+ParticleBC.x = 'absorbing'
+ParticleBC.y = 'periodic'
+ParticleBC.z = 'periodic'
+
+List of undefined parameters:

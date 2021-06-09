@@ -1,0 +1,41 @@
+//--------Initialization--------//
+Found 2-dimensional field plot by2dxy
+The size of saving matrix is 8000x1 points
+x 
+0.5 
+0.5 
+The data is bounded between (-0.003,0.003) and (0,1)
+The saving value is 
+By 
+Found 2-dimensional field plot bz2dxy
+The size of saving matrix is 8000x1 points
+x 
+0.5 
+0.5 
+The data is bounded between (-0.003,0.003) and (0,1)
+The saving value is 
+Bz 
+Found 2-dimensional density plot au2dxy
+The size of saving matrix is 8000x1 points
+x 
+0.5 
+The data is bounded between (-0.003,0.003) and (0,1)
+The weight function of particle is 
+1 
+The particles type is 0 (au)
+Found 2-dimensional density plot electron2dxy
+The size of saving matrix is 8000x1 points
+x 
+0.5 
+The data is bounded between (-0.003,0.003) and (0,1)
+The weight function of particle is 
+1 
+The particles type is 1 (electron)
+Found 2-dimensional density plot electron_px
+The size of saving matrix is 8000x1 points
+x 
+px 
+The data is bounded between (-0.003,0.003) and (-2.73092e-17,2.73092e-17)
+The weight function of particle is 
+1 
+The particles type is 1 (electron)

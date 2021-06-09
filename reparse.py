@@ -194,8 +194,34 @@ class reparse:
             j += 1
         return n_0, lambda_i_ad, fft_i_ad, fft_r_ad
 
+    def analytical_linear(self, folder_name):
+        l = subprocess.check_output(['find', '.', "-name", "*_n0_*.bin"], cwd = folder_name)
+        folders = l.split()
+        folders.sort()
+        folders = [i.decode('ascii') for i in folders]
+        print(folders[:])
+        n_0_list = [x[-8:-4] for x in folders]
+        def change_name(old_name, variable):
+            return (old_name[:-11] + variable + old_name[-9:])
+        data = []
+        for folderr in folders:
+            folder = change_name(folderr[2:], "t")
+            with open(folder_name + "/{}".format(folder), "rb") as file:
+                t = np.frombuffer(file.read(), dtype = np.float32)
+
+            folder = change_name(folderr[2:], "x")
+            with open(folder_name + "/{}".format(folder), "rb") as file:
+                x = np.frombuffer(file.read(), dtype = np.float32)
+
+            folder = change_name(folderr[2:], "dxdt")
+            with open(folder_name + "/{}".format(folder), "rb") as file:
+                dxdt = np.frombuffer(file.read(), dtype = np.float32)
+            data.append([t,x,dxdt])
+        data = np.array(data, dtype=object)
+        return n_0_list, data[:,0], data[:,1], data[:,2] # t, x, dxdt, no az_r, az_i
+    
     def analytical(self, folder_name):
-        l = subprocess.check_output(['find', '.', "-name", "data_n0_*.bin"], cwd = folder_name)
+        l = subprocess.check_output(['find', '.', "-name", "*_n0_*.bin"], cwd = folder_name)
         folders = l.split()
         folders.sort()
         folders = [i.decode('ascii') for i in folders]
@@ -215,6 +241,7 @@ class reparse:
         x = np.zeros((num_t, num_n))
         dxdt = np.zeros((num_t, num_n))
         az_r = np.zeros((num_t, num_n))
+        az_i = np.zeros((num_t, num_n))
         j = 0
         for folder in folders:
             i = 1
@@ -231,9 +258,11 @@ class reparse:
                     bite = f.read(4)
                     az_r[num_t-i][j] = struct.unpack('f', bite)[0]
                     bite = f.read(4)
+                    az_i[num_t-i][j] = struct.unpack('f', bite)[0]
+                    bite = f.read(4)
                     i += 1
             j += 1
-        return n_0, t, x, dxdt, az_r, num_n
+        return n_0, t, x, dxdt, az_r, az_i, num_n
     def energy(self, path, to_find):    
         folder_name = path
         l = subprocess.check_output(['find', '.', "-name", to_find], cwd = folder_name)
