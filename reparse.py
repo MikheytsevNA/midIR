@@ -216,9 +216,18 @@ class reparse:
             folder = change_name(folderr[2:], "dxdt")
             with open(folder_name + "/{}".format(folder), "rb") as file:
                 dxdt = np.frombuffer(file.read(), dtype = np.float32)
-            data.append([t,x,dxdt])
+                
+            folder = change_name(folderr[2:], "az_r")
+            with open(folder_name + "/{}".format(folder), "rb") as file:
+                az_r = np.frombuffer(file.read(), dtype = np.float32)
+                
+            folder = change_name(folderr[2:], "az_i")
+            with open(folder_name + "/{}".format(folder), "rb") as file:
+                az_i = np.frombuffer(file.read(), dtype = np.float32)
+                
+            data.append([t,x,dxdt, az_i, az_r])
         data = np.array(data, dtype=object)
-        return n_0_list, data[:,0], data[:,1], data[:,2] # t, x, dxdt, no az_r, az_i
+        return n_0_list, data[:,0], data[:,1], data[:,2], data[:,3], data[:,4] # t, x, dxdt, no az_r, az_i
     
     def analytical(self, folder_name):
         l = subprocess.check_output(['find', '.', "-name", "*_n0_*.bin"], cwd = folder_name)
