@@ -1,0 +1,4497 @@
+Initialization: 0.23417 sec.
+
+Iterations 0-100: 1.40542 sec.
+Computations: 0.803859 sec.
+     Pre particle loop: 0.000153336 sec.
+     Particle loop: 0.457279 sec.
+     Current deposition: 0.341459 sec.
+     Field solver: 0.00494512 sec.
+     Other: 2.2596e-05 sec.
+Communications: 0.0592682 sec.
+     Particles: 0.0457986 sec.
+     Currents: 0.00694268 sec.
+     Fields: 0.0065269 sec.
+Output, including data synchronization: 0.435159 sec.
+Other: 0.107131 sec.
+
+Iterations 100-200: 1.41006 sec.
+Computations: 0.798991 sec.
+     Pre particle loop: 0.000148565 sec.
+     Particle loop: 0.459699 sec.
+     Current deposition: 0.334249 sec.
+     Field solver: 0.00487249 sec.
+     Other: 2.2733e-05 sec.
+Communications: 0.0585748 sec.
+     Particles: 0.0453843 sec.
+     Currents: 0.00656185 sec.
+     Fields: 0.0066287 sec.
+Output, including data synchronization: 0.456483 sec.
+Other: 0.0960151 sec.
+
+Iterations 200-300: 1.27659 sec.
+Computations: 0.796285 sec.
+     Pre particle loop: 0.000143803 sec.
+     Particle loop: 0.456866 sec.
+     Current deposition: 0.334306 sec.
+     Field solver: 0.00494768 sec.
+     Other: 2.2109e-05 sec.
+Communications: 0.0596331 sec.
+     Particles: 0.0461131 sec.
+     Currents: 0.00668834 sec.
+     Fields: 0.00683163 sec.
+Output, including data synchronization: 0.333511 sec.
+Other: 0.0871586 sec.
+
+Iterations 300-400: 1.47081 sec.
+Computations: 0.798595 sec.
+     Pre particle loop: 0.000169305 sec.
+     Particle loop: 0.455866 sec.
+     Current deposition: 0.33763 sec.
+     Field solver: 0.00490551 sec.
+     Other: 2.5043e-05 sec.
+Communications: 0.0606612 sec.
+     Particles: 0.0464861 sec.
+     Currents: 0.00730471 sec.
+     Fields: 0.00687035 sec.
+Output, including data synchronization: 0.522542 sec.
+Other: 0.0890138 sec.
+
+Iterations 400-500: 1.25335 sec.
+Computations: 0.795913 sec.
+     Pre particle loop: 0.000168427 sec.
+     Particle loop: 0.455726 sec.
+     Current deposition: 0.334417 sec.
+     Field solver: 0.00557551 sec.
+     Other: 2.6701e-05 sec.
+Communications: 0.0606972 sec.
+     Particles: 0.0464805 sec.
+     Currents: 0.00732608 sec.
+     Fields: 0.00689059 sec.
+Output, including data synchronization: 0.31402 sec.
+Other: 0.0827228 sec.
+
+Iterations 500-600: 1.26811 sec.
+Computations: 0.795232 sec.
+     Pre particle loop: 0.000162875 sec.
+     Particle loop: 0.456644 sec.
+     Current deposition: 0.33355 sec.
+     Field solver: 0.00484949 sec.
+     Other: 2.6245e-05 sec.
+Communications: 0.0607992 sec.
+     Particles: 0.0464592 sec.
+     Currents: 0.00735335 sec.
+     Fields: 0.00698668 sec.
+Output, including data synchronization: 0.314512 sec.
+Other: 0.0975691 sec.
+
+Iterations 600-700: 1.37409 sec.
+Computations: 0.799276 sec.
+     Pre particle loop: 0.000174171 sec.
+     Particle loop: 0.45908 sec.
+     Current deposition: 0.335073 sec.
+     Field solver: 0.00492441 sec.
+     Other: 2.4458e-05 sec.
+Communications: 0.0604417 sec.
+     Particles: 0.0463841 sec.
+     Currents: 0.0072464 sec.
+     Fields: 0.00681122 sec.
+Output, including data synchronization: 0.421578 sec.
+Other: 0.092792 sec.
+
+Iterations 700-800: 1.34249 sec.
+Computations: 0.795419 sec.
+     Pre particle loop: 0.000172157 sec.
+     Particle loop: 0.456058 sec.
+     Current deposition: 0.334313 sec.
+     Field solver: 0.00485158 sec.
+     Other: 2.4539e-05 sec.
+Communications: 0.0602938 sec.
+     Particles: 0.0464129 sec.
+     Currents: 0.00718656 sec.
+     Fields: 0.00669434 sec.
+Output, including data synchronization: 0.401107 sec.
+Other: 0.0856678 sec.
+
+Iterations 800-900: 1.27192 sec.
+Computations: 0.795106 sec.
+     Pre particle loop: 0.000176426 sec.
+     Particle loop: 0.456479 sec.
+     Current deposition: 0.333554 sec.
+     Field solver: 0.00486916 sec.
+     Other: 2.6583e-05 sec.
+Communications: 0.0607272 sec.
+     Particles: 0.0465139 sec.
+     Currents: 0.00732579 sec.
+     Fields: 0.00688751 sec.
+Output, including data synchronization: 0.308676 sec.
+Other: 0.107411 sec.
+
+Iterations 900-1000: 1.35382 sec.
+Computations: 0.79453 sec.
+     Pre particle loop: 0.000167863 sec.
+     Particle loop: 0.455639 sec.
+     Current deposition: 0.333861 sec.
+     Field solver: 0.0048377 sec.
+     Other: 2.4346e-05 sec.
+Communications: 0.0617835 sec.
+     Particles: 0.0475009 sec.
+     Currents: 0.00735764 sec.
+     Fields: 0.00692499 sec.
+Output, including data synchronization: 0.367859 sec.
+Other: 0.129645 sec.
+
+Iterations 1000-1100: 1.36797 sec.
+Computations: 0.794185 sec.
+     Pre particle loop: 0.000162283 sec.
+     Particle loop: 0.455495 sec.
+     Current deposition: 0.333622 sec.
+     Field solver: 0.00488099 sec.
+     Other: 2.4488e-05 sec.
+Communications: 0.0603888 sec.
+     Particles: 0.0463999 sec.
+     Currents: 0.0071986 sec.
+     Fields: 0.00679034 sec.
+Output, including data synchronization: 0.424214 sec.
+Other: 0.0891845 sec.
+
+Iterations 1100-1200: 1.23082 sec.
+Computations: 0.799054 sec.
+     Pre particle loop: 0.000168152 sec.
+     Particle loop: 0.459481 sec.
+     Current deposition: 0.334506 sec.
+     Field solver: 0.00487449 sec.
+     Other: 2.4492e-05 sec.
+Communications: 0.0604587 sec.
+     Particles: 0.0463478 sec.
+     Currents: 0.00724836 sec.
+     Fields: 0.00686256 sec.
+Output, including data synchronization: 0.287105 sec.
+Other: 0.0842016 sec.
+
+Iterations 1200-1300: 1.29967 sec.
+Computations: 0.79471 sec.
+     Pre particle loop: 0.000169852 sec.
+     Particle loop: 0.455836 sec.
+     Current deposition: 0.333815 sec.
+     Field solver: 0.00486582 sec.
+     Other: 2.4121e-05 sec.
+Communications: 0.0603566 sec.
+     Particles: 0.0463954 sec.
+     Currents: 0.00725146 sec.
+     Fields: 0.00670973 sec.
+Output, including data synchronization: 0.361536 sec.
+Other: 0.0830684 sec.
+
+Iterations 1300-1400: 1.37343 sec.
+Computations: 0.796256 sec.
+     Pre particle loop: 0.000178493 sec.
+     Particle loop: 0.456872 sec.
+     Current deposition: 0.334326 sec.
+     Field solver: 0.00485555 sec.
+     Other: 2.3901e-05 sec.
+Communications: 0.0612798 sec.
+     Particles: 0.0471228 sec.
+     Currents: 0.00728594 sec.
+     Fields: 0.00687103 sec.
+Output, including data synchronization: 0.426192 sec.
+Other: 0.089707 sec.
+
+Iterations 1400-1500: 1.25438 sec.
+Computations: 0.795507 sec.
+     Pre particle loop: 0.000168427 sec.
+     Particle loop: 0.456687 sec.
+     Current deposition: 0.333744 sec.
+     Field solver: 0.00488291 sec.
+     Other: 2.4467e-05 sec.
+Communications: 0.0605444 sec.
+     Particles: 0.0464995 sec.
+     Currents: 0.00730017 sec.
+     Fields: 0.00674467 sec.
+Output, including data synchronization: 0.30927 sec.
+Other: 0.0890623 sec.
+
+Iterations 1500-1600: 1.25393 sec.
+Computations: 0.796197 sec.
+     Pre particle loop: 0.000163639 sec.
+     Particle loop: 0.457595 sec.
+     Current deposition: 0.333536 sec.
+     Field solver: 0.00487697 sec.
+     Other: 2.5538e-05 sec.
+Communications: 0.0601842 sec.
+     Particles: 0.0462118 sec.
+     Currents: 0.00722494 sec.
+     Fields: 0.00674751 sec.
+Output, including data synchronization: 0.307304 sec.
+Other: 0.0902452 sec.
+
+Iterations 1600-1700: 1.35902 sec.
+Computations: 0.798567 sec.
+     Pre particle loop: 0.000168065 sec.
+     Particle loop: 0.459744 sec.
+     Current deposition: 0.333757 sec.
+     Field solver: 0.00487462 sec.
+     Other: 2.3967e-05 sec.
+Communications: 0.0615468 sec.
+     Particles: 0.0474416 sec.
+     Currents: 0.00720805 sec.
+     Fields: 0.00689712 sec.
+Output, including data synchronization: 0.404774 sec.
+Other: 0.0941274 sec.
+
+Iterations 1700-1800: 1.26255 sec.
+Computations: 0.799934 sec.
+     Pre particle loop: 0.0001691 sec.
+     Particle loop: 0.461102 sec.
+     Current deposition: 0.333761 sec.
+     Field solver: 0.00487537 sec.
+     Other: 2.5731e-05 sec.
+Communications: 0.0603733 sec.
+     Particles: 0.0463374 sec.
+     Currents: 0.00734295 sec.
+     Fields: 0.00669293 sec.
+Output, including data synchronization: 0.313916 sec.
+Other: 0.08833 sec.
+
+Iterations 1800-1900: 1.38614 sec.
+Computations: 0.803635 sec.
+     Pre particle loop: 0.000174291 sec.
+     Particle loop: 0.464942 sec.
+     Current deposition: 0.333564 sec.
+     Field solver: 0.00493122 sec.
+     Other: 2.3421e-05 sec.
+Communications: 0.0605749 sec.
+     Particles: 0.0465238 sec.
+     Currents: 0.00729633 sec.
+     Fields: 0.00675485 sec.
+Output, including data synchronization: 0.416397 sec.
+Other: 0.105536 sec.
+
+Iterations 1900-2000: 1.42628 sec.
+Computations: 0.803893 sec.
+     Pre particle loop: 0.000180936 sec.
+     Particle loop: 0.464641 sec.
+     Current deposition: 0.333154 sec.
+     Field solver: 0.00589268 sec.
+     Other: 2.4127e-05 sec.
+Communications: 0.0614046 sec.
+     Particles: 0.0474977 sec.
+     Currents: 0.00721366 sec.
+     Fields: 0.00669319 sec.
+Output, including data synchronization: 0.471349 sec.
+Other: 0.0896364 sec.
+
+Iterations 2000-2100: 1.24516 sec.
+Computations: 0.80381 sec.
+     Pre particle loop: 0.000164096 sec.
+     Particle loop: 0.465455 sec.
+     Current deposition: 0.333306 sec.
+     Field solver: 0.00486022 sec.
+     Other: 2.5156e-05 sec.
+Communications: 0.0602578 sec.
+     Particles: 0.0463635 sec.
+     Currents: 0.00724984 sec.
+     Fields: 0.00664447 sec.
+Output, including data synchronization: 0.293385 sec.
+Other: 0.0877079 sec.
+
+Iterations 2100-2200: 1.3374 sec.
+Computations: 0.806727 sec.
+     Pre particle loop: 0.000167572 sec.
+     Particle loop: 0.467714 sec.
+     Current deposition: 0.333206 sec.
+     Field solver: 0.00561517 sec.
+     Other: 2.4224e-05 sec.
+Communications: 0.0602797 sec.
+     Particles: 0.0463062 sec.
+     Currents: 0.00724718 sec.
+     Fields: 0.00672629 sec.
+Output, including data synchronization: 0.379828 sec.
+Other: 0.0905619 sec.
+
+Iterations 2200-2300: 1.41183 sec.
+Computations: 0.80856 sec.
+     Pre particle loop: 0.000178083 sec.
+     Particle loop: 0.469181 sec.
+     Current deposition: 0.334312 sec.
+     Field solver: 0.0048629 sec.
+     Other: 2.5862e-05 sec.
+Communications: 0.0635826 sec.
+     Particles: 0.0484709 sec.
+     Currents: 0.00837211 sec.
+     Fields: 0.00673965 sec.
+Output, including data synchronization: 0.457089 sec.
+Other: 0.0825965 sec.
+
+Iterations 2300-2400: 1.27531 sec.
+Computations: 0.809236 sec.
+     Pre particle loop: 0.000167493 sec.
+     Particle loop: 0.470819 sec.
+     Current deposition: 0.333333 sec.
+     Field solver: 0.00489139 sec.
+     Other: 2.573e-05 sec.
+Communications: 0.0602787 sec.
+     Particles: 0.0462781 sec.
+     Currents: 0.00728316 sec.
+     Fields: 0.00671748 sec.
+Output, including data synchronization: 0.317942 sec.
+Other: 0.0878492 sec.
+
+Iterations 2400-2500: 1.28579 sec.
+Computations: 0.811017 sec.
+     Pre particle loop: 0.000165522 sec.
+     Particle loop: 0.472327 sec.
+     Current deposition: 0.333648 sec.
+     Field solver: 0.00485311 sec.
+     Other: 2.3598e-05 sec.
+Communications: 0.0602472 sec.
+     Particles: 0.0462913 sec.
+     Currents: 0.00722484 sec.
+     Fields: 0.00673105 sec.
+Output, including data synchronization: 0.323351 sec.
+Other: 0.0911745 sec.
+
+Iterations 2500-2600: 1.46509 sec.
+Computations: 0.815244 sec.
+     Pre particle loop: 0.000173586 sec.
+     Particle loop: 0.476403 sec.
+     Current deposition: 0.33381 sec.
+     Field solver: 0.00483193 sec.
+     Other: 2.4994e-05 sec.
+Communications: 0.0602722 sec.
+     Particles: 0.0462248 sec.
+     Currents: 0.00731907 sec.
+     Fields: 0.00672834 sec.
+Output, including data synchronization: 0.495591 sec.
+Other: 0.0939791 sec.
+
+Iterations 2600-2700: 1.34888 sec.
+Computations: 0.820569 sec.
+     Pre particle loop: 0.000166486 sec.
+     Particle loop: 0.480447 sec.
+     Current deposition: 0.335071 sec.
+     Field solver: 0.00485774 sec.
+     Other: 2.6599e-05 sec.
+Communications: 0.0612627 sec.
+     Particles: 0.0472062 sec.
+     Currents: 0.00727555 sec.
+     Fields: 0.00678098 sec.
+Output, including data synchronization: 0.368252 sec.
+Other: 0.0987918 sec.
+
+Iterations 2700-2800: 1.3352 sec.
+Computations: 0.819885 sec.
+     Pre particle loop: 0.000168704 sec.
+     Particle loop: 0.481631 sec.
+     Current deposition: 0.333213 sec.
+     Field solver: 0.00484777 sec.
+     Other: 2.4678e-05 sec.
+Communications: 0.0602113 sec.
+     Particles: 0.0462765 sec.
+     Currents: 0.00720125 sec.
+     Fields: 0.00673349 sec.
+Output, including data synchronization: 0.354823 sec.
+Other: 0.100279 sec.
+
+Iterations 2800-2900: 1.3336 sec.
+Computations: 0.826076 sec.
+     Pre particle loop: 0.000169361 sec.
+     Particle loop: 0.486055 sec.
+     Current deposition: 0.334942 sec.
+     Field solver: 0.00488586 sec.
+     Other: 2.4214e-05 sec.
+Communications: 0.0602824 sec.
+     Particles: 0.046412 sec.
+     Currents: 0.00719443 sec.
+     Fields: 0.0066759 sec.
+Output, including data synchronization: 0.35946 sec.
+Other: 0.0877847 sec.
+
+Iterations 2900-3000: 1.3373 sec.
+Computations: 0.829489 sec.
+     Pre particle loop: 0.000176034 sec.
+     Particle loop: 0.490025 sec.
+     Current deposition: 0.334407 sec.
+     Field solver: 0.00485698 sec.
+     Other: 2.4158e-05 sec.
+Communications: 0.0600238 sec.
+     Particles: 0.046164 sec.
+     Currents: 0.00720808 sec.
+     Fields: 0.00665165 sec.
+Output, including data synchronization: 0.362152 sec.
+Other: 0.0856326 sec.
+
+Iterations 3000-3100: 1.39639 sec.
+Computations: 0.832667 sec.
+     Pre particle loop: 0.00016021 sec.
+     Particle loop: 0.493143 sec.
+     Current deposition: 0.334509 sec.
+     Field solver: 0.00483095 sec.
+     Other: 2.4208e-05 sec.
+Communications: 0.0601259 sec.
+     Particles: 0.046351 sec.
+     Currents: 0.00715984 sec.
+     Fields: 0.00661503 sec.
+Output, including data synchronization: 0.416366 sec.
+Other: 0.0872311 sec.
+
+Iterations 3100-3200: 1.30587 sec.
+Computations: 0.830683 sec.
+     Pre particle loop: 0.000163022 sec.
+     Particle loop: 0.491861 sec.
+     Current deposition: 0.333756 sec.
+     Field solver: 0.00487798 sec.
+     Other: 2.5882e-05 sec.
+Communications: 0.0600967 sec.
+     Particles: 0.0461854 sec.
+     Currents: 0.00723549 sec.
+     Fields: 0.00667583 sec.
+Output, including data synchronization: 0.3297 sec.
+Other: 0.0853946 sec.
+
+Iterations 3200-3300: 1.32838 sec.
+Computations: 0.838157 sec.
+     Pre particle loop: 0.000155023 sec.
+     Particle loop: 0.497807 sec.
+     Current deposition: 0.335243 sec.
+     Field solver: 0.00492707 sec.
+     Other: 2.5686e-05 sec.
+Communications: 0.0600772 sec.
+     Particles: 0.0461473 sec.
+     Currents: 0.00725994 sec.
+     Fields: 0.00666996 sec.
+Output, including data synchronization: 0.325823 sec.
+Other: 0.104321 sec.
+
+Iterations 3300-3400: 1.37123 sec.
+Computations: 0.83884 sec.
+     Pre particle loop: 0.000152516 sec.
+     Particle loop: 0.499485 sec.
+     Current deposition: 0.334064 sec.
+     Field solver: 0.00511224 sec.
+     Other: 2.5965e-05 sec.
+Communications: 0.0611199 sec.
+     Particles: 0.0472093 sec.
+     Currents: 0.00718134 sec.
+     Fields: 0.00672929 sec.
+Output, including data synchronization: 0.382262 sec.
+Other: 0.0890055 sec.
+
+Iterations 3400-3500: 1.36388 sec.
+Computations: 0.847252 sec.
+     Pre particle loop: 0.000167796 sec.
+     Particle loop: 0.507362 sec.
+     Current deposition: 0.334553 sec.
+     Field solver: 0.00514421 sec.
+     Other: 2.4642e-05 sec.
+Communications: 0.0602664 sec.
+     Particles: 0.0462481 sec.
+     Currents: 0.00722498 sec.
+     Fields: 0.00679331 sec.
+Output, including data synchronization: 0.365175 sec.
+Other: 0.0911888 sec.
+
+Iterations 3500-3600: 1.38601 sec.
+Computations: 0.848501 sec.
+     Pre particle loop: 0.000161578 sec.
+     Particle loop: 0.509024 sec.
+     Current deposition: 0.334152 sec.
+     Field solver: 0.0051375 sec.
+     Other: 2.5759e-05 sec.
+Communications: 0.060434 sec.
+     Particles: 0.0464321 sec.
+     Currents: 0.00720758 sec.
+     Fields: 0.00679435 sec.
+Output, including data synchronization: 0.388302 sec.
+Other: 0.0887772 sec.
+
+Iterations 3600-3700: 1.3522 sec.
+Computations: 0.84776 sec.
+     Pre particle loop: 0.000159992 sec.
+     Particle loop: 0.509363 sec.
+     Current deposition: 0.333048 sec.
+     Field solver: 0.00516367 sec.
+     Other: 2.4829e-05 sec.
+Communications: 0.0612936 sec.
+     Particles: 0.0472877 sec.
+     Currents: 0.00721314 sec.
+     Fields: 0.00679275 sec.
+Output, including data synchronization: 0.357966 sec.
+Other: 0.085176 sec.
+
+Iterations 3700-3800: 1.30726 sec.
+Computations: 0.849928 sec.
+     Pre particle loop: 0.000163012 sec.
+     Particle loop: 0.512489 sec.
+     Current deposition: 0.332133 sec.
+     Field solver: 0.00511757 sec.
+     Other: 2.6055e-05 sec.
+Communications: 0.0613288 sec.
+     Particles: 0.0474095 sec.
+     Currents: 0.00724753 sec.
+     Fields: 0.00667179 sec.
+Output, including data synchronization: 0.312216 sec.
+Other: 0.0837885 sec.
+
+Iterations 3800-3900: 1.3923 sec.
+Computations: 0.85183 sec.
+     Pre particle loop: 0.000163541 sec.
+     Particle loop: 0.512688 sec.
+     Current deposition: 0.333785 sec.
+     Field solver: 0.00516938 sec.
+     Other: 2.4195e-05 sec.
+Communications: 0.0603173 sec.
+     Particles: 0.0463939 sec.
+     Currents: 0.00733298 sec.
+     Fields: 0.00659043 sec.
+Output, including data synchronization: 0.39588 sec.
+Other: 0.0842711 sec.
+
+Iterations 3900-4000: 1.33691 sec.
+Computations: 0.857848 sec.
+     Pre particle loop: 0.000156468 sec.
+     Particle loop: 0.518624 sec.
+     Current deposition: 0.333913 sec.
+     Field solver: 0.0051297 sec.
+     Other: 2.5154e-05 sec.
+Communications: 0.0599505 sec.
+     Particles: 0.0461594 sec.
+     Currents: 0.00725288 sec.
+     Fields: 0.00653816 sec.
+Output, including data synchronization: 0.334697 sec.
+Other: 0.0844115 sec.
+
+Iterations 4000-4100: 1.33603 sec.
+Computations: 0.86182 sec.
+     Pre particle loop: 0.000164996 sec.
+     Particle loop: 0.522383 sec.
+     Current deposition: 0.334117 sec.
+     Field solver: 0.00512901 sec.
+     Other: 2.6558e-05 sec.
+Communications: 0.0600536 sec.
+     Particles: 0.0462168 sec.
+     Currents: 0.00722075 sec.
+     Fields: 0.0066161 sec.
+Output, including data synchronization: 0.327245 sec.
+Other: 0.0869112 sec.
+
+Iterations 4100-4200: 1.40038 sec.
+Computations: 0.867017 sec.
+     Pre particle loop: 0.000157696 sec.
+     Particle loop: 0.526077 sec.
+     Current deposition: 0.335647 sec.
+     Field solver: 0.00511029 sec.
+     Other: 2.4795e-05 sec.
+Communications: 0.0597457 sec.
+     Particles: 0.0460337 sec.
+     Currents: 0.00715707 sec.
+     Fields: 0.00655488 sec.
+Output, including data synchronization: 0.378097 sec.
+Other: 0.0955179 sec.
+
+Iterations 4200-4300: 1.41761 sec.
+Computations: 0.859644 sec.
+     Pre particle loop: 0.000147919 sec.
+     Particle loop: 0.521789 sec.
+     Current deposition: 0.332555 sec.
+     Field solver: 0.00512758 sec.
+     Other: 2.5034e-05 sec.
+Communications: 0.0597555 sec.
+     Particles: 0.046081 sec.
+     Currents: 0.00720514 sec.
+     Fields: 0.00646934 sec.
+Output, including data synchronization: 0.409647 sec.
+Other: 0.0885596 sec.
+
+Iterations 4300-4400: 1.38877 sec.
+Computations: 0.865149 sec.
+     Pre particle loop: 0.000144517 sec.
+     Particle loop: 0.52571 sec.
+     Current deposition: 0.334133 sec.
+     Field solver: 0.00513533 sec.
+     Other: 2.6505e-05 sec.
+Communications: 0.0597417 sec.
+     Particles: 0.0460002 sec.
+     Currents: 0.0071599 sec.
+     Fields: 0.0065816 sec.
+Output, including data synchronization: 0.374237 sec.
+Other: 0.0896384 sec.
+
+Iterations 4400-4500: 1.32774 sec.
+Computations: 0.867642 sec.
+     Pre particle loop: 0.000153769 sec.
+     Particle loop: 0.527729 sec.
+     Current deposition: 0.334625 sec.
+     Field solver: 0.00510873 sec.
+     Other: 2.4588e-05 sec.
+Communications: 0.0600689 sec.
+     Particles: 0.0463325 sec.
+     Currents: 0.00712947 sec.
+     Fields: 0.00660691 sec.
+Output, including data synchronization: 0.315059 sec.
+Other: 0.0849674 sec.
+
+Iterations 4500-4600: 1.35254 sec.
+Computations: 0.865572 sec.
+     Pre particle loop: 0.000154602 sec.
+     Particle loop: 0.526191 sec.
+     Current deposition: 0.334104 sec.
+     Field solver: 0.00509755 sec.
+     Other: 2.4672e-05 sec.
+Communications: 0.0608431 sec.
+     Particles: 0.047184 sec.
+     Currents: 0.00713175 sec.
+     Fields: 0.00652734 sec.
+Output, including data synchronization: 0.327951 sec.
+Other: 0.0981783 sec.
+
+Iterations 4600-4700: 1.39747 sec.
+Computations: 0.872356 sec.
+     Pre particle loop: 0.000160081 sec.
+     Particle loop: 0.531534 sec.
+     Current deposition: 0.335544 sec.
+     Field solver: 0.00509458 sec.
+     Other: 2.2961e-05 sec.
+Communications: 0.0593664 sec.
+     Particles: 0.0457549 sec.
+     Currents: 0.00709115 sec.
+     Fields: 0.00652033 sec.
+Output, including data synchronization: 0.381773 sec.
+Other: 0.0839756 sec.
+
+Iterations 4700-4800: 1.32788 sec.
+Computations: 0.888342 sec.
+     Pre particle loop: 0.000171046 sec.
+     Particle loop: 0.540999 sec.
+     Current deposition: 0.342055 sec.
+     Field solver: 0.00509181 sec.
+     Other: 2.5394e-05 sec.
+Communications: 0.0595273 sec.
+     Particles: 0.0460065 sec.
+     Currents: 0.00702986 sec.
+     Fields: 0.00649097 sec.
+Output, including data synchronization: 0.278832 sec.
+Other: 0.101175 sec.
+
+Iterations 4800-4900: 1.42104 sec.
+Computations: 0.873307 sec.
+     Pre particle loop: 0.000154083 sec.
+     Particle loop: 0.533002 sec.
+     Current deposition: 0.335069 sec.
+     Field solver: 0.0050554 sec.
+     Other: 2.6397e-05 sec.
+Communications: 0.0599746 sec.
+     Particles: 0.0460424 sec.
+     Currents: 0.00715925 sec.
+     Fields: 0.00677292 sec.
+Output, including data synchronization: 0.39848 sec.
+Other: 0.0892777 sec.
+
+Iterations 4900-5000: 1.41214 sec.
+Computations: 0.870258 sec.
+     Pre particle loop: 0.000154861 sec.
+     Particle loop: 0.531413 sec.
+     Current deposition: 0.333589 sec.
+     Field solver: 0.00507667 sec.
+     Other: 2.4993e-05 sec.
+Communications: 0.0599757 sec.
+     Particles: 0.0462203 sec.
+     Currents: 0.00705504 sec.
+     Fields: 0.00670034 sec.
+Output, including data synchronization: 0.391657 sec.
+Other: 0.0902476 sec.
+
+Iterations 5000-5100: 1.35642 sec.
+Computations: 0.881818 sec.
+     Pre particle loop: 0.000173671 sec.
+     Particle loop: 0.540253 sec.
+     Current deposition: 0.336254 sec.
+     Field solver: 0.0051115 sec.
+     Other: 2.5417e-05 sec.
+Communications: 0.0600317 sec.
+     Particles: 0.0461555 sec.
+     Currents: 0.00718107 sec.
+     Fields: 0.00669514 sec.
+Output, including data synchronization: 0.318251 sec.
+Other: 0.0963165 sec.
+
+Iterations 5100-5200: 1.44237 sec.
+Computations: 0.874866 sec.
+     Pre particle loop: 0.000153906 sec.
+     Particle loop: 0.535407 sec.
+     Current deposition: 0.334108 sec.
+     Field solver: 0.00517226 sec.
+     Other: 2.606e-05 sec.
+Communications: 0.0602764 sec.
+     Particles: 0.0463019 sec.
+     Currents: 0.00717292 sec.
+     Fields: 0.0068016 sec.
+Output, including data synchronization: 0.419482 sec.
+Other: 0.087746 sec.
+
+Iterations 5200-5300: 1.45923 sec.
+Computations: 0.889263 sec.
+     Pre particle loop: 0.000160983 sec.
+     Particle loop: 0.544336 sec.
+     Current deposition: 0.336659 sec.
+     Field solver: 0.00808313 sec.
+     Other: 2.4134e-05 sec.
+Communications: 0.0602885 sec.
+     Particles: 0.0462705 sec.
+     Currents: 0.00720516 sec.
+     Fields: 0.00681287 sec.
+Output, including data synchronization: 0.406622 sec.
+Other: 0.103056 sec.
+
+Iterations 5300-5400: 1.30471 sec.
+Computations: 0.881737 sec.
+     Pre particle loop: 0.00015696 sec.
+     Particle loop: 0.541123 sec.
+     Current deposition: 0.335308 sec.
+     Field solver: 0.0051237 sec.
+     Other: 2.5465e-05 sec.
+Communications: 0.0599564 sec.
+     Particles: 0.0460459 sec.
+     Currents: 0.00716268 sec.
+     Fields: 0.00674778 sec.
+Output, including data synchronization: 0.27532 sec.
+Other: 0.087694 sec.
+
+Iterations 5400-5500: 1.46605 sec.
+Computations: 0.890374 sec.
+     Pre particle loop: 0.000157533 sec.
+     Particle loop: 0.548641 sec.
+     Current deposition: 0.336381 sec.
+     Field solver: 0.00516765 sec.
+     Other: 2.5962e-05 sec.
+Communications: 0.0649901 sec.
+     Particles: 0.0510073 sec.
+     Currents: 0.00716794 sec.
+     Fields: 0.00681488 sec.
+Output, including data synchronization: 0.402268 sec.
+Other: 0.108418 sec.
+
+Iterations 5500-5600: 1.44951 sec.
+Computations: 0.896767 sec.
+     Pre particle loop: 0.000150867 sec.
+     Particle loop: 0.548892 sec.
+     Current deposition: 0.342568 sec.
+     Field solver: 0.0051316 sec.
+     Other: 2.4305e-05 sec.
+Communications: 0.0612406 sec.
+     Particles: 0.0472267 sec.
+     Currents: 0.00719754 sec.
+     Fields: 0.00681632 sec.
+Output, including data synchronization: 0.406305 sec.
+Other: 0.0851928 sec.
+
+Iterations 5600-5700: 1.30111 sec.
+Computations: 0.891431 sec.
+     Pre particle loop: 0.00015263 sec.
+     Particle loop: 0.549117 sec.
+     Current deposition: 0.337038 sec.
+     Field solver: 0.00509737 sec.
+     Other: 2.5403e-05 sec.
+Communications: 0.0602453 sec.
+     Particles: 0.0462646 sec.
+     Currents: 0.00723875 sec.
+     Fields: 0.00674188 sec.
+Output, including data synchronization: 0.262115 sec.
+Other: 0.0873239 sec.
+
+Iterations 5700-5800: 1.45831 sec.
+Computations: 0.895044 sec.
+     Pre particle loop: 0.000145488 sec.
+     Particle loop: 0.552024 sec.
+     Current deposition: 0.337738 sec.
+     Field solver: 0.0051125 sec.
+     Other: 2.4236e-05 sec.
+Communications: 0.0602063 sec.
+     Particles: 0.0465309 sec.
+     Currents: 0.00697258 sec.
+     Fields: 0.00670279 sec.
+Output, including data synchronization: 0.399541 sec.
+Other: 0.103517 sec.
+
+Iterations 5800-5900: 1.51549 sec.
+Computations: 0.945586 sec.
+     Pre particle loop: 0.000135414 sec.
+     Particle loop: 0.577827 sec.
+     Current deposition: 0.343275 sec.
+     Field solver: 0.024326 sec.
+     Other: 2.2283e-05 sec.
+Communications: 0.0667384 sec.
+     Particles: 0.0469382 sec.
+     Currents: 0.00659105 sec.
+     Fields: 0.0132092 sec.
+Output, including data synchronization: 0.411294 sec.
+Other: 0.0918676 sec.
+
+Iterations 5900-6000: 1.35397 sec.
+Computations: 0.900497 sec.
+     Pre particle loop: 0.000132865 sec.
+     Particle loop: 0.555883 sec.
+     Current deposition: 0.339364 sec.
+     Field solver: 0.00509287 sec.
+     Other: 2.4075e-05 sec.
+Communications: 0.058581 sec.
+     Particles: 0.0454995 sec.
+     Currents: 0.00648195 sec.
+     Fields: 0.00659957 sec.
+Output, including data synchronization: 0.30327 sec.
+Other: 0.0916264 sec.
+
+Iterations 6000-6100: 1.45503 sec.
+Computations: 0.898964 sec.
+     Pre particle loop: 0.000133942 sec.
+     Particle loop: 0.553139 sec.
+     Current deposition: 0.338635 sec.
+     Field solver: 0.00703259 sec.
+     Other: 2.3589e-05 sec.
+Communications: 0.058992 sec.
+     Particles: 0.0457339 sec.
+     Currents: 0.00662608 sec.
+     Fields: 0.00663196 sec.
+Output, including data synchronization: 0.406372 sec.
+Other: 0.0906984 sec.
+
+Iterations 6100-6200: 1.43345 sec.
+Computations: 0.912744 sec.
+     Pre particle loop: 0.000143326 sec.
+     Particle loop: 0.567243 sec.
+     Current deposition: 0.340243 sec.
+     Field solver: 0.00509051 sec.
+     Other: 2.3654e-05 sec.
+Communications: 0.0591944 sec.
+     Particles: 0.0458797 sec.
+     Currents: 0.00682068 sec.
+     Fields: 0.00649409 sec.
+Output, including data synchronization: 0.359497 sec.
+Other: 0.102011 sec.
+
+Iterations 6200-6300: 1.32486 sec.
+Computations: 0.896133 sec.
+     Pre particle loop: 0.000159673 sec.
+     Particle loop: 0.552987 sec.
+     Current deposition: 0.337046 sec.
+     Field solver: 0.00591471 sec.
+     Other: 2.5213e-05 sec.
+Communications: 0.0599258 sec.
+     Particles: 0.0462131 sec.
+     Currents: 0.0071581 sec.
+     Fields: 0.00655467 sec.
+Output, including data synchronization: 0.283272 sec.
+Other: 0.0855327 sec.
+
+Iterations 6300-6400: 1.38754 sec.
+Computations: 0.904774 sec.
+     Pre particle loop: 0.000148939 sec.
+     Particle loop: 0.56023 sec.
+     Current deposition: 0.339322 sec.
+     Field solver: 0.00504597 sec.
+     Other: 2.6336e-05 sec.
+Communications: 0.0591029 sec.
+     Particles: 0.0458564 sec.
+     Currents: 0.00689034 sec.
+     Fields: 0.00635611 sec.
+Output, including data synchronization: 0.336546 sec.
+Other: 0.0871202 sec.
+
+Iterations 6400-6500: 1.41494 sec.
+Computations: 0.907145 sec.
+     Pre particle loop: 0.000136676 sec.
+     Particle loop: 0.559478 sec.
+     Current deposition: 0.338675 sec.
+     Field solver: 0.00883361 sec.
+     Other: 2.2622e-05 sec.
+Communications: 0.0580542 sec.
+     Particles: 0.0453578 sec.
+     Currents: 0.0064015 sec.
+     Fields: 0.0062948 sec.
+Output, including data synchronization: 0.360365 sec.
+Other: 0.0893728 sec.
+
+Iterations 6500-6600: 1.39288 sec.
+Computations: 0.905442 sec.
+     Pre particle loop: 0.000137973 sec.
+     Particle loop: 0.561334 sec.
+     Current deposition: 0.338891 sec.
+     Field solver: 0.0050567 sec.
+     Other: 2.2114e-05 sec.
+Communications: 0.0582973 sec.
+     Particles: 0.0455375 sec.
+     Currents: 0.0064438 sec.
+     Fields: 0.00631605 sec.
+Output, including data synchronization: 0.329569 sec.
+Other: 0.0995726 sec.
+
+Iterations 6600-6700: 1.43255 sec.
+Computations: 0.908904 sec.
+     Pre particle loop: 0.000140685 sec.
+     Particle loop: 0.56361 sec.
+     Current deposition: 0.340097 sec.
+     Field solver: 0.00502678 sec.
+     Other: 2.9007e-05 sec.
+Communications: 0.0584273 sec.
+     Particles: 0.0454434 sec.
+     Currents: 0.00662202 sec.
+     Fields: 0.00636196 sec.
+Output, including data synchronization: 0.36852 sec.
+Other: 0.0966982 sec.
+
+Iterations 6700-6800: 1.45566 sec.
+Computations: 0.906047 sec.
+     Pre particle loop: 0.000130515 sec.
+     Particle loop: 0.56115 sec.
+     Current deposition: 0.339717 sec.
+     Field solver: 0.00502762 sec.
+     Other: 2.222e-05 sec.
+Communications: 0.0599315 sec.
+     Particles: 0.0473066 sec.
+     Currents: 0.00640102 sec.
+     Fields: 0.00622389 sec.
+Output, including data synchronization: 0.403879 sec.
+Other: 0.0858043 sec.
+
+Iterations 6800-6900: 1.33044 sec.
+Computations: 0.91525 sec.
+     Pre particle loop: 0.000133942 sec.
+     Particle loop: 0.570041 sec.
+     Current deposition: 0.339999 sec.
+     Field solver: 0.00505454 sec.
+     Other: 2.2458e-05 sec.
+Communications: 0.0585614 sec.
+     Particles: 0.0459596 sec.
+     Currents: 0.00632444 sec.
+     Fields: 0.00627739 sec.
+Output, including data synchronization: 0.27385 sec.
+Other: 0.0827779 sec.
+
+Iterations 6900-7000: 1.40857 sec.
+Computations: 0.909863 sec.
+     Pre particle loop: 0.000132812 sec.
+     Particle loop: 0.566023 sec.
+     Current deposition: 0.33864 sec.
+     Field solver: 0.0050416 sec.
+     Other: 2.5437e-05 sec.
+Communications: 0.0579717 sec.
+     Particles: 0.0450762 sec.
+     Currents: 0.0065201 sec.
+     Fields: 0.0063754 sec.
+Output, including data synchronization: 0.341654 sec.
+Other: 0.0990806 sec.
+
+Iterations 7000-7100: 1.4215 sec.
+Computations: 0.919159 sec.
+     Pre particle loop: 0.000133784 sec.
+     Particle loop: 0.571758 sec.
+     Current deposition: 0.34222 sec.
+     Field solver: 0.00502462 sec.
+     Other: 2.2813e-05 sec.
+Communications: 0.0581627 sec.
+     Particles: 0.0453694 sec.
+     Currents: 0.00646763 sec.
+     Fields: 0.00632566 sec.
+Output, including data synchronization: 0.359835 sec.
+Other: 0.0843458 sec.
+
+Iterations 7100-7200: 1.37718 sec.
+Computations: 0.916091 sec.
+     Pre particle loop: 0.000153183 sec.
+     Particle loop: 0.571169 sec.
+     Current deposition: 0.339686 sec.
+     Field solver: 0.00505796 sec.
+     Other: 2.4401e-05 sec.
+Communications: 0.0593666 sec.
+     Particles: 0.0456849 sec.
+     Currents: 0.00705624 sec.
+     Fields: 0.00662543 sec.
+Output, including data synchronization: 0.298283 sec.
+Other: 0.103441 sec.
+
+Iterations 7200-7300: 1.37855 sec.
+Computations: 0.922407 sec.
+     Pre particle loop: 0.000131487 sec.
+     Particle loop: 0.575126 sec.
+     Current deposition: 0.341903 sec.
+     Field solver: 0.00522269 sec.
+     Other: 2.2869e-05 sec.
+Communications: 0.0581772 sec.
+     Particles: 0.0452923 sec.
+     Currents: 0.00647452 sec.
+     Fields: 0.00641039 sec.
+Output, including data synchronization: 0.312922 sec.
+Other: 0.0850483 sec.
+
+Iterations 7300-7400: 1.55736 sec.
+Computations: 0.93378 sec.
+     Pre particle loop: 0.000124574 sec.
+     Particle loop: 0.582125 sec.
+     Current deposition: 0.346458 sec.
+     Field solver: 0.00504901 sec.
+     Other: 2.2132e-05 sec.
+Communications: 0.0581788 sec.
+     Particles: 0.0453333 sec.
+     Currents: 0.00651336 sec.
+     Fields: 0.00633213 sec.
+Output, including data synchronization: 0.465649 sec.
+Other: 0.0997576 sec.
+
+Iterations 7400-7500: 1.42639 sec.
+Computations: 0.932891 sec.
+     Pre particle loop: 0.000131604 sec.
+     Particle loop: 0.583152 sec.
+     Current deposition: 0.344537 sec.
+     Field solver: 0.005045 sec.
+     Other: 2.4588e-05 sec.
+Communications: 0.0591752 sec.
+     Particles: 0.0461803 sec.
+     Currents: 0.00652363 sec.
+     Fields: 0.00647124 sec.
+Output, including data synchronization: 0.33571 sec.
+Other: 0.0986169 sec.
+
+Iterations 7500-7600: 1.44671 sec.
+Computations: 0.933467 sec.
+     Pre particle loop: 0.000128615 sec.
+     Particle loop: 0.584965 sec.
+     Current deposition: 0.34333 sec.
+     Field solver: 0.00502014 sec.
+     Other: 2.2362e-05 sec.
+Communications: 0.0581706 sec.
+     Particles: 0.045348 sec.
+     Currents: 0.00650405 sec.
+     Fields: 0.00631861 sec.
+Output, including data synchronization: 0.334412 sec.
+Other: 0.120662 sec.
+
+Iterations 7600-7700: 1.49832 sec.
+Computations: 0.926062 sec.
+     Pre particle loop: 0.000173861 sec.
+     Particle loop: 0.578774 sec.
+     Current deposition: 0.342029 sec.
+     Field solver: 0.00506013 sec.
+     Other: 2.5766e-05 sec.
+Communications: 0.0600053 sec.
+     Particles: 0.046292 sec.
+     Currents: 0.00720204 sec.
+     Fields: 0.00651119 sec.
+Output, including data synchronization: 0.417945 sec.
+Other: 0.0943067 sec.
+
+Iterations 7700-7800: 1.36504 sec.
+Computations: 0.925089 sec.
+     Pre particle loop: 0.000149921 sec.
+     Particle loop: 0.577202 sec.
+     Current deposition: 0.342632 sec.
+     Field solver: 0.00507988 sec.
+     Other: 2.4932e-05 sec.
+Communications: 0.0601075 sec.
+     Particles: 0.0463151 sec.
+     Currents: 0.0072533 sec.
+     Fields: 0.0065391 sec.
+Output, including data synchronization: 0.291815 sec.
+Other: 0.0880234 sec.
+
+Iterations 7800-7900: 1.4669 sec.
+Computations: 0.934623 sec.
+     Pre particle loop: 0.000152896 sec.
+     Particle loop: 0.585151 sec.
+     Current deposition: 0.343516 sec.
+     Field solver: 0.00577817 sec.
+     Other: 2.5486e-05 sec.
+Communications: 0.0600569 sec.
+     Particles: 0.0459807 sec.
+     Currents: 0.00730208 sec.
+     Fields: 0.00677407 sec.
+Output, including data synchronization: 0.373773 sec.
+Other: 0.0984519 sec.
+
+Iterations 7900-8000: 1.44634 sec.
+Computations: 0.929269 sec.
+     Pre particle loop: 0.000149862 sec.
+     Particle loop: 0.581781 sec.
+     Current deposition: 0.342175 sec.
+     Field solver: 0.00513867 sec.
+     Other: 2.5424e-05 sec.
+Communications: 0.0609369 sec.
+     Particles: 0.0470366 sec.
+     Currents: 0.00723562 sec.
+     Fields: 0.00666467 sec.
+Output, including data synchronization: 0.365798 sec.
+Other: 0.0903389 sec.
+
+Iterations 8000-8100: 1.3982 sec.
+Computations: 0.928485 sec.
+     Pre particle loop: 0.000150814 sec.
+     Particle loop: 0.581199 sec.
+     Current deposition: 0.341926 sec.
+     Field solver: 0.0051835 sec.
+     Other: 2.5455e-05 sec.
+Communications: 0.0599652 sec.
+     Particles: 0.046052 sec.
+     Currents: 0.00730357 sec.
+     Fields: 0.00660961 sec.
+Output, including data synchronization: 0.3143 sec.
+Other: 0.0954503 sec.
+
+Iterations 8100-8200: 1.44821 sec.
+Computations: 0.940251 sec.
+     Pre particle loop: 0.000154173 sec.
+     Particle loop: 0.588631 sec.
+     Current deposition: 0.346287 sec.
+     Field solver: 0.00515375 sec.
+     Other: 2.4326e-05 sec.
+Communications: 0.0600085 sec.
+     Particles: 0.0460277 sec.
+     Currents: 0.00726611 sec.
+     Fields: 0.00671465 sec.
+Output, including data synchronization: 0.353128 sec.
+Other: 0.0948226 sec.
+
+Iterations 8200-8300: 1.56261 sec.
+Computations: 1.01029 sec.
+     Pre particle loop: 0.000163209 sec.
+     Particle loop: 0.637776 sec.
+     Current deposition: 0.367174 sec.
+     Field solver: 0.00514761 sec.
+     Other: 2.5263e-05 sec.
+Communications: 0.0596863 sec.
+     Particles: 0.0459369 sec.
+     Currents: 0.00713977 sec.
+     Fields: 0.00660961 sec.
+Output, including data synchronization: 0.407456 sec.
+Other: 0.0851782 sec.
+
+Iterations 8300-8400: 1.35975 sec.
+Computations: 0.943856 sec.
+     Pre particle loop: 0.000132204 sec.
+     Particle loop: 0.590959 sec.
+     Current deposition: 0.343974 sec.
+     Field solver: 0.0087684 sec.
+     Other: 2.2693e-05 sec.
+Communications: 0.0579742 sec.
+     Particles: 0.0450746 sec.
+     Currents: 0.00653359 sec.
+     Fields: 0.00636607 sec.
+Output, including data synchronization: 0.272461 sec.
+Other: 0.0854571 sec.
+
+Iterations 8400-8500: 1.49071 sec.
+Computations: 0.936982 sec.
+     Pre particle loop: 0.000194499 sec.
+     Particle loop: 0.587276 sec.
+     Current deposition: 0.343474 sec.
+     Field solver: 0.00601205 sec.
+     Other: 2.5671e-05 sec.
+Communications: 0.0596615 sec.
+     Particles: 0.0459874 sec.
+     Currents: 0.00710995 sec.
+     Fields: 0.00656424 sec.
+Output, including data synchronization: 0.408212 sec.
+Other: 0.0858539 sec.
+
+Iterations 8500-8600: 1.48798 sec.
+Computations: 0.94323 sec.
+     Pre particle loop: 0.00015514 sec.
+     Particle loop: 0.592159 sec.
+     Current deposition: 0.345751 sec.
+     Field solver: 0.00513867 sec.
+     Other: 2.5736e-05 sec.
+Communications: 0.0599055 sec.
+     Particles: 0.0460665 sec.
+     Currents: 0.00719589 sec.
+     Fields: 0.00664311 sec.
+Output, including data synchronization: 0.398377 sec.
+Other: 0.0864671 sec.
+
+Iterations 8600-8700: 1.34983 sec.
+Computations: 0.940795 sec.
+     Pre particle loop: 0.00016133 sec.
+     Particle loop: 0.590425 sec.
+     Current deposition: 0.345104 sec.
+     Field solver: 0.0050769 sec.
+     Other: 2.7744e-05 sec.
+Communications: 0.0600997 sec.
+     Particles: 0.0462155 sec.
+     Currents: 0.00722055 sec.
+     Fields: 0.00666364 sec.
+Output, including data synchronization: 0.263795 sec.
+Other: 0.0851439 sec.
+
+Iterations 8700-8800: 1.44792 sec.
+Computations: 0.943739 sec.
+     Pre particle loop: 0.000155931 sec.
+     Particle loop: 0.592686 sec.
+     Current deposition: 0.345805 sec.
+     Field solver: 0.00506548 sec.
+     Other: 2.6408e-05 sec.
+Communications: 0.0598975 sec.
+     Particles: 0.0462061 sec.
+     Currents: 0.00715538 sec.
+     Fields: 0.00653602 sec.
+Output, including data synchronization: 0.346436 sec.
+Other: 0.0978504 sec.
+
+Iterations 8800-8900: 1.55893 sec.
+Computations: 0.94303 sec.
+     Pre particle loop: 0.000159002 sec.
+     Particle loop: 0.592852 sec.
+     Current deposition: 0.344899 sec.
+     Field solver: 0.0050942 sec.
+     Other: 2.5549e-05 sec.
+Communications: 0.0597672 sec.
+     Particles: 0.0461766 sec.
+     Currents: 0.00712964 sec.
+     Fields: 0.00646096 sec.
+Output, including data synchronization: 0.45149 sec.
+Other: 0.10464 sec.
+
+Iterations 8900-9000: 1.44198 sec.
+Computations: 0.953878 sec.
+     Pre particle loop: 0.000156422 sec.
+     Particle loop: 0.598072 sec.
+     Current deposition: 0.346207 sec.
+     Field solver: 0.00941805 sec.
+     Other: 2.5027e-05 sec.
+Communications: 0.0599285 sec.
+     Particles: 0.046065 sec.
+     Currents: 0.00715736 sec.
+     Fields: 0.00670621 sec.
+Output, including data synchronization: 0.318042 sec.
+Other: 0.110132 sec.
+
+Iterations 9000-9100: 1.45031 sec.
+Computations: 0.955555 sec.
+     Pre particle loop: 0.000158493 sec.
+     Particle loop: 0.604543 sec.
+     Current deposition: 0.345733 sec.
+     Field solver: 0.005095 sec.
+     Other: 2.4515e-05 sec.
+Communications: 0.0600876 sec.
+     Particles: 0.0462135 sec.
+     Currents: 0.00723781 sec.
+     Fields: 0.00663635 sec.
+Output, including data synchronization: 0.347499 sec.
+Other: 0.0871706 sec.
+
+Iterations 9100-9200: 1.47634 sec.
+Computations: 0.954272 sec.
+     Pre particle loop: 0.000165228 sec.
+     Particle loop: 0.601579 sec.
+     Current deposition: 0.347383 sec.
+     Field solver: 0.00511961 sec.
+     Other: 2.4044e-05 sec.
+Communications: 0.060095 sec.
+     Particles: 0.0460976 sec.
+     Currents: 0.00722939 sec.
+     Fields: 0.00676799 sec.
+Output, including data synchronization: 0.357681 sec.
+Other: 0.104294 sec.
+
+Iterations 9200-9300: 1.48152 sec.
+Computations: 0.952106 sec.
+     Pre particle loop: 0.000162518 sec.
+     Particle loop: 0.600766 sec.
+     Current deposition: 0.346056 sec.
+     Field solver: 0.0050931 sec.
+     Other: 2.7867e-05 sec.
+Communications: 0.0598669 sec.
+     Particles: 0.0460586 sec.
+     Currents: 0.00722383 sec.
+     Fields: 0.00658445 sec.
+Output, including data synchronization: 0.371344 sec.
+Other: 0.0982013 sec.
+
+Iterations 9300-9400: 1.50847 sec.
+Computations: 0.956498 sec.
+     Pre particle loop: 0.000156095 sec.
+     Particle loop: 0.603318 sec.
+     Current deposition: 0.347901 sec.
+     Field solver: 0.00509657 sec.
+     Other: 2.5208e-05 sec.
+Communications: 0.0600517 sec.
+     Particles: 0.0463502 sec.
+     Currents: 0.00711448 sec.
+     Fields: 0.00658696 sec.
+Output, including data synchronization: 0.392782 sec.
+Other: 0.0991346 sec.
+
+Iterations 9400-9500: 1.429 sec.
+Computations: 0.95486 sec.
+     Pre particle loop: 0.00015893 sec.
+     Particle loop: 0.601237 sec.
+     Current deposition: 0.346097 sec.
+     Field solver: 0.00734344 sec.
+     Other: 2.4515e-05 sec.
+Communications: 0.0599473 sec.
+     Particles: 0.0461722 sec.
+     Currents: 0.00722878 sec.
+     Fields: 0.00654631 sec.
+Output, including data synchronization: 0.3128 sec.
+Other: 0.101393 sec.
+
+Iterations 9500-9600: 1.48928 sec.
+Computations: 0.964499 sec.
+     Pre particle loop: 0.000158333 sec.
+     Particle loop: 0.609999 sec.
+     Current deposition: 0.34844 sec.
+     Field solver: 0.00587809 sec.
+     Other: 2.4156e-05 sec.
+Communications: 0.0600456 sec.
+     Particles: 0.0462431 sec.
+     Currents: 0.00720121 sec.
+     Fields: 0.00660135 sec.
+Output, including data synchronization: 0.355985 sec.
+Other: 0.108753 sec.
+
+Iterations 9600-9700: 1.43633 sec.
+Computations: 0.969391 sec.
+     Pre particle loop: 0.000153196 sec.
+     Particle loop: 0.615322 sec.
+     Current deposition: 0.347836 sec.
+     Field solver: 0.0060568 sec.
+     Other: 2.3986e-05 sec.
+Communications: 0.0604704 sec.
+     Particles: 0.0464799 sec.
+     Currents: 0.00728948 sec.
+     Fields: 0.00670101 sec.
+Output, including data synchronization: 0.312962 sec.
+Other: 0.0935037 sec.
+
+Iterations 9700-9800: 1.50319 sec.
+Computations: 0.969556 sec.
+     Pre particle loop: 0.000152682 sec.
+     Particle loop: 0.613407 sec.
+     Current deposition: 0.349881 sec.
+     Field solver: 0.00609038 sec.
+     Other: 2.4342e-05 sec.
+Communications: 0.0601946 sec.
+     Particles: 0.0464038 sec.
+     Currents: 0.00721179 sec.
+     Fields: 0.00657895 sec.
+Output, including data synchronization: 0.387802 sec.
+Other: 0.0856359 sec.
+
+Iterations 9800-9900: 1.5792 sec.
+Computations: 0.971046 sec.
+     Pre particle loop: 0.000158528 sec.
+     Particle loop: 0.612846 sec.
+     Current deposition: 0.350196 sec.
+     Field solver: 0.00782092 sec.
+     Other: 2.5316e-05 sec.
+Communications: 0.0600312 sec.
+     Particles: 0.046304 sec.
+     Currents: 0.00715442 sec.
+     Fields: 0.00657279 sec.
+Output, including data synchronization: 0.463827 sec.
+Other: 0.0842917 sec.
+
+Iterations 9900-10000: 1.48554 sec.
+Computations: 0.974009 sec.
+     Pre particle loop: 0.00016631 sec.
+     Particle loop: 0.617629 sec.
+     Current deposition: 0.351087 sec.
+     Field solver: 0.00510074 sec.
+     Other: 2.5425e-05 sec.
+Communications: 0.060024 sec.
+     Particles: 0.0463122 sec.
+     Currents: 0.00717031 sec.
+     Fields: 0.00654145 sec.
+Output, including data synchronization: 0.365934 sec.
+Other: 0.0855752 sec.
+
+Iterations 10000-10100: 1.43269 sec.
+Computations: 0.978271 sec.
+     Pre particle loop: 0.000167044 sec.
+     Particle loop: 0.619911 sec.
+     Current deposition: 0.353117 sec.
+     Field solver: 0.00505179 sec.
+     Other: 2.421e-05 sec.
+Communications: 0.0599977 sec.
+     Particles: 0.0464535 sec.
+     Currents: 0.00709296 sec.
+     Fields: 0.00645128 sec.
+Output, including data synchronization: 0.302843 sec.
+Other: 0.0915755 sec.
+
+Iterations 10100-10200: 1.53337 sec.
+Computations: 0.986928 sec.
+     Pre particle loop: 0.000169596 sec.
+     Particle loop: 0.621912 sec.
+     Current deposition: 0.356706 sec.
+     Field solver: 0.00811518 sec.
+     Other: 2.5894e-05 sec.
+Communications: 0.0600644 sec.
+     Particles: 0.0464906 sec.
+     Currents: 0.00708602 sec.
+     Fields: 0.00648778 sec.
+Output, including data synchronization: 0.396614 sec.
+Other: 0.0897603 sec.
+
+Iterations 10200-10300: 1.54652 sec.
+Computations: 0.982485 sec.
+     Pre particle loop: 0.000157993 sec.
+     Particle loop: 0.623775 sec.
+     Current deposition: 0.353397 sec.
+     Field solver: 0.00512962 sec.
+     Other: 2.4632e-05 sec.
+Communications: 0.0604596 sec.
+     Particles: 0.0465913 sec.
+     Currents: 0.00717763 sec.
+     Fields: 0.00669067 sec.
+Output, including data synchronization: 0.399237 sec.
+Other: 0.104343 sec.
+
+Iterations 10300-10400: 1.53692 sec.
+Computations: 0.997081 sec.
+     Pre particle loop: 0.000161662 sec.
+     Particle loop: 0.635962 sec.
+     Current deposition: 0.355782 sec.
+     Field solver: 0.0051503 sec.
+     Other: 2.393e-05 sec.
+Communications: 0.060702 sec.
+     Particles: 0.0468194 sec.
+     Currents: 0.00715598 sec.
+     Fields: 0.00672668 sec.
+Output, including data synchronization: 0.387785 sec.
+Other: 0.0913517 sec.
+
+Iterations 10400-10500: 1.47592 sec.
+Computations: 0.988395 sec.
+     Pre particle loop: 0.00015668 sec.
+     Particle loop: 0.627789 sec.
+     Current deposition: 0.355313 sec.
+     Field solver: 0.00511201 sec.
+     Other: 2.4444e-05 sec.
+Communications: 0.0603754 sec.
+     Particles: 0.04659 sec.
+     Currents: 0.00703822 sec.
+     Fields: 0.00674722 sec.
+Output, including data synchronization: 0.340368 sec.
+Other: 0.0867764 sec.
+
+Iterations 10500-10600: 1.53454 sec.
+Computations: 0.99284 sec.
+     Pre particle loop: 0.00016243 sec.
+     Particle loop: 0.631723 sec.
+     Current deposition: 0.355838 sec.
+     Field solver: 0.00509036 sec.
+     Other: 2.5879e-05 sec.
+Communications: 0.0602846 sec.
+     Particles: 0.0466081 sec.
+     Currents: 0.00709228 sec.
+     Fields: 0.00658419 sec.
+Output, including data synchronization: 0.393954 sec.
+Other: 0.0874573 sec.
+
+Iterations 10600-10700: 1.45831 sec.
+Computations: 0.999242 sec.
+     Pre particle loop: 0.000180493 sec.
+     Particle loop: 0.636436 sec.
+     Current deposition: 0.357481 sec.
+     Field solver: 0.00511979 sec.
+     Other: 2.4915e-05 sec.
+Communications: 0.0605358 sec.
+     Particles: 0.0468095 sec.
+     Currents: 0.00708573 sec.
+     Fields: 0.00664059 sec.
+Output, including data synchronization: 0.31526 sec.
+Other: 0.0832717 sec.
+
+Iterations 10700-10800: 1.52036 sec.
+Computations: 0.993529 sec.
+     Pre particle loop: 0.000159522 sec.
+     Particle loop: 0.632066 sec.
+     Current deposition: 0.356184 sec.
+     Field solver: 0.00509543 sec.
+     Other: 2.5084e-05 sec.
+Communications: 0.0605075 sec.
+     Particles: 0.0468046 sec.
+     Currents: 0.00709749 sec.
+     Fields: 0.00660544 sec.
+Output, including data synchronization: 0.384125 sec.
+Other: 0.0821939 sec.
+
+Iterations 10800-10900: 1.53937 sec.
+Computations: 1.00115 sec.
+     Pre particle loop: 0.000162669 sec.
+     Particle loop: 0.638022 sec.
+     Current deposition: 0.357878 sec.
+     Field solver: 0.00506134 sec.
+     Other: 2.596e-05 sec.
+Communications: 0.0642187 sec.
+     Particles: 0.0505844 sec.
+     Currents: 0.00707179 sec.
+     Fields: 0.0065626 sec.
+Output, including data synchronization: 0.381353 sec.
+Other: 0.0926513 sec.
+
+Iterations 10900-11000: 1.51747 sec.
+Computations: 1.00344 sec.
+     Pre particle loop: 0.000163787 sec.
+     Particle loop: 0.639825 sec.
+     Current deposition: 0.358291 sec.
+     Field solver: 0.00513481 sec.
+     Other: 2.7006e-05 sec.
+Communications: 0.066717 sec.
+     Particles: 0.0531515 sec.
+     Currents: 0.00707308 sec.
+     Fields: 0.00649245 sec.
+Output, including data synchronization: 0.35094 sec.
+Other: 0.0963709 sec.
+
+Iterations 11000-11100: 1.5013 sec.
+Computations: 1.0071 sec.
+     Pre particle loop: 0.000175566 sec.
+     Particle loop: 0.64221 sec.
+     Current deposition: 0.359608 sec.
+     Field solver: 0.00508114 sec.
+     Other: 2.5047e-05 sec.
+Communications: 0.0612142 sec.
+     Particles: 0.0475896 sec.
+     Currents: 0.00700898 sec.
+     Fields: 0.00661554 sec.
+Output, including data synchronization: 0.317344 sec.
+Other: 0.115646 sec.
+
+Iterations 11100-11200: 1.51593 sec.
+Computations: 1.00975 sec.
+     Pre particle loop: 0.000162406 sec.
+     Particle loop: 0.644663 sec.
+     Current deposition: 0.3598 sec.
+     Field solver: 0.00509688 sec.
+     Other: 2.4653e-05 sec.
+Communications: 0.0604949 sec.
+     Particles: 0.0468681 sec.
+     Currents: 0.00710931 sec.
+     Fields: 0.00651751 sec.
+Output, including data synchronization: 0.35745 sec.
+Other: 0.0882379 sec.
+
+Iterations 11200-11300: 1.49695 sec.
+Computations: 1.01462 sec.
+     Pre particle loop: 0.000167007 sec.
+     Particle loop: 0.648595 sec.
+     Current deposition: 0.360748 sec.
+     Field solver: 0.00508853 sec.
+     Other: 2.4706e-05 sec.
+Communications: 0.0609519 sec.
+     Particles: 0.047127 sec.
+     Currents: 0.00714059 sec.
+     Fields: 0.00668438 sec.
+Output, including data synchronization: 0.33627 sec.
+Other: 0.085107 sec.
+
+Iterations 11300-11400: 1.43889 sec.
+Computations: 1.01308 sec.
+     Pre particle loop: 0.000161237 sec.
+     Particle loop: 0.647519 sec.
+     Current deposition: 0.360288 sec.
+     Field solver: 0.00508765 sec.
+     Other: 2.4652e-05 sec.
+Communications: 0.0610429 sec.
+     Particles: 0.0472619 sec.
+     Currents: 0.00709609 sec.
+     Fields: 0.00668498 sec.
+Output, including data synchronization: 0.279311 sec.
+Other: 0.0854569 sec.
+
+Iterations 11400-11500: 1.63275 sec.
+Computations: 1.02073 sec.
+     Pre particle loop: 0.000161949 sec.
+     Particle loop: 0.653965 sec.
+     Current deposition: 0.361452 sec.
+     Field solver: 0.00512454 sec.
+     Other: 2.4935e-05 sec.
+Communications: 0.0659244 sec.
+     Particles: 0.0520977 sec.
+     Currents: 0.00714584 sec.
+     Fields: 0.00668094 sec.
+Output, including data synchronization: 0.444574 sec.
+Other: 0.101525 sec.
+
+Iterations 11500-11600: 1.52255 sec.
+Computations: 1.01681 sec.
+     Pre particle loop: 0.000168601 sec.
+     Particle loop: 0.650324 sec.
+     Current deposition: 0.361227 sec.
+     Field solver: 0.00505977 sec.
+     Other: 2.6813e-05 sec.
+Communications: 0.0609467 sec.
+     Particles: 0.0472484 sec.
+     Currents: 0.00711469 sec.
+     Fields: 0.00658364 sec.
+Output, including data synchronization: 0.347502 sec.
+Other: 0.09729 sec.
+
+Iterations 11600-11700: 1.46912 sec.
+Computations: 1.0234 sec.
+     Pre particle loop: 0.000158966 sec.
+     Particle loop: 0.654832 sec.
+     Current deposition: 0.363284 sec.
+     Field solver: 0.00510301 sec.
+     Other: 2.4802e-05 sec.
+Communications: 0.0662038 sec.
+     Particles: 0.0524942 sec.
+     Currents: 0.00712629 sec.
+     Fields: 0.00658329 sec.
+Output, including data synchronization: 0.289465 sec.
+Other: 0.090052 sec.
+
+Iterations 11700-11800: 1.66728 sec.
+Computations: 1.02492 sec.
+     Pre particle loop: 0.000162236 sec.
+     Particle loop: 0.656931 sec.
+     Current deposition: 0.362744 sec.
+     Field solver: 0.00506204 sec.
+     Other: 2.5325e-05 sec.
+Communications: 0.0613221 sec.
+     Particles: 0.047427 sec.
+     Currents: 0.00715261 sec.
+     Fields: 0.00674251 sec.
+Output, including data synchronization: 0.485862 sec.
+Other: 0.095172 sec.
+
+Iterations 11800-11900: 1.52266 sec.
+Computations: 1.02519 sec.
+     Pre particle loop: 0.000169029 sec.
+     Particle loop: 0.657629 sec.
+     Current deposition: 0.362208 sec.
+     Field solver: 0.00515898 sec.
+     Other: 2.6891e-05 sec.
+Communications: 0.063152 sec.
+     Particles: 0.0494186 sec.
+     Currents: 0.00712902 sec.
+     Fields: 0.00660436 sec.
+Output, including data synchronization: 0.346463 sec.
+Other: 0.0878516 sec.
+
+Iterations 11900-12000: 1.4756 sec.
+Computations: 1.03094 sec.
+     Pre particle loop: 0.000160575 sec.
+     Particle loop: 0.662243 sec.
+     Current deposition: 0.363417 sec.
+     Field solver: 0.005096 sec.
+     Other: 2.4701e-05 sec.
+Communications: 0.0619405 sec.
+     Particles: 0.0482383 sec.
+     Currents: 0.00706425 sec.
+     Fields: 0.00663792 sec.
+Output, including data synchronization: 0.293518 sec.
+Other: 0.0892033 sec.
+
+Iterations 12000-12100: 1.56828 sec.
+Computations: 1.03112 sec.
+     Pre particle loop: 0.000162705 sec.
+     Particle loop: 0.661424 sec.
+     Current deposition: 0.364322 sec.
+     Field solver: 0.00518173 sec.
+     Other: 2.62e-05 sec.
+Communications: 0.0610227 sec.
+     Particles: 0.0474021 sec.
+     Currents: 0.00707467 sec.
+     Fields: 0.00654595 sec.
+Output, including data synchronization: 0.393936 sec.
+Other: 0.0822098 sec.
+
+Iterations 12100-12200: 1.52851 sec.
+Computations: 1.03511 sec.
+     Pre particle loop: 0.000165203 sec.
+     Particle loop: 0.66422 sec.
+     Current deposition: 0.365607 sec.
+     Field solver: 0.00509219 sec.
+     Other: 2.497e-05 sec.
+Communications: 0.0619944 sec.
+     Particles: 0.0481973 sec.
+     Currents: 0.00717458 sec.
+     Fields: 0.00662259 sec.
+Output, including data synchronization: 0.342054 sec.
+Other: 0.0893528 sec.
+
+Iterations 12200-12300: 1.4986 sec.
+Computations: 1.04379 sec.
+     Pre particle loop: 0.000166315 sec.
+     Particle loop: 0.671855 sec.
+     Current deposition: 0.366672 sec.
+     Field solver: 0.00506828 sec.
+     Other: 2.5686e-05 sec.
+Communications: 0.0611467 sec.
+     Particles: 0.0473757 sec.
+     Currents: 0.00710911 sec.
+     Fields: 0.00666192 sec.
+Output, including data synchronization: 0.29652 sec.
+Other: 0.0971464 sec.
+
+Iterations 12300-12400: 1.58821 sec.
+Computations: 1.03941 sec.
+     Pre particle loop: 0.000165429 sec.
+     Particle loop: 0.668057 sec.
+     Current deposition: 0.366035 sec.
+     Field solver: 0.00512225 sec.
+     Other: 2.6301e-05 sec.
+Communications: 0.0610751 sec.
+     Particles: 0.047318 sec.
+     Currents: 0.00703142 sec.
+     Fields: 0.00672564 sec.
+Output, including data synchronization: 0.393652 sec.
+Other: 0.0940721 sec.
+
+Iterations 12400-12500: 1.57746 sec.
+Computations: 1.04245 sec.
+     Pre particle loop: 0.000165169 sec.
+     Particle loop: 0.669868 sec.
+     Current deposition: 0.367242 sec.
+     Field solver: 0.00514922 sec.
+     Other: 2.5314e-05 sec.
+Communications: 0.0610206 sec.
+     Particles: 0.0473185 sec.
+     Currents: 0.00699498 sec.
+     Fields: 0.00670713 sec.
+Output, including data synchronization: 0.37275 sec.
+Other: 0.101241 sec.
+
+Iterations 12500-12600: 1.51709 sec.
+Computations: 1.0525 sec.
+     Pre particle loop: 0.000161645 sec.
+     Particle loop: 0.675511 sec.
+     Current deposition: 0.368981 sec.
+     Field solver: 0.00782539 sec.
+     Other: 2.4133e-05 sec.
+Communications: 0.0610593 sec.
+     Particles: 0.0473584 sec.
+     Currents: 0.00707607 sec.
+     Fields: 0.00662492 sec.
+Output, including data synchronization: 0.28291 sec.
+Other: 0.120622 sec.
+
+Iterations 12600-12700: 1.60421 sec.
+Computations: 1.05084 sec.
+     Pre particle loop: 0.000174079 sec.
+     Particle loop: 0.675146 sec.
+     Current deposition: 0.370417 sec.
+     Field solver: 0.00507462 sec.
+     Other: 2.5048e-05 sec.
+Communications: 0.0650573 sec.
+     Particles: 0.0512665 sec.
+     Currents: 0.00707424 sec.
+     Fields: 0.00671657 sec.
+Output, including data synchronization: 0.405217 sec.
+Other: 0.0830945 sec.
+
+Iterations 12700-12800: 1.56842 sec.
+Computations: 1.06119 sec.
+     Pre particle loop: 0.000156301 sec.
+     Particle loop: 0.679591 sec.
+     Current deposition: 0.376368 sec.
+     Field solver: 0.00504887 sec.
+     Other: 2.4323e-05 sec.
+Communications: 0.060521 sec.
+     Particles: 0.0470006 sec.
+     Currents: 0.00687082 sec.
+     Fields: 0.00664958 sec.
+Output, including data synchronization: 0.357722 sec.
+Other: 0.0889932 sec.
+
+Iterations 12800-12900: 1.48235 sec.
+Computations: 1.05574 sec.
+     Pre particle loop: 0.000156464 sec.
+     Particle loop: 0.678543 sec.
+     Current deposition: 0.371908 sec.
+     Field solver: 0.00510865 sec.
+     Other: 2.5062e-05 sec.
+Communications: 0.0604996 sec.
+     Particles: 0.0470106 sec.
+     Currents: 0.00694374 sec.
+     Fields: 0.00654525 sec.
+Output, including data synchronization: 0.273657 sec.
+Other: 0.0924494 sec.
+
+Iterations 12900-13000: 1.63557 sec.
+Computations: 1.06552 sec.
+     Pre particle loop: 0.000161814 sec.
+     Particle loop: 0.689039 sec.
+     Current deposition: 0.371171 sec.
+     Field solver: 0.00512253 sec.
+     Other: 2.529e-05 sec.
+Communications: 0.0644832 sec.
+     Particles: 0.0509528 sec.
+     Currents: 0.00692309 sec.
+     Fields: 0.00660729 sec.
+Output, including data synchronization: 0.412521 sec.
+Other: 0.0930448 sec.
+
+Iterations 13000-13100: 1.64856 sec.
+Computations: 1.06753 sec.
+     Pre particle loop: 0.00015868 sec.
+     Particle loop: 0.685009 sec.
+     Current deposition: 0.377104 sec.
+     Field solver: 0.00523706 sec.
+     Other: 2.6072e-05 sec.
+Communications: 0.0603434 sec.
+     Particles: 0.0469904 sec.
+     Currents: 0.00680359 sec.
+     Fields: 0.0065494 sec.
+Output, including data synchronization: 0.432641 sec.
+Other: 0.0880441 sec.
+
+Iterations 13100-13200: 1.52632 sec.
+Computations: 1.06194 sec.
+     Pre particle loop: 0.000161436 sec.
+     Particle loop: 0.684542 sec.
+     Current deposition: 0.372064 sec.
+     Field solver: 0.00515247 sec.
+     Other: 2.4621e-05 sec.
+Communications: 0.0608695 sec.
+     Particles: 0.0474253 sec.
+     Currents: 0.00682513 sec.
+     Fields: 0.00661903 sec.
+Output, including data synchronization: 0.294935 sec.
+Other: 0.108575 sec.
+
+Iterations 13200-13300: 1.58384 sec.
+Computations: 1.06687 sec.
+     Pre particle loop: 0.000159829 sec.
+     Particle loop: 0.687757 sec.
+     Current deposition: 0.373763 sec.
+     Field solver: 0.00515519 sec.
+     Other: 3.8739e-05 sec.
+Communications: 0.0606427 sec.
+     Particles: 0.0472177 sec.
+     Currents: 0.00676302 sec.
+     Fields: 0.00666193 sec.
+Output, including data synchronization: 0.372854 sec.
+Other: 0.083469 sec.
+
+Iterations 13300-13400: 1.69656 sec.
+Computations: 1.0694 sec.
+     Pre particle loop: 0.000159105 sec.
+     Particle loop: 0.690118 sec.
+     Current deposition: 0.374003 sec.
+     Field solver: 0.00509401 sec.
+     Other: 2.5026e-05 sec.
+Communications: 0.0627097 sec.
+     Particles: 0.0491952 sec.
+     Currents: 0.0068361 sec.
+     Fields: 0.00667836 sec.
+Output, including data synchronization: 0.476809 sec.
+Other: 0.0876393 sec.
+
+Iterations 13400-13500: 1.48409 sec.
+Computations: 1.07064 sec.
+     Pre particle loop: 0.000163136 sec.
+     Particle loop: 0.691192 sec.
+     Current deposition: 0.37412 sec.
+     Field solver: 0.00513983 sec.
+     Other: 2.5179e-05 sec.
+Communications: 0.0606061 sec.
+     Particles: 0.0471413 sec.
+     Currents: 0.00680647 sec.
+     Fields: 0.0066583 sec.
+Output, including data synchronization: 0.267287 sec.
+Other: 0.0855538 sec.
+
+Iterations 13500-13600: 1.5938 sec.
+Computations: 1.07484 sec.
+     Pre particle loop: 0.000160303 sec.
+     Particle loop: 0.694175 sec.
+     Current deposition: 0.375341 sec.
+     Field solver: 0.0051372 sec.
+     Other: 2.6238e-05 sec.
+Communications: 0.0608356 sec.
+     Particles: 0.047399 sec.
+     Currents: 0.00677702 sec.
+     Fields: 0.0066595 sec.
+Output, including data synchronization: 0.343849 sec.
+Other: 0.114277 sec.
+
+Iterations 13600-13700: 1.61336 sec.
+Computations: 1.07651 sec.
+     Pre particle loop: 0.000157013 sec.
+     Particle loop: 0.696027 sec.
+     Current deposition: 0.37518 sec.
+     Field solver: 0.00511619 sec.
+     Other: 2.52e-05 sec.
+Communications: 0.0601576 sec.
+     Particles: 0.0468019 sec.
+     Currents: 0.00676931 sec.
+     Fields: 0.00658636 sec.
+Output, including data synchronization: 0.390547 sec.
+Other: 0.0861505 sec.
+
+Iterations 13700-13800: 1.57427 sec.
+Computations: 1.08088 sec.
+     Pre particle loop: 0.000159722 sec.
+     Particle loop: 0.698609 sec.
+     Current deposition: 0.376955 sec.
+     Field solver: 0.00512885 sec.
+     Other: 2.6068e-05 sec.
+Communications: 0.0627083 sec.
+     Particles: 0.0492321 sec.
+     Currents: 0.00683075 sec.
+     Fields: 0.00664544 sec.
+Output, including data synchronization: 0.32375 sec.
+Other: 0.106933 sec.
+
+Iterations 13800-13900: 1.56534 sec.
+Computations: 1.07972 sec.
+     Pre particle loop: 0.000157614 sec.
+     Particle loop: 0.698167 sec.
+     Current deposition: 0.376237 sec.
+     Field solver: 0.00513099 sec.
+     Other: 2.68e-05 sec.
+Communications: 0.0648822 sec.
+     Particles: 0.0514189 sec.
+     Currents: 0.0068082 sec.
+     Fields: 0.00665511 sec.
+Output, including data synchronization: 0.319176 sec.
+Other: 0.101562 sec.
+
+Iterations 13900-14000: 1.66503 sec.
+Computations: 1.08185 sec.
+     Pre particle loop: 0.000158821 sec.
+     Particle loop: 0.700098 sec.
+     Current deposition: 0.376404 sec.
+     Field solver: 0.0051612 sec.
+     Other: 2.5473e-05 sec.
+Communications: 0.0606677 sec.
+     Particles: 0.0472188 sec.
+     Currents: 0.0068219 sec.
+     Fields: 0.00662699 sec.
+Output, including data synchronization: 0.414862 sec.
+Other: 0.107654 sec.
+
+Iterations 14000-14100: 1.53407 sec.
+Computations: 1.0814 sec.
+     Pre particle loop: 0.000154325 sec.
+     Particle loop: 0.699687 sec.
+     Current deposition: 0.376439 sec.
+     Field solver: 0.00508996 sec.
+     Other: 2.5249e-05 sec.
+Communications: 0.0631503 sec.
+     Particles: 0.0494962 sec.
+     Currents: 0.00690177 sec.
+     Fields: 0.0067523 sec.
+Output, including data synchronization: 0.289537 sec.
+Other: 0.0999829 sec.
+
+Iterations 14100-14200: 1.57455 sec.
+Computations: 1.08422 sec.
+     Pre particle loop: 0.000151973 sec.
+     Particle loop: 0.701822 sec.
+     Current deposition: 0.377071 sec.
+     Field solver: 0.00514589 sec.
+     Other: 2.5063e-05 sec.
+Communications: 0.0675441 sec.
+     Particles: 0.0537073 sec.
+     Currents: 0.00696323 sec.
+     Fields: 0.00687359 sec.
+Output, including data synchronization: 0.327936 sec.
+Other: 0.09485 sec.
+
+Iterations 14200-14300: 1.66236 sec.
+Computations: 1.08725 sec.
+     Pre particle loop: 0.000148869 sec.
+     Particle loop: 0.70126 sec.
+     Current deposition: 0.380675 sec.
+     Field solver: 0.00513734 sec.
+     Other: 2.4904e-05 sec.
+Communications: 0.0608938 sec.
+     Particles: 0.0475904 sec.
+     Currents: 0.0066835 sec.
+     Fields: 0.00661982 sec.
+Output, including data synchronization: 0.421383 sec.
+Other: 0.0928415 sec.
+
+Iterations 14300-14400: 1.53936 sec.
+Computations: 1.08907 sec.
+     Pre particle loop: 0.000151146 sec.
+     Particle loop: 0.704652 sec.
+     Current deposition: 0.379128 sec.
+     Field solver: 0.00511544 sec.
+     Other: 2.4451e-05 sec.
+Communications: 0.061027 sec.
+     Particles: 0.0478392 sec.
+     Currents: 0.00665812 sec.
+     Fields: 0.00652963 sec.
+Output, including data synchronization: 0.302747 sec.
+Other: 0.0865153 sec.
+
+Iterations 14400-14500: 1.69096 sec.
+Computations: 1.08716 sec.
+     Pre particle loop: 0.000158285 sec.
+     Particle loop: 0.702917 sec.
+     Current deposition: 0.378958 sec.
+     Field solver: 0.00510024 sec.
+     Other: 2.4569e-05 sec.
+Communications: 0.0650281 sec.
+     Particles: 0.0517002 sec.
+     Currents: 0.00673899 sec.
+     Fields: 0.0065889 sec.
+Output, including data synchronization: 0.398745 sec.
+Other: 0.140032 sec.
+
+Iterations 14500-14600: 1.71191 sec.
+Computations: 1.0882 sec.
+     Pre particle loop: 0.000159284 sec.
+     Particle loop: 0.703464 sec.
+     Current deposition: 0.379399 sec.
+     Field solver: 0.00515328 sec.
+     Other: 2.557e-05 sec.
+Communications: 0.0637383 sec.
+     Particles: 0.0502711 sec.
+     Currents: 0.00685426 sec.
+     Fields: 0.00661288 sec.
+Output, including data synchronization: 0.464776 sec.
+Other: 0.0951967 sec.
+
+Iterations 14600-14700: 1.60467 sec.
+Computations: 1.09 sec.
+     Pre particle loop: 0.000157472 sec.
+     Particle loop: 0.705088 sec.
+     Current deposition: 0.379616 sec.
+     Field solver: 0.00510993 sec.
+     Other: 2.6049e-05 sec.
+Communications: 0.0608319 sec.
+     Particles: 0.0471393 sec.
+     Currents: 0.00688141 sec.
+     Fields: 0.0068112 sec.
+Output, including data synchronization: 0.317792 sec.
+Other: 0.136045 sec.
+
+Iterations 14700-14800: 1.60985 sec.
+Computations: 1.0894 sec.
+     Pre particle loop: 0.000164772 sec.
+     Particle loop: 0.705254 sec.
+     Current deposition: 0.378844 sec.
+     Field solver: 0.00511235 sec.
+     Other: 2.5619e-05 sec.
+Communications: 0.0608039 sec.
+     Particles: 0.0471848 sec.
+     Currents: 0.00698389 sec.
+     Fields: 0.00663515 sec.
+Output, including data synchronization: 0.374499 sec.
+Other: 0.0851495 sec.
+
+Iterations 14800-14900: 1.62479 sec.
+Computations: 1.08891 sec.
+     Pre particle loop: 0.000161883 sec.
+     Particle loop: 0.705336 sec.
+     Current deposition: 0.378282 sec.
+     Field solver: 0.00510696 sec.
+     Other: 2.5274e-05 sec.
+Communications: 0.0617101 sec.
+     Particles: 0.0481242 sec.
+     Currents: 0.00690175 sec.
+     Fields: 0.00668416 sec.
+Output, including data synchronization: 0.386216 sec.
+Other: 0.0879497 sec.
+
+Iterations 14900-15000: 1.53752 sec.
+Computations: 1.08745 sec.
+     Pre particle loop: 0.00015855 sec.
+     Particle loop: 0.704095 sec.
+     Current deposition: 0.378075 sec.
+     Field solver: 0.00509414 sec.
+     Other: 2.5143e-05 sec.
+Communications: 0.0605128 sec.
+     Particles: 0.0470166 sec.
+     Currents: 0.00689458 sec.
+     Fields: 0.00660164 sec.
+Output, including data synchronization: 0.294658 sec.
+Other: 0.0949043 sec.
+
+Iterations 15000-15100: 1.59856 sec.
+Computations: 1.09274 sec.
+     Pre particle loop: 0.000159892 sec.
+     Particle loop: 0.705478 sec.
+     Current deposition: 0.378149 sec.
+     Field solver: 0.00893192 sec.
+     Other: 2.5714e-05 sec.
+Communications: 0.0630003 sec.
+     Particles: 0.0492873 sec.
+     Currents: 0.00697055 sec.
+     Fields: 0.00674241 sec.
+Output, including data synchronization: 0.337539 sec.
+Other: 0.105277 sec.
+
+Iterations 15100-15200: 1.66987 sec.
+Computations: 1.08869 sec.
+     Pre particle loop: 0.000165305 sec.
+     Particle loop: 0.705643 sec.
+     Current deposition: 0.377756 sec.
+     Field solver: 0.00509586 sec.
+     Other: 2.592e-05 sec.
+Communications: 0.0618375 sec.
+     Particles: 0.0482097 sec.
+     Currents: 0.00682163 sec.
+     Fields: 0.00680619 sec.
+Output, including data synchronization: 0.418354 sec.
+Other: 0.100993 sec.
+
+Iterations 15200-15300: 1.53577 sec.
+Computations: 1.0891 sec.
+     Pre particle loop: 0.000152486 sec.
+     Particle loop: 0.70505 sec.
+     Current deposition: 0.377974 sec.
+     Field solver: 0.00590216 sec.
+     Other: 2.6609e-05 sec.
+Communications: 0.0609326 sec.
+     Particles: 0.0472236 sec.
+     Currents: 0.00686035 sec.
+     Fields: 0.00684864 sec.
+Output, including data synchronization: 0.290986 sec.
+Other: 0.0947477 sec.
+
+Iterations 15300-15400: 1.58821 sec.
+Computations: 1.09206 sec.
+     Pre particle loop: 0.000157153 sec.
+     Particle loop: 0.705928 sec.
+     Current deposition: 0.380807 sec.
+     Field solver: 0.0051469 sec.
+     Other: 2.4955e-05 sec.
+Communications: 0.0647812 sec.
+     Particles: 0.0511738 sec.
+     Currents: 0.00685536 sec.
+     Fields: 0.00675201 sec.
+Output, including data synchronization: 0.339163 sec.
+Other: 0.0922017 sec.
+
+Iterations 15400-15500: 1.67133 sec.
+Computations: 1.08781 sec.
+     Pre particle loop: 0.000157617 sec.
+     Particle loop: 0.704694 sec.
+     Current deposition: 0.377852 sec.
+     Field solver: 0.00508534 sec.
+     Other: 2.5738e-05 sec.
+Communications: 0.0625094 sec.
+     Particles: 0.0489055 sec.
+     Currents: 0.00681202 sec.
+     Fields: 0.00679182 sec.
+Output, including data synchronization: 0.421493 sec.
+Other: 0.099513 sec.
+
+Iterations 15500-15600: 1.56234 sec.
+Computations: 1.08982 sec.
+     Pre particle loop: 0.000166663 sec.
+     Particle loop: 0.705788 sec.
+     Current deposition: 0.378743 sec.
+     Field solver: 0.00509734 sec.
+     Other: 2.5305e-05 sec.
+Communications: 0.0648599 sec.
+     Particles: 0.0512028 sec.
+     Currents: 0.00685884 sec.
+     Fields: 0.00679833 sec.
+Output, including data synchronization: 0.32258 sec.
+Other: 0.0850754 sec.
+
+Iterations 15600-15700: 1.60747 sec.
+Computations: 1.08911 sec.
+     Pre particle loop: 0.00015443 sec.
+     Particle loop: 0.705839 sec.
+     Current deposition: 0.37798 sec.
+     Field solver: 0.00511172 sec.
+     Other: 2.4674e-05 sec.
+Communications: 0.0608594 sec.
+     Particles: 0.0471523 sec.
+     Currents: 0.00683803 sec.
+     Fields: 0.00686908 sec.
+Output, including data synchronization: 0.370455 sec.
+Other: 0.0870497 sec.
+
+Iterations 15700-15800: 1.61445 sec.
+Computations: 1.08905 sec.
+     Pre particle loop: 0.000163062 sec.
+     Particle loop: 0.705562 sec.
+     Current deposition: 0.378224 sec.
+     Field solver: 0.00507805 sec.
+     Other: 2.4645e-05 sec.
+Communications: 0.0702037 sec.
+     Particles: 0.0563738 sec.
+     Currents: 0.00691774 sec.
+     Fields: 0.0069121 sec.
+Output, including data synchronization: 0.357581 sec.
+Other: 0.0976149 sec.
+
+Iterations 15800-15900: 1.55957 sec.
+Computations: 1.08947 sec.
+     Pre particle loop: 0.000163101 sec.
+     Particle loop: 0.705887 sec.
+     Current deposition: 0.378287 sec.
+     Field solver: 0.00510369 sec.
+     Other: 2.6365e-05 sec.
+Communications: 0.0608078 sec.
+     Particles: 0.0470611 sec.
+     Currents: 0.00687217 sec.
+     Fields: 0.00687456 sec.
+Output, including data synchronization: 0.323881 sec.
+Other: 0.0854182 sec.
+
+Iterations 15900-16000: 1.56829 sec.
+Computations: 1.09005 sec.
+     Pre particle loop: 0.00015554 sec.
+     Particle loop: 0.706003 sec.
+     Current deposition: 0.378734 sec.
+     Field solver: 0.00513027 sec.
+     Other: 2.5999e-05 sec.
+Communications: 0.0607554 sec.
+     Particles: 0.0470835 sec.
+     Currents: 0.00683587 sec.
+     Fields: 0.00683602 sec.
+Output, including data synchronization: 0.327905 sec.
+Other: 0.0895815 sec.
+
+Iterations 16000-16100: 1.62347 sec.
+Computations: 1.09108 sec.
+     Pre particle loop: 0.00015321 sec.
+     Particle loop: 0.706341 sec.
+     Current deposition: 0.379441 sec.
+     Field solver: 0.00511859 sec.
+     Other: 2.5751e-05 sec.
+Communications: 0.0609737 sec.
+     Particles: 0.0471705 sec.
+     Currents: 0.00688874 sec.
+     Fields: 0.0069144 sec.
+Output, including data synchronization: 0.376252 sec.
+Other: 0.0951677 sec.
+
+Iterations 16100-16200: 1.53905 sec.
+Computations: 1.09099 sec.
+     Pre particle loop: 0.00015789 sec.
+     Particle loop: 0.70665 sec.
+     Current deposition: 0.379077 sec.
+     Field solver: 0.00508427 sec.
+     Other: 2.4596e-05 sec.
+Communications: 0.0608772 sec.
+     Particles: 0.0471649 sec.
+     Currents: 0.00681305 sec.
+     Fields: 0.00689929 sec.
+Output, including data synchronization: 0.301112 sec.
+Other: 0.0860634 sec.
+
+Iterations 16200-16300: 1.58845 sec.
+Computations: 1.09013 sec.
+     Pre particle loop: 0.000150833 sec.
+     Particle loop: 0.706213 sec.
+     Current deposition: 0.378646 sec.
+     Field solver: 0.00509382 sec.
+     Other: 2.482e-05 sec.
+Communications: 0.0630151 sec.
+     Particles: 0.0492223 sec.
+     Currents: 0.00688051 sec.
+     Fields: 0.0069123 sec.
+Output, including data synchronization: 0.345907 sec.
+Other: 0.0894015 sec.
+
+Iterations 16300-16400: 1.60152 sec.
+Computations: 1.09016 sec.
+     Pre particle loop: 0.00016232 sec.
+     Particle loop: 0.705355 sec.
+     Current deposition: 0.379523 sec.
+     Field solver: 0.00510008 sec.
+     Other: 2.4157e-05 sec.
+Communications: 0.0610546 sec.
+     Particles: 0.0471544 sec.
+     Currents: 0.00693753 sec.
+     Fields: 0.00696261 sec.
+Output, including data synchronization: 0.363038 sec.
+Other: 0.0872609 sec.
+
+Iterations 16400-16500: 1.60414 sec.
+Computations: 1.08808 sec.
+     Pre particle loop: 0.000157919 sec.
+     Particle loop: 0.705125 sec.
+     Current deposition: 0.377657 sec.
+     Field solver: 0.00512003 sec.
+     Other: 2.4455e-05 sec.
+Communications: 0.0608675 sec.
+     Particles: 0.0470745 sec.
+     Currents: 0.0069101 sec.
+     Fields: 0.00688287 sec.
+Output, including data synchronization: 0.334617 sec.
+Other: 0.120575 sec.
+
+Iterations 16500-16600: 1.58214 sec.
+Computations: 1.08782 sec.
+     Pre particle loop: 0.000158361 sec.
+     Particle loop: 0.704453 sec.
+     Current deposition: 0.378096 sec.
+     Field solver: 0.00509068 sec.
+     Other: 2.4199e-05 sec.
+Communications: 0.0630213 sec.
+     Particles: 0.0492948 sec.
+     Currents: 0.00684242 sec.
+     Fields: 0.00688412 sec.
+Output, including data synchronization: 0.335276 sec.
+Other: 0.0960163 sec.
+
+Iterations 16600-16700: 1.59957 sec.
+Computations: 1.08684 sec.
+     Pre particle loop: 0.000153741 sec.
+     Particle loop: 0.703943 sec.
+     Current deposition: 0.377611 sec.
+     Field solver: 0.00510378 sec.
+     Other: 2.5549e-05 sec.
+Communications: 0.0609231 sec.
+     Particles: 0.0471197 sec.
+     Currents: 0.0068448 sec.
+     Fields: 0.00695857 sec.
+Output, including data synchronization: 0.362206 sec.
+Other: 0.0896056 sec.
+
+Iterations 16700-16800: 1.66849 sec.
+Computations: 1.09034 sec.
+     Pre particle loop: 0.000154991 sec.
+     Particle loop: 0.705454 sec.
+     Current deposition: 0.379469 sec.
+     Field solver: 0.00523383 sec.
+     Other: 2.429e-05 sec.
+Communications: 0.0656681 sec.
+     Particles: 0.0518058 sec.
+     Currents: 0.00692442 sec.
+     Fields: 0.00693784 sec.
+Output, including data synchronization: 0.388592 sec.
+Other: 0.123892 sec.
+
+Iterations 16800-16900: 1.7036 sec.
+Computations: 1.08779 sec.
+     Pre particle loop: 0.000159584 sec.
+     Particle loop: 0.704127 sec.
+     Current deposition: 0.378381 sec.
+     Field solver: 0.00509419 sec.
+     Other: 2.633e-05 sec.
+Communications: 0.06086 sec.
+     Particles: 0.0471889 sec.
+     Currents: 0.00688791 sec.
+     Fields: 0.0067832 sec.
+Output, including data synchronization: 0.441004 sec.
+Other: 0.113945 sec.
+
+Iterations 16900-17000: 1.6221 sec.
+Computations: 1.08739 sec.
+     Pre particle loop: 0.000170636 sec.
+     Particle loop: 0.704034 sec.
+     Current deposition: 0.378054 sec.
+     Field solver: 0.00510591 sec.
+     Other: 2.6061e-05 sec.
+Communications: 0.0607262 sec.
+     Particles: 0.0472016 sec.
+     Currents: 0.00677497 sec.
+     Fields: 0.00674963 sec.
+Output, including data synchronization: 0.344556 sec.
+Other: 0.129426 sec.
+
+Iterations 17000-17100: 1.55544 sec.
+Computations: 1.08816 sec.
+     Pre particle loop: 0.000160258 sec.
+     Particle loop: 0.70453 sec.
+     Current deposition: 0.378279 sec.
+     Field solver: 0.00516198 sec.
+     Other: 2.6e-05 sec.
+Communications: 0.0627502 sec.
+     Particles: 0.0492309 sec.
+     Currents: 0.00680079 sec.
+     Fields: 0.00671847 sec.
+Output, including data synchronization: 0.320258 sec.
+Other: 0.0842704 sec.
+
+Iterations 17100-17200: 1.64966 sec.
+Computations: 1.08715 sec.
+     Pre particle loop: 0.000153726 sec.
+     Particle loop: 0.703636 sec.
+     Current deposition: 0.378175 sec.
+     Field solver: 0.00515985 sec.
+     Other: 2.6732e-05 sec.
+Communications: 0.0616501 sec.
+     Particles: 0.0480578 sec.
+     Currents: 0.00684397 sec.
+     Fields: 0.00674837 sec.
+Output, including data synchronization: 0.396612 sec.
+Other: 0.104247 sec.
+
+Iterations 17200-17300: 1.62605 sec.
+Computations: 1.0888 sec.
+     Pre particle loop: 0.000164307 sec.
+     Particle loop: 0.704378 sec.
+     Current deposition: 0.379128 sec.
+     Field solver: 0.00510723 sec.
+     Other: 2.605e-05 sec.
+Communications: 0.0606212 sec.
+     Particles: 0.0471675 sec.
+     Currents: 0.00675989 sec.
+     Fields: 0.00669381 sec.
+Output, including data synchronization: 0.360756 sec.
+Other: 0.115873 sec.
+
+Iterations 17300-17400: 1.56761 sec.
+Computations: 1.09117 sec.
+     Pre particle loop: 0.000159847 sec.
+     Particle loop: 0.70656 sec.
+     Current deposition: 0.379275 sec.
+     Field solver: 0.0051521 sec.
+     Other: 2.4749e-05 sec.
+Communications: 0.0635149 sec.
+     Particles: 0.050011 sec.
+     Currents: 0.00687871 sec.
+     Fields: 0.00662513 sec.
+Output, including data synchronization: 0.32652 sec.
+Other: 0.0864034 sec.
+
+Iterations 17400-17500: 1.64659 sec.
+Computations: 1.08879 sec.
+     Pre particle loop: 0.000165701 sec.
+     Particle loop: 0.704819 sec.
+     Current deposition: 0.378656 sec.
+     Field solver: 0.00512144 sec.
+     Other: 2.458e-05 sec.
+Communications: 0.0605744 sec.
+     Particles: 0.0471101 sec.
+     Currents: 0.00677143 sec.
+     Fields: 0.00669285 sec.
+Output, including data synchronization: 0.40408 sec.
+Other: 0.09315 sec.
+
+Iterations 17500-17600: 1.60019 sec.
+Computations: 1.08966 sec.
+     Pre particle loop: 0.000157763 sec.
+     Particle loop: 0.705635 sec.
+     Current deposition: 0.378687 sec.
+     Field solver: 0.00515198 sec.
+     Other: 2.4891e-05 sec.
+Communications: 0.06084 sec.
+     Particles: 0.047259 sec.
+     Currents: 0.00684921 sec.
+     Fields: 0.00673187 sec.
+Output, including data synchronization: 0.361056 sec.
+Other: 0.0886355 sec.
+
+Iterations 17600-17700: 1.55666 sec.
+Computations: 1.08758 sec.
+     Pre particle loop: 0.0001585 sec.
+     Particle loop: 0.703087 sec.
+     Current deposition: 0.379212 sec.
+     Field solver: 0.00509233 sec.
+     Other: 2.5644e-05 sec.
+Communications: 0.0608519 sec.
+     Particles: 0.0472664 sec.
+     Currents: 0.00683496 sec.
+     Fields: 0.00675058 sec.
+Output, including data synchronization: 0.320813 sec.
+Other: 0.087417 sec.
+
+Iterations 17700-17800: 1.67565 sec.
+Computations: 1.08684 sec.
+     Pre particle loop: 0.0001597 sec.
+     Particle loop: 0.703647 sec.
+     Current deposition: 0.377886 sec.
+     Field solver: 0.00512193 sec.
+     Other: 2.5797e-05 sec.
+Communications: 0.0608239 sec.
+     Particles: 0.0472344 sec.
+     Currents: 0.00686256 sec.
+     Fields: 0.00672693 sec.
+Output, including data synchronization: 0.425411 sec.
+Other: 0.102572 sec.
+
+Iterations 17800-17900: 1.56816 sec.
+Computations: 1.08963 sec.
+     Pre particle loop: 0.000158888 sec.
+     Particle loop: 0.706932 sec.
+     Current deposition: 0.377359 sec.
+     Field solver: 0.00515354 sec.
+     Other: 2.5144e-05 sec.
+Communications: 0.0640145 sec.
+     Particles: 0.0503954 sec.
+     Currents: 0.00684821 sec.
+     Fields: 0.00677083 sec.
+Output, including data synchronization: 0.308661 sec.
+Other: 0.10586 sec.
+
+Iterations 17900-18000: 1.51965 sec.
+Computations: 1.08793 sec.
+     Pre particle loop: 0.000158842 sec.
+     Particle loop: 0.704143 sec.
+     Current deposition: 0.378473 sec.
+     Field solver: 0.00513153 sec.
+     Other: 2.6122e-05 sec.
+Communications: 0.0608372 sec.
+     Particles: 0.0471651 sec.
+     Currents: 0.00683695 sec.
+     Fields: 0.00683513 sec.
+Output, including data synchronization: 0.27674 sec.
+Other: 0.0941407 sec.
+
+Iterations 18000-18100: 1.64539 sec.
+Computations: 1.08563 sec.
+     Pre particle loop: 0.000163175 sec.
+     Particle loop: 0.702591 sec.
+     Current deposition: 0.377746 sec.
+     Field solver: 0.00510511 sec.
+     Other: 2.4443e-05 sec.
+Communications: 0.0609352 sec.
+     Particles: 0.0472257 sec.
+     Currents: 0.00681917 sec.
+     Fields: 0.00689028 sec.
+Output, including data synchronization: 0.408177 sec.
+Other: 0.0906501 sec.
+
+Iterations 18100-18200: 1.64084 sec.
+Computations: 1.08568 sec.
+     Pre particle loop: 0.000165576 sec.
+     Particle loop: 0.703003 sec.
+     Current deposition: 0.377362 sec.
+     Field solver: 0.00512238 sec.
+     Other: 2.4629e-05 sec.
+Communications: 0.0640038 sec.
+     Particles: 0.0503152 sec.
+     Currents: 0.00681476 sec.
+     Fields: 0.00687386 sec.
+Output, including data synchronization: 0.386724 sec.
+Other: 0.104435 sec.
+
+Iterations 18200-18300: 1.52448 sec.
+Computations: 1.08368 sec.
+     Pre particle loop: 0.000159163 sec.
+     Particle loop: 0.700898 sec.
+     Current deposition: 0.377412 sec.
+     Field solver: 0.00518013 sec.
+     Other: 2.6729e-05 sec.
+Communications: 0.0610319 sec.
+     Particles: 0.0473287 sec.
+     Currents: 0.0068309 sec.
+     Fields: 0.00687235 sec.
+Output, including data synchronization: 0.281081 sec.
+Other: 0.098691 sec.
+
+Iterations 18300-18400: 1.62927 sec.
+Computations: 1.08456 sec.
+     Pre particle loop: 0.00015356 sec.
+     Particle loop: 0.701439 sec.
+     Current deposition: 0.377808 sec.
+     Field solver: 0.00513243 sec.
+     Other: 2.5266e-05 sec.
+Communications: 0.0609178 sec.
+     Particles: 0.0471679 sec.
+     Currents: 0.00686816 sec.
+     Fields: 0.00688173 sec.
+Output, including data synchronization: 0.390657 sec.
+Other: 0.0931348 sec.
+
+Iterations 18400-18500: 1.64396 sec.
+Computations: 1.08219 sec.
+     Pre particle loop: 0.000146546 sec.
+     Particle loop: 0.700086 sec.
+     Current deposition: 0.376716 sec.
+     Field solver: 0.00521757 sec.
+     Other: 2.4075e-05 sec.
+Communications: 0.063015 sec.
+     Particles: 0.0493651 sec.
+     Currents: 0.0068254 sec.
+     Fields: 0.00682445 sec.
+Output, including data synchronization: 0.405156 sec.
+Other: 0.093602 sec.
+
+Iterations 18500-18600: 1.532 sec.
+Computations: 1.08158 sec.
+     Pre particle loop: 0.000149913 sec.
+     Particle loop: 0.699901 sec.
+     Current deposition: 0.37635 sec.
+     Field solver: 0.00515337 sec.
+     Other: 2.4383e-05 sec.
+Communications: 0.0614421 sec.
+     Particles: 0.0472995 sec.
+     Currents: 0.00733082 sec.
+     Fields: 0.00681171 sec.
+Output, including data synchronization: 0.295806 sec.
+Other: 0.0931721 sec.
+
+Iterations 18600-18700: 1.6049 sec.
+Computations: 1.08054 sec.
+     Pre particle loop: 0.000149062 sec.
+     Particle loop: 0.698822 sec.
+     Current deposition: 0.376405 sec.
+     Field solver: 0.00513488 sec.
+     Other: 2.5566e-05 sec.
+Communications: 0.0607768 sec.
+     Particles: 0.0472257 sec.
+     Currents: 0.00675107 sec.
+     Fields: 0.00680007 sec.
+Output, including data synchronization: 0.379675 sec.
+Other: 0.0839069 sec.
+
+Iterations 18700-18800: 1.6092 sec.
+Computations: 1.08073 sec.
+     Pre particle loop: 0.000155687 sec.
+     Particle loop: 0.699559 sec.
+     Current deposition: 0.375821 sec.
+     Field solver: 0.0051749 sec.
+     Other: 2.3774e-05 sec.
+Communications: 0.0608932 sec.
+     Particles: 0.0471527 sec.
+     Currents: 0.00680132 sec.
+     Fields: 0.00693925 sec.
+Output, including data synchronization: 0.365892 sec.
+Other: 0.101683 sec.
+
+Iterations 18800-18900: 1.50871 sec.
+Computations: 1.08423 sec.
+     Pre particle loop: 0.000153694 sec.
+     Particle loop: 0.703129 sec.
+     Current deposition: 0.375735 sec.
+     Field solver: 0.0051838 sec.
+     Other: 2.4635e-05 sec.
+Communications: 0.0608443 sec.
+     Particles: 0.0472461 sec.
+     Currents: 0.00676138 sec.
+     Fields: 0.00683686 sec.
+Output, including data synchronization: 0.279435 sec.
+Other: 0.0842068 sec.
+
+Iterations 18900-19000: 1.65208 sec.
+Computations: 1.07933 sec.
+     Pre particle loop: 0.000164363 sec.
+     Particle loop: 0.698353 sec.
+     Current deposition: 0.375671 sec.
+     Field solver: 0.00511955 sec.
+     Other: 2.5348e-05 sec.
+Communications: 0.0606232 sec.
+     Particles: 0.0470034 sec.
+     Currents: 0.00675479 sec.
+     Fields: 0.00686507 sec.
+Output, including data synchronization: 0.395999 sec.
+Other: 0.116124 sec.
+
+Iterations 19000-19100: 1.55032 sec.
+Computations: 1.07849 sec.
+     Pre particle loop: 0.00015573 sec.
+     Particle loop: 0.697366 sec.
+     Current deposition: 0.375777 sec.
+     Field solver: 0.00517107 sec.
+     Other: 2.3981e-05 sec.
+Communications: 0.0612967 sec.
+     Particles: 0.0475178 sec.
+     Currents: 0.00680077 sec.
+     Fields: 0.00697809 sec.
+Output, including data synchronization: 0.326591 sec.
+Other: 0.0839348 sec.
+
+Iterations 19100-19200: 1.57982 sec.
+Computations: 1.08194 sec.
+     Pre particle loop: 0.0001542 sec.
+     Particle loop: 0.698711 sec.
+     Current deposition: 0.377866 sec.
+     Field solver: 0.00518564 sec.
+     Other: 2.5595e-05 sec.
+Communications: 0.0607759 sec.
+     Particles: 0.0470728 sec.
+     Currents: 0.00679331 sec.
+     Fields: 0.00690983 sec.
+Output, including data synchronization: 0.315542 sec.
+Other: 0.121558 sec.
+
+Iterations 19200-19300: 1.61578 sec.
+Computations: 1.07764 sec.
+     Pre particle loop: 0.000155307 sec.
+     Particle loop: 0.696344 sec.
+     Current deposition: 0.37594 sec.
+     Field solver: 0.00517181 sec.
+     Other: 2.4264e-05 sec.
+Communications: 0.0608671 sec.
+     Particles: 0.0471147 sec.
+     Currents: 0.00683526 sec.
+     Fields: 0.00691716 sec.
+Output, including data synchronization: 0.383921 sec.
+Other: 0.0933585 sec.
+
+Iterations 19300-19400: 1.62005 sec.
+Computations: 1.07607 sec.
+     Pre particle loop: 0.000153971 sec.
+     Particle loop: 0.695055 sec.
+     Current deposition: 0.37571 sec.
+     Field solver: 0.00513211 sec.
+     Other: 2.3997e-05 sec.
+Communications: 0.061973 sec.
+     Particles: 0.0482833 sec.
+     Currents: 0.00679799 sec.
+     Fields: 0.00689168 sec.
+Output, including data synchronization: 0.386276 sec.
+Other: 0.0957255 sec.
+
+Iterations 19400-19500: 1.53871 sec.
+Computations: 1.07849 sec.
+     Pre particle loop: 0.000155991 sec.
+     Particle loop: 0.697411 sec.
+     Current deposition: 0.375775 sec.
+     Field solver: 0.00512882 sec.
+     Other: 2.408e-05 sec.
+Communications: 0.0600824 sec.
+     Particles: 0.0468145 sec.
+     Currents: 0.00651554 sec.
+     Fields: 0.00675242 sec.
+Output, including data synchronization: 0.307084 sec.
+Other: 0.093053 sec.
+
+Iterations 19500-19600: 1.61221 sec.
+Computations: 1.07486 sec.
+     Pre particle loop: 0.00016616 sec.
+     Particle loop: 0.694757 sec.
+     Current deposition: 0.37473 sec.
+     Field solver: 0.00518137 sec.
+     Other: 2.3949e-05 sec.
+Communications: 0.0600739 sec.
+     Particles: 0.0465211 sec.
+     Currents: 0.00668939 sec.
+     Fields: 0.00686341 sec.
+Output, including data synchronization: 0.390793 sec.
+Other: 0.0864794 sec.
+
+Iterations 19600-19700: 1.68903 sec.
+Computations: 1.07647 sec.
+     Pre particle loop: 0.000176063 sec.
+     Particle loop: 0.69619 sec.
+     Current deposition: 0.37495 sec.
+     Field solver: 0.00512985 sec.
+     Other: 2.6079e-05 sec.
+Communications: 0.0682475 sec.
+     Particles: 0.0547499 sec.
+     Currents: 0.0066815 sec.
+     Fields: 0.00681604 sec.
+Output, including data synchronization: 0.441472 sec.
+Other: 0.102834 sec.
+
+Iterations 19700-19800: 1.51659 sec.
+Computations: 1.07417 sec.
+     Pre particle loop: 0.000164644 sec.
+     Particle loop: 0.694132 sec.
+     Current deposition: 0.374711 sec.
+     Field solver: 0.0051389 sec.
+     Other: 2.6315e-05 sec.
+Communications: 0.0603768 sec.
+     Particles: 0.0467792 sec.
+     Currents: 0.00672169 sec.
+     Fields: 0.00687597 sec.
+Output, including data synchronization: 0.293778 sec.
+Other: 0.0882598 sec.
+
+Iterations 19800-19900: 1.62409 sec.
+Computations: 1.07396 sec.
+     Pre particle loop: 0.000163836 sec.
+     Particle loop: 0.693975 sec.
+     Current deposition: 0.374561 sec.
+     Field solver: 0.00523903 sec.
+     Other: 2.5485e-05 sec.
+Communications: 0.066623 sec.
+     Particles: 0.052871 sec.
+     Currents: 0.0067486 sec.
+     Fields: 0.00700345 sec.
+Output, including data synchronization: 0.396093 sec.
+Other: 0.0874061 sec.
+
+Iterations 19900-20000: 1.63761 sec.
+Computations: 1.07716 sec.
+     Pre particle loop: 0.000166817 sec.
+     Particle loop: 0.695234 sec.
+     Current deposition: 0.376629 sec.
+     Field solver: 0.00510549 sec.
+     Other: 2.5712e-05 sec.
+Communications: 0.0629838 sec.
+     Particles: 0.0492746 sec.
+     Currents: 0.00679896 sec.
+     Fields: 0.00691018 sec.
+Output, including data synchronization: 0.408753 sec.
+Other: 0.0887079 sec.
+
+Iterations 20000-20100: 1.53566 sec.
+Computations: 1.07419 sec.
+     Pre particle loop: 0.000153458 sec.
+     Particle loop: 0.693518 sec.
+     Current deposition: 0.375344 sec.
+     Field solver: 0.00515385 sec.
+     Other: 2.5081e-05 sec.
+Communications: 0.0636998 sec.
+     Particles: 0.050206 sec.
+     Currents: 0.00677094 sec.
+     Fields: 0.00672291 sec.
+Output, including data synchronization: 0.314037 sec.
+Other: 0.0837316 sec.
+
+Iterations 20100-20200: 1.56304 sec.
+Computations: 1.07745 sec.
+     Pre particle loop: 0.000158943 sec.
+     Particle loop: 0.694911 sec.
+     Current deposition: 0.376143 sec.
+     Field solver: 0.00621596 sec.
+     Other: 2.5028e-05 sec.
+Communications: 0.0615786 sec.
+     Particles: 0.047891 sec.
+     Currents: 0.00675791 sec.
+     Fields: 0.00692966 sec.
+Output, including data synchronization: 0.337711 sec.
+Other: 0.0863005 sec.
+
+Iterations 20200-20300: 1.61098 sec.
+Computations: 1.07863 sec.
+     Pre particle loop: 0.000163836 sec.
+     Particle loop: 0.695146 sec.
+     Current deposition: 0.375725 sec.
+     Field solver: 0.00756844 sec.
+     Other: 2.404e-05 sec.
+Communications: 0.0609159 sec.
+     Particles: 0.0471763 sec.
+     Currents: 0.00679734 sec.
+     Fields: 0.00694223 sec.
+Output, including data synchronization: 0.369792 sec.
+Other: 0.10165 sec.
+
+Iterations 20300-20400: 1.5664 sec.
+Computations: 1.07569 sec.
+     Pre particle loop: 0.000162634 sec.
+     Particle loop: 0.69422 sec.
+     Current deposition: 0.37609 sec.
+     Field solver: 0.00519413 sec.
+     Other: 2.4588e-05 sec.
+Communications: 0.0613327 sec.
+     Particles: 0.047652 sec.
+     Currents: 0.00682086 sec.
+     Fields: 0.00685984 sec.
+Output, including data synchronization: 0.340044 sec.
+Other: 0.0893346 sec.
+
+Iterations 20400-20500: 1.67089 sec.
+Computations: 1.07826 sec.
+     Pre particle loop: 0.000171269 sec.
+     Particle loop: 0.69638 sec.
+     Current deposition: 0.376519 sec.
+     Field solver: 0.00516318 sec.
+     Other: 2.3976e-05 sec.
+Communications: 0.060558 sec.
+     Particles: 0.0468274 sec.
+     Currents: 0.00670642 sec.
+     Fields: 0.00702413 sec.
+Output, including data synchronization: 0.433615 sec.
+Other: 0.0984562 sec.
+
+Iterations 20500-20600: 1.56599 sec.
+Computations: 1.07766 sec.
+     Pre particle loop: 0.000159456 sec.
+     Particle loop: 0.695654 sec.
+     Current deposition: 0.37662 sec.
+     Field solver: 0.00519823 sec.
+     Other: 2.4826e-05 sec.
+Communications: 0.0604036 sec.
+     Particles: 0.0468726 sec.
+     Currents: 0.00667307 sec.
+     Fields: 0.00685794 sec.
+Output, including data synchronization: 0.340396 sec.
+Other: 0.0875296 sec.
+
+Iterations 20600-20700: 1.64682 sec.
+Computations: 1.07527 sec.
+     Pre particle loop: 0.000153925 sec.
+     Particle loop: 0.694745 sec.
+     Current deposition: 0.375233 sec.
+     Field solver: 0.00511351 sec.
+     Other: 2.4803e-05 sec.
+Communications: 0.0600943 sec.
+     Particles: 0.0469343 sec.
+     Currents: 0.00658039 sec.
+     Fields: 0.00657963 sec.
+Output, including data synchronization: 0.410228 sec.
+Other: 0.10123 sec.
+
+Iterations 20700-20800: 1.58074 sec.
+Computations: 1.07401 sec.
+     Pre particle loop: 0.000159912 sec.
+     Particle loop: 0.694059 sec.
+     Current deposition: 0.374637 sec.
+     Field solver: 0.00513234 sec.
+     Other: 2.6713e-05 sec.
+Communications: 0.0618192 sec.
+     Particles: 0.0487134 sec.
+     Currents: 0.00653042 sec.
+     Fields: 0.00657537 sec.
+Output, including data synchronization: 0.357584 sec.
+Other: 0.0873193 sec.
+
+Iterations 20800-20900: 1.61536 sec.
+Computations: 1.07431 sec.
+     Pre particle loop: 0.000164674 sec.
+     Particle loop: 0.694172 sec.
+     Current deposition: 0.374778 sec.
+     Field solver: 0.00516515 sec.
+     Other: 2.5736e-05 sec.
+Communications: 0.0604211 sec.
+     Particles: 0.0470363 sec.
+     Currents: 0.006691 sec.
+     Fields: 0.00669387 sec.
+Output, including data synchronization: 0.391147 sec.
+Other: 0.0894896 sec.
+
+Iterations 20900-21000: 1.52626 sec.
+Computations: 1.07503 sec.
+     Pre particle loop: 0.000171111 sec.
+     Particle loop: 0.694277 sec.
+     Current deposition: 0.375432 sec.
+     Field solver: 0.00512577 sec.
+     Other: 2.5723e-05 sec.
+Communications: 0.0609595 sec.
+     Particles: 0.0478112 sec.
+     Currents: 0.00662659 sec.
+     Fields: 0.00652175 sec.
+Output, including data synchronization: 0.30438 sec.
+Other: 0.0858898 sec.
+
+Iterations 21000-21100: 1.65588 sec.
+Computations: 1.07535 sec.
+     Pre particle loop: 0.000162235 sec.
+     Particle loop: 0.694431 sec.
+     Current deposition: 0.375565 sec.
+     Field solver: 0.00516155 sec.
+     Other: 2.5729e-05 sec.
+Communications: 0.0651256 sec.
+     Particles: 0.0517201 sec.
+     Currents: 0.00672002 sec.
+     Fields: 0.00668551 sec.
+Output, including data synchronization: 0.401446 sec.
+Other: 0.113968 sec.
+
+Iterations 21100-21200: 1.63449 sec.
+Computations: 1.07637 sec.
+     Pre particle loop: 0.000171585 sec.
+     Particle loop: 0.692789 sec.
+     Current deposition: 0.378191 sec.
+     Field solver: 0.0051962 sec.
+     Other: 2.4128e-05 sec.
+Communications: 0.0626575 sec.
+     Particles: 0.0492605 sec.
+     Currents: 0.00675017 sec.
+     Fields: 0.00664677 sec.
+Output, including data synchronization: 0.393353 sec.
+Other: 0.102103 sec.
+
+Iterations 21200-21300: 1.55838 sec.
+Computations: 1.07585 sec.
+     Pre particle loop: 0.000162242 sec.
+     Particle loop: 0.693629 sec.
+     Current deposition: 0.374883 sec.
+     Field solver: 0.00714612 sec.
+     Other: 2.5454e-05 sec.
+Communications: 0.0602551 sec.
+     Particles: 0.0469739 sec.
+     Currents: 0.00666738 sec.
+     Fields: 0.00661386 sec.
+Output, including data synchronization: 0.336979 sec.
+Other: 0.0853001 sec.
+
+Iterations 21300-21400: 1.63727 sec.
+Computations: 1.0742 sec.
+     Pre particle loop: 0.000156671 sec.
+     Particle loop: 0.693792 sec.
+     Current deposition: 0.375088 sec.
+     Field solver: 0.00513592 sec.
+     Other: 2.3502e-05 sec.
+Communications: 0.0656233 sec.
+     Particles: 0.052292 sec.
+     Currents: 0.00672297 sec.
+     Fields: 0.00660835 sec.
+Output, including data synchronization: 0.406745 sec.
+Other: 0.0907043 sec.
+
+Iterations 21400-21500: 1.59054 sec.
+Computations: 1.07543 sec.
+     Pre particle loop: 0.000164071 sec.
+     Particle loop: 0.694252 sec.
+     Current deposition: 0.375836 sec.
+     Field solver: 0.00515095 sec.
+     Other: 2.4615e-05 sec.
+Communications: 0.0610642 sec.
+     Particles: 0.0477908 sec.
+     Currents: 0.00669618 sec.
+     Fields: 0.00657719 sec.
+Output, including data synchronization: 0.362616 sec.
+Other: 0.0914359 sec.
+
+Iterations 21500-21600: 1.52188 sec.
+Computations: 1.07351 sec.
+     Pre particle loop: 0.000166098 sec.
+     Particle loop: 0.693922 sec.
+     Current deposition: 0.374293 sec.
+     Field solver: 0.00510457 sec.
+     Other: 2.681e-05 sec.
+Communications: 0.0615566 sec.
+     Particles: 0.0480419 sec.
+     Currents: 0.00667198 sec.
+     Fields: 0.00684268 sec.
+Output, including data synchronization: 0.302078 sec.
+Other: 0.0847344 sec.
+
+Iterations 21600-21700: 1.64893 sec.
+Computations: 1.07527 sec.
+     Pre particle loop: 0.000159136 sec.
+     Particle loop: 0.695179 sec.
+     Current deposition: 0.374661 sec.
+     Field solver: 0.00524779 sec.
+     Other: 2.487e-05 sec.
+Communications: 0.0616629 sec.
+     Particles: 0.0481763 sec.
+     Currents: 0.00670717 sec.
+     Fields: 0.00677943 sec.
+Output, including data synchronization: 0.401454 sec.
+Other: 0.11054 sec.
+
+Iterations 21700-21800: 1.54959 sec.
+Computations: 1.0748 sec.
+     Pre particle loop: 0.000159246 sec.
+     Particle loop: 0.694613 sec.
+     Current deposition: 0.374865 sec.
+     Field solver: 0.00513715 sec.
+     Other: 2.6109e-05 sec.
+Communications: 0.0603185 sec.
+     Particles: 0.0470306 sec.
+     Currents: 0.00662823 sec.
+     Fields: 0.00665974 sec.
+Output, including data synchronization: 0.326351 sec.
+Other: 0.0881191 sec.
+
+Iterations 21800-21900: 1.55948 sec.
+Computations: 1.07525 sec.
+     Pre particle loop: 0.000174273 sec.
+     Particle loop: 0.694702 sec.
+     Current deposition: 0.375209 sec.
+     Field solver: 0.00513925 sec.
+     Other: 2.6366e-05 sec.
+Communications: 0.0607546 sec.
+     Particles: 0.0472155 sec.
+     Currents: 0.00671685 sec.
+     Fields: 0.00682232 sec.
+Output, including data synchronization: 0.336541 sec.
+Other: 0.0869336 sec.
+
+Iterations 21900-22000: 1.58807 sec.
+Computations: 1.0766 sec.
+     Pre particle loop: 0.000165438 sec.
+     Particle loop: 0.695913 sec.
+     Current deposition: 0.375321 sec.
+     Field solver: 0.00517598 sec.
+     Other: 2.5692e-05 sec.
+Communications: 0.0603802 sec.
+     Particles: 0.0468616 sec.
+     Currents: 0.00668681 sec.
+     Fields: 0.00683175 sec.
+Output, including data synchronization: 0.362595 sec.
+Other: 0.088494 sec.
+
+Iterations 22000-22100: 1.61389 sec.
+Computations: 1.08021 sec.
+     Pre particle loop: 0.000161967 sec.
+     Particle loop: 0.697666 sec.
+     Current deposition: 0.377171 sec.
+     Field solver: 0.00518759 sec.
+     Other: 2.4294e-05 sec.
+Communications: 0.0607493 sec.
+     Particles: 0.0472065 sec.
+     Currents: 0.00672918 sec.
+     Fields: 0.00681362 sec.
+Output, including data synchronization: 0.382146 sec.
+Other: 0.0907877 sec.
+
+Iterations 22100-22200: 1.5237 sec.
+Computations: 1.07952 sec.
+     Pre particle loop: 0.000164064 sec.
+     Particle loop: 0.697436 sec.
+     Current deposition: 0.376745 sec.
+     Field solver: 0.00514805 sec.
+     Other: 2.6024e-05 sec.
+Communications: 0.0608839 sec.
+     Particles: 0.0472078 sec.
+     Currents: 0.00676994 sec.
+     Fields: 0.00690623 sec.
+Output, including data synchronization: 0.2969 sec.
+Other: 0.0863991 sec.
+
+Iterations 22200-22300: 1.58558 sec.
+Computations: 1.08239 sec.
+     Pre particle loop: 0.000158632 sec.
+     Particle loop: 0.697888 sec.
+     Current deposition: 0.376177 sec.
+     Field solver: 0.00814196 sec.
+     Other: 2.4068e-05 sec.
+Communications: 0.0617848 sec.
+     Particles: 0.0481943 sec.
+     Currents: 0.00668882 sec.
+     Fields: 0.00690166 sec.
+Output, including data synchronization: 0.352361 sec.
+Other: 0.0890423 sec.
+
+Iterations 22300-22400: 1.71805 sec.
+Computations: 1.08215 sec.
+     Pre particle loop: 0.000152621 sec.
+     Particle loop: 0.700243 sec.
+     Current deposition: 0.37654 sec.
+     Field solver: 0.00518884 sec.
+     Other: 2.3648e-05 sec.
+Communications: 0.0605862 sec.
+     Particles: 0.0471113 sec.
+     Currents: 0.00676155 sec.
+     Fields: 0.00671337 sec.
+Output, including data synchronization: 0.46917 sec.
+Other: 0.106147 sec.
+
+Iterations 22400-22500: 1.60685 sec.
+Computations: 1.08435 sec.
+     Pre particle loop: 0.000159943 sec.
+     Particle loop: 0.698975 sec.
+     Current deposition: 0.376155 sec.
+     Field solver: 0.00903302 sec.
+     Other: 2.5611e-05 sec.
+Communications: 0.0628749 sec.
+     Particles: 0.0491176 sec.
+     Currents: 0.00676535 sec.
+     Fields: 0.006992 sec.
+Output, including data synchronization: 0.346303 sec.
+Other: 0.113321 sec.
+
+Iterations 22500-22600: 1.71082 sec.
+Computations: 1.08087 sec.
+     Pre particle loop: 0.000176038 sec.
+     Particle loop: 0.699612 sec.
+     Current deposition: 0.375878 sec.
+     Field solver: 0.00517588 sec.
+     Other: 2.4697e-05 sec.
+Communications: 0.0630837 sec.
+     Particles: 0.0494177 sec.
+     Currents: 0.00673422 sec.
+     Fields: 0.00693177 sec.
+Output, including data synchronization: 0.466055 sec.
+Other: 0.100814 sec.
+
+Iterations 22600-22700: 1.65681 sec.
+Computations: 1.08134 sec.
+     Pre particle loop: 0.000160472 sec.
+     Particle loop: 0.699768 sec.
+     Current deposition: 0.376196 sec.
+     Field solver: 0.00519054 sec.
+     Other: 2.4443e-05 sec.
+Communications: 0.0610532 sec.
+     Particles: 0.0473615 sec.
+     Currents: 0.00674116 sec.
+     Fields: 0.00695061 sec.
+Output, including data synchronization: 0.414491 sec.
+Other: 0.0999295 sec.
+
+Iterations 22700-22800: 1.63962 sec.
+Computations: 1.08726 sec.
+     Pre particle loop: 0.00016246 sec.
+     Particle loop: 0.700914 sec.
+     Current deposition: 0.380962 sec.
+     Field solver: 0.00519601 sec.
+     Other: 2.5195e-05 sec.
+Communications: 0.0609177 sec.
+     Particles: 0.0473065 sec.
+     Currents: 0.00678887 sec.
+     Fields: 0.00682229 sec.
+Output, including data synchronization: 0.395597 sec.
+Other: 0.0958416 sec.
+
+Iterations 22800-22900: 1.70365 sec.
+Computations: 1.08389 sec.
+     Pre particle loop: 0.000162409 sec.
+     Particle loop: 0.700509 sec.
+     Current deposition: 0.376919 sec.
+     Field solver: 0.00627599 sec.
+     Other: 2.5416e-05 sec.
+Communications: 0.0618988 sec.
+     Particles: 0.0482949 sec.
+     Currents: 0.00672947 sec.
+     Fields: 0.00687441 sec.
+Output, including data synchronization: 0.429545 sec.
+Other: 0.128316 sec.
+
+Iterations 22900-23000: 1.65823 sec.
+Computations: 1.08421 sec.
+     Pre particle loop: 0.000167868 sec.
+     Particle loop: 0.701025 sec.
+     Current deposition: 0.377771 sec.
+     Field solver: 0.00521729 sec.
+     Other: 2.408e-05 sec.
+Communications: 0.0609931 sec.
+     Particles: 0.0473286 sec.
+     Currents: 0.00674064 sec.
+     Fields: 0.00692387 sec.
+Output, including data synchronization: 0.398072 sec.
+Other: 0.11496 sec.
+
+Iterations 23000-23100: 1.55362 sec.
+Computations: 1.08182 sec.
+     Pre particle loop: 0.000162363 sec.
+     Particle loop: 0.700061 sec.
+     Current deposition: 0.376416 sec.
+     Field solver: 0.00515329 sec.
+     Other: 2.6217e-05 sec.
+Communications: 0.0610031 sec.
+     Particles: 0.0473227 sec.
+     Currents: 0.00678754 sec.
+     Fields: 0.00689281 sec.
+Output, including data synchronization: 0.318983 sec.
+Other: 0.0918189 sec.
+
+Iterations 23100-23200: 1.61973 sec.
+Computations: 1.08423 sec.
+     Pre particle loop: 0.000162667 sec.
+     Particle loop: 0.701907 sec.
+     Current deposition: 0.377004 sec.
+     Field solver: 0.00513585 sec.
+     Other: 2.4991e-05 sec.
+Communications: 0.0607574 sec.
+     Particles: 0.0471888 sec.
+     Currents: 0.00667982 sec.
+     Fields: 0.00688877 sec.
+Output, including data synchronization: 0.38776 sec.
+Other: 0.086979 sec.
+
+Iterations 23200-23300: 1.61537 sec.
+Computations: 1.08315 sec.
+     Pre particle loop: 0.000164425 sec.
+     Particle loop: 0.70104 sec.
+     Current deposition: 0.376764 sec.
+     Field solver: 0.00515257 sec.
+     Other: 2.7664e-05 sec.
+Communications: 0.0605037 sec.
+     Particles: 0.04694 sec.
+     Currents: 0.00672169 sec.
+     Fields: 0.00684197 sec.
+Output, including data synchronization: 0.380541 sec.
+Other: 0.0911759 sec.
+
+Iterations 23300-23400: 1.58181 sec.
+Computations: 1.08323 sec.
+     Pre particle loop: 0.00016164 sec.
+     Particle loop: 0.700922 sec.
+     Current deposition: 0.376974 sec.
+     Field solver: 0.00514896 sec.
+     Other: 2.3998e-05 sec.
+Communications: 0.0646481 sec.
+     Particles: 0.0511454 sec.
+     Currents: 0.00665196 sec.
+     Fields: 0.00685075 sec.
+Output, including data synchronization: 0.337376 sec.
+Other: 0.0965572 sec.
+
+Iterations 23400-23500: 1.66363 sec.
+Computations: 1.08454 sec.
+     Pre particle loop: 0.000159617 sec.
+     Particle loop: 0.702175 sec.
+     Current deposition: 0.377027 sec.
+     Field solver: 0.00515176 sec.
+     Other: 2.5433e-05 sec.
+Communications: 0.061753 sec.
+     Particles: 0.0480434 sec.
+     Currents: 0.00677912 sec.
+     Fields: 0.00693054 sec.
+Output, including data synchronization: 0.397411 sec.
+Other: 0.119924 sec.
+
+Iterations 23500-23600: 1.56005 sec.
+Computations: 1.08631 sec.
+     Pre particle loop: 0.000161408 sec.
+     Particle loop: 0.702501 sec.
+     Current deposition: 0.378289 sec.
+     Field solver: 0.00533585 sec.
+     Other: 2.5031e-05 sec.
+Communications: 0.0619022 sec.
+     Particles: 0.0479324 sec.
+     Currents: 0.00684504 sec.
+     Fields: 0.00712471 sec.
+Output, including data synchronization: 0.322722 sec.
+Other: 0.0891107 sec.
+
+Iterations 23600-23700: 1.57173 sec.
+Computations: 1.08424 sec.
+     Pre particle loop: 0.000154147 sec.
+     Particle loop: 0.699746 sec.
+     Current deposition: 0.376346 sec.
+     Field solver: 0.00797224 sec.
+     Other: 2.4664e-05 sec.
+Communications: 0.0609476 sec.
+     Particles: 0.0472375 sec.
+     Currents: 0.00676122 sec.
+     Fields: 0.00694887 sec.
+Output, including data synchronization: 0.332862 sec.
+Other: 0.0936749 sec.
+
+Iterations 23700-23800: 1.64862 sec.
+Computations: 1.08417 sec.
+     Pre particle loop: 0.000160252 sec.
+     Particle loop: 0.701471 sec.
+     Current deposition: 0.37733 sec.
+     Field solver: 0.00518053 sec.
+     Other: 2.4667e-05 sec.
+Communications: 0.0610566 sec.
+     Particles: 0.047311 sec.
+     Currents: 0.00675339 sec.
+     Fields: 0.00699216 sec.
+Output, including data synchronization: 0.416543 sec.
+Other: 0.0868533 sec.
+
+Iterations 23800-23900: 1.56868 sec.
+Computations: 1.08449 sec.
+     Pre particle loop: 0.000156136 sec.
+     Particle loop: 0.701771 sec.
+     Current deposition: 0.377406 sec.
+     Field solver: 0.0051306 sec.
+     Other: 2.5222e-05 sec.
+Communications: 0.0608516 sec.
+     Particles: 0.0473221 sec.
+     Currents: 0.00672981 sec.
+     Fields: 0.00679971 sec.
+Output, including data synchronization: 0.334026 sec.
+Other: 0.0893126 sec.
+
+Iterations 23900-24000: 1.55299 sec.
+Computations: 1.08429 sec.
+     Pre particle loop: 0.000170596 sec.
+     Particle loop: 0.701837 sec.
+     Current deposition: 0.377119 sec.
+     Field solver: 0.00514077 sec.
+     Other: 2.525e-05 sec.
+Communications: 0.0627749 sec.
+     Particles: 0.0492291 sec.
+     Currents: 0.006672 sec.
+     Fields: 0.00687374 sec.
+Output, including data synchronization: 0.300598 sec.
+Other: 0.105324 sec.
+
+Iterations 24000-24100: 1.64863 sec.
+Computations: 1.08854 sec.
+     Pre particle loop: 0.000155453 sec.
+     Particle loop: 0.70214 sec.
+     Current deposition: 0.381038 sec.
+     Field solver: 0.00517588 sec.
+     Other: 2.7136e-05 sec.
+Communications: 0.0609299 sec.
+     Particles: 0.0473424 sec.
+     Currents: 0.00671847 sec.
+     Fields: 0.00686895 sec.
+Output, including data synchronization: 0.386569 sec.
+Other: 0.112594 sec.
+
+Iterations 24100-24200: 1.65741 sec.
+Computations: 1.08174 sec.
+     Pre particle loop: 0.000166155 sec.
+     Particle loop: 0.699949 sec.
+     Current deposition: 0.376398 sec.
+     Field solver: 0.00520158 sec.
+     Other: 2.5534e-05 sec.
+Communications: 0.0611343 sec.
+     Particles: 0.0474897 sec.
+     Currents: 0.00675303 sec.
+     Fields: 0.0068916 sec.
+Output, including data synchronization: 0.406124 sec.
+Other: 0.108411 sec.
+
+Iterations 24200-24300: 1.55934 sec.
+Computations: 1.0854 sec.
+     Pre particle loop: 0.00015743 sec.
+     Particle loop: 0.702971 sec.
+     Current deposition: 0.377105 sec.
+     Field solver: 0.00513682 sec.
+     Other: 2.4951e-05 sec.
+Communications: 0.0607921 sec.
+     Particles: 0.0473003 sec.
+     Currents: 0.00669374 sec.
+     Fields: 0.00679803 sec.
+Output, including data synchronization: 0.330194 sec.
+Other: 0.082957 sec.
+
+Iterations 24300-24400: 1.59328 sec.
+Computations: 1.08559 sec.
+     Pre particle loop: 0.00015663 sec.
+     Particle loop: 0.701569 sec.
+     Current deposition: 0.378744 sec.
+     Field solver: 0.00509715 sec.
+     Other: 2.4489e-05 sec.
+Communications: 0.0610759 sec.
+     Particles: 0.0472226 sec.
+     Currents: 0.00682122 sec.
+     Fields: 0.00703206 sec.
+Output, including data synchronization: 0.340579 sec.
+Other: 0.106034 sec.
+
+Iterations 24400-24500: 1.62707 sec.
+Computations: 1.0822 sec.
+     Pre particle loop: 0.000158816 sec.
+     Particle loop: 0.700506 sec.
+     Current deposition: 0.376379 sec.
+     Field solver: 0.00512783 sec.
+     Other: 2.4779e-05 sec.
+Communications: 0.0607595 sec.
+     Particles: 0.0471705 sec.
+     Currents: 0.00674687 sec.
+     Fields: 0.00684208 sec.
+Output, including data synchronization: 0.396373 sec.
+Other: 0.0877446 sec.
+
+Iterations 24500-24600: 1.56577 sec.
+Computations: 1.08492 sec.
+     Pre particle loop: 0.000157806 sec.
+     Particle loop: 0.702637 sec.
+     Current deposition: 0.376995 sec.
+     Field solver: 0.00510275 sec.
+     Other: 2.6441e-05 sec.
+Communications: 0.0606633 sec.
+     Particles: 0.0471165 sec.
+     Currents: 0.00672583 sec.
+     Fields: 0.00682092 sec.
+Output, including data synchronization: 0.330698 sec.
+Other: 0.0894932 sec.
+
+Iterations 24600-24700: 1.72436 sec.
+Computations: 1.0909 sec.
+     Pre particle loop: 0.00015688 sec.
+     Particle loop: 0.703237 sec.
+     Current deposition: 0.382274 sec.
+     Field solver: 0.00520576 sec.
+     Other: 2.448e-05 sec.
+Communications: 0.0606897 sec.
+     Particles: 0.0471417 sec.
+     Currents: 0.00673161 sec.
+     Fields: 0.00681636 sec.
+Output, including data synchronization: 0.451448 sec.
+Other: 0.121321 sec.
+
+Iterations 24700-24800: 1.62475 sec.
+Computations: 1.08792 sec.
+     Pre particle loop: 0.000163603 sec.
+     Particle loop: 0.705315 sec.
+     Current deposition: 0.377267 sec.
+     Field solver: 0.00514666 sec.
+     Other: 2.5894e-05 sec.
+Communications: 0.0605324 sec.
+     Particles: 0.0470489 sec.
+     Currents: 0.00668101 sec.
+     Fields: 0.00680246 sec.
+Output, including data synchronization: 0.360266 sec.
+Other: 0.116031 sec.
+
+Iterations 24800-24900: 1.5296 sec.
+Computations: 1.08833 sec.
+     Pre particle loop: 0.000162178 sec.
+     Particle loop: 0.704375 sec.
+     Current deposition: 0.378651 sec.
+     Field solver: 0.00512038 sec.
+     Other: 2.3955e-05 sec.
+Communications: 0.0605909 sec.
+     Particles: 0.047054 sec.
+     Currents: 0.00673199 sec.
+     Fields: 0.0068049 sec.
+Output, including data synchronization: 0.290878 sec.
+Other: 0.0898 sec.
+
+Iterations 24900-25000: 1.63019 sec.
+Computations: 1.08628 sec.
+     Pre particle loop: 0.000159869 sec.
+     Particle loop: 0.703644 sec.
+     Current deposition: 0.377339 sec.
+     Field solver: 0.00511417 sec.
+     Other: 2.7001e-05 sec.
+Communications: 0.0605755 sec.
+     Particles: 0.0470225 sec.
+     Currents: 0.00668265 sec.
+     Fields: 0.0068703 sec.
+Output, including data synchronization: 0.394443 sec.
+Other: 0.0888861 sec.
+
+Iterations 25000-25100: 1.60201 sec.
+Computations: 1.09313 sec.
+     Pre particle loop: 0.000163664 sec.
+     Particle loop: 0.704939 sec.
+     Current deposition: 0.378843 sec.
+     Field solver: 0.00916009 sec.
+     Other: 2.438e-05 sec.
+Communications: 0.0615793 sec.
+     Particles: 0.0478936 sec.
+     Currents: 0.00665931 sec.
+     Fields: 0.00702643 sec.
+Output, including data synchronization: 0.360962 sec.
+Other: 0.0863347 sec.
+
+Iterations 25100-25200: 1.55318 sec.
+Computations: 1.08745 sec.
+     Pre particle loop: 0.000157626 sec.
+     Particle loop: 0.704213 sec.
+     Current deposition: 0.377922 sec.
+     Field solver: 0.00513388 sec.
+     Other: 2.459e-05 sec.
+Communications: 0.0629238 sec.
+     Particles: 0.049378 sec.
+     Currents: 0.00666977 sec.
+     Fields: 0.00687607 sec.
+Output, including data synchronization: 0.307638 sec.
+Other: 0.0951693 sec.
+
+Iterations 25200-25300: 1.6431 sec.
+Computations: 1.08619 sec.
+     Pre particle loop: 0.000165609 sec.
+     Particle loop: 0.703266 sec.
+     Current deposition: 0.377569 sec.
+     Field solver: 0.00515999 sec.
+     Other: 2.4837e-05 sec.
+Communications: 0.0605829 sec.
+     Particles: 0.0470352 sec.
+     Currents: 0.00668924 sec.
+     Fields: 0.00685847 sec.
+Output, including data synchronization: 0.385751 sec.
+Other: 0.11058 sec.
+
+Iterations 25300-25400: 1.65525 sec.
+Computations: 1.08803 sec.
+     Pre particle loop: 0.000166132 sec.
+     Particle loop: 0.704685 sec.
+     Current deposition: 0.378006 sec.
+     Field solver: 0.00514619 sec.
+     Other: 2.5555e-05 sec.
+Communications: 0.0605279 sec.
+     Particles: 0.0470309 sec.
+     Currents: 0.00665094 sec.
+     Fields: 0.00684602 sec.
+Output, including data synchronization: 0.388291 sec.
+Other: 0.118404 sec.
+
+Iterations 25400-25500: 1.5159 sec.
+Computations: 1.08728 sec.
+     Pre particle loop: 0.000155196 sec.
+     Particle loop: 0.704099 sec.
+     Current deposition: 0.377888 sec.
+     Field solver: 0.0051158 sec.
+     Other: 2.5753e-05 sec.
+Communications: 0.0607302 sec.
+     Particles: 0.0471955 sec.
+     Currents: 0.00674791 sec.
+     Fields: 0.00678681 sec.
+Output, including data synchronization: 0.280356 sec.
+Other: 0.0875283 sec.
+
+Iterations 25500-25600: 1.74277 sec.
+Computations: 1.08689 sec.
+     Pre particle loop: 0.000154232 sec.
+     Particle loop: 0.703884 sec.
+     Current deposition: 0.377709 sec.
+     Field solver: 0.00511832 sec.
+     Other: 2.6232e-05 sec.
+Communications: 0.0606349 sec.
+     Particles: 0.0471591 sec.
+     Currents: 0.00665501 sec.
+     Fields: 0.00682073 sec.
+Output, including data synchronization: 0.503045 sec.
+Other: 0.0922008 sec.
+
+Iterations 25600-25700: 1.60334 sec.
+Computations: 1.08766 sec.
+     Pre particle loop: 0.000169716 sec.
+     Particle loop: 0.704365 sec.
+     Current deposition: 0.377958 sec.
+     Field solver: 0.00514118 sec.
+     Other: 2.5534e-05 sec.
+Communications: 0.0606659 sec.
+     Particles: 0.0470769 sec.
+     Currents: 0.00673044 sec.
+     Fields: 0.00685854 sec.
+Output, including data synchronization: 0.362991 sec.
+Other: 0.092022 sec.
+
+Iterations 25700-25800: 1.55886 sec.
+Computations: 1.08637 sec.
+     Pre particle loop: 0.0001549 sec.
+     Particle loop: 0.703763 sec.
+     Current deposition: 0.377303 sec.
+     Field solver: 0.00511997 sec.
+     Other: 2.7539e-05 sec.
+Communications: 0.0605744 sec.
+     Particles: 0.0470058 sec.
+     Currents: 0.00674452 sec.
+     Fields: 0.00682401 sec.
+Output, including data synchronization: 0.314719 sec.
+Other: 0.0971999 sec.
+
+Iterations 25800-25900: 1.76998 sec.
+Computations: 1.08858 sec.
+     Pre particle loop: 0.000148349 sec.
+     Particle loop: 0.705019 sec.
+     Current deposition: 0.378184 sec.
+     Field solver: 0.00520233 sec.
+     Other: 2.4632e-05 sec.
+Communications: 0.060149 sec.
+     Particles: 0.0468245 sec.
+     Currents: 0.00648367 sec.
+     Fields: 0.00684084 sec.
+Output, including data synchronization: 0.504925 sec.
+Other: 0.116329 sec.
+
+Iterations 25900-26000: 1.63238 sec.
+Computations: 1.08723 sec.
+     Pre particle loop: 0.000152771 sec.
+     Particle loop: 0.704153 sec.
+     Current deposition: 0.377776 sec.
+     Field solver: 0.00512727 sec.
+     Other: 2.376e-05 sec.
+Communications: 0.0642631 sec.
+     Particles: 0.0509314 sec.
+     Currents: 0.00651597 sec.
+     Fields: 0.00681574 sec.
+Output, including data synchronization: 0.377546 sec.
+Other: 0.103334 sec.
+
+Iterations 26000-26100: 1.549 sec.
+Computations: 1.08648 sec.
+     Pre particle loop: 0.000157087 sec.
+     Particle loop: 0.703774 sec.
+     Current deposition: 0.377364 sec.
+     Field solver: 0.00515931 sec.
+     Other: 2.5636e-05 sec.
+Communications: 0.0603147 sec.
+     Particles: 0.0469382 sec.
+     Currents: 0.00656922 sec.
+     Fields: 0.00680725 sec.
+Output, including data synchronization: 0.286604 sec.
+Other: 0.115597 sec.
+
+Iterations 26100-26200: 1.62241 sec.
+Computations: 1.08804 sec.
+     Pre particle loop: 0.000162799 sec.
+     Particle loop: 0.704665 sec.
+     Current deposition: 0.37801 sec.
+     Field solver: 0.00517805 sec.
+     Other: 2.6824e-05 sec.
+Communications: 0.0602824 sec.
+     Particles: 0.0468887 sec.
+     Currents: 0.00661512 sec.
+     Fields: 0.00677863 sec.
+Output, including data synchronization: 0.38202 sec.
+Other: 0.0920688 sec.
+
+Iterations 26200-26300: 1.57474 sec.
+Computations: 1.08537 sec.
+     Pre particle loop: 0.000162786 sec.
+     Particle loop: 0.70314 sec.
+     Current deposition: 0.376957 sec.
+     Field solver: 0.00508934 sec.
+     Other: 2.5082e-05 sec.
+Communications: 0.0615016 sec.
+     Particles: 0.0480042 sec.
+     Currents: 0.00665071 sec.
+     Fields: 0.00684665 sec.
+Output, including data synchronization: 0.337784 sec.
+Other: 0.0900844 sec.
+
+Iterations 26300-26400: 1.5506 sec.
+Computations: 1.08733 sec.
+     Pre particle loop: 0.000155731 sec.
+     Particle loop: 0.703826 sec.
+     Current deposition: 0.378129 sec.
+     Field solver: 0.00519412 sec.
+     Other: 2.5498e-05 sec.
+Communications: 0.0605865 sec.
+     Particles: 0.0470851 sec.
+     Currents: 0.00672902 sec.
+     Fields: 0.00677243 sec.
+Output, including data synchronization: 0.315097 sec.
+Other: 0.0875874 sec.
+
+Iterations 26400-26500: 1.64746 sec.
+Computations: 1.08431 sec.
+     Pre particle loop: 0.000171491 sec.
+     Particle loop: 0.702087 sec.
+     Current deposition: 0.376827 sec.
+     Field solver: 0.00519936 sec.
+     Other: 2.4356e-05 sec.
+Communications: 0.0609601 sec.
+     Particles: 0.0473241 sec.
+     Currents: 0.0068269 sec.
+     Fields: 0.00680916 sec.
+Output, including data synchronization: 0.404425 sec.
+Other: 0.0977688 sec.
+
+Iterations 26500-26600: 1.63153 sec.
+Computations: 1.08685 sec.
+     Pre particle loop: 0.000173515 sec.
+     Particle loop: 0.703334 sec.
+     Current deposition: 0.378148 sec.
+     Field solver: 0.00517233 sec.
+     Other: 2.6529e-05 sec.
+Communications: 0.0607706 sec.
+     Particles: 0.0471572 sec.
+     Currents: 0.0067412 sec.
+     Fields: 0.00687219 sec.
+Output, including data synchronization: 0.362328 sec.
+Other: 0.121576 sec.
+
+Iterations 26600-26700: 1.55182 sec.
+Computations: 1.08777 sec.
+     Pre particle loop: 0.000161631 sec.
+     Particle loop: 0.703288 sec.
+     Current deposition: 0.376695 sec.
+     Field solver: 0.00760041 sec.
+     Other: 2.393e-05 sec.
+Communications: 0.0608827 sec.
+     Particles: 0.0472342 sec.
+     Currents: 0.00673991 sec.
+     Fields: 0.00690854 sec.
+Output, including data synchronization: 0.294826 sec.
+Other: 0.108338 sec.
+
+Iterations 26700-26800: 1.64935 sec.
+Computations: 1.09009 sec.
+     Pre particle loop: 0.000167378 sec.
+     Particle loop: 0.704706 sec.
+     Current deposition: 0.377019 sec.
+     Field solver: 0.00817499 sec.
+     Other: 2.6388e-05 sec.
+Communications: 0.0629263 sec.
+     Particles: 0.0493906 sec.
+     Currents: 0.00667007 sec.
+     Fields: 0.00686562 sec.
+Output, including data synchronization: 0.407815 sec.
+Other: 0.0885166 sec.
+
+Iterations 26800-26900: 1.61189 sec.
+Computations: 1.08675 sec.
+     Pre particle loop: 0.000166173 sec.
+     Particle loop: 0.704036 sec.
+     Current deposition: 0.377383 sec.
+     Field solver: 0.005139 sec.
+     Other: 2.4882e-05 sec.
+Communications: 0.0606844 sec.
+     Particles: 0.0470616 sec.
+     Currents: 0.00668069 sec.
+     Fields: 0.0069421 sec.
+Output, including data synchronization: 0.37813 sec.
+Other: 0.0863295 sec.
+
+Iterations 26900-27000: 1.5694 sec.
+Computations: 1.08531 sec.
+     Pre particle loop: 0.0001587 sec.
+     Particle loop: 0.702867 sec.
+     Current deposition: 0.37711 sec.
+     Field solver: 0.00514678 sec.
+     Other: 2.5119e-05 sec.
+Communications: 0.0606841 sec.
+     Particles: 0.04717 sec.
+     Currents: 0.00667568 sec.
+     Fields: 0.00683838 sec.
+Output, including data synchronization: 0.299251 sec.
+Other: 0.124156 sec.
+
+Iterations 27000-27100: 1.59024 sec.
+Computations: 1.08562 sec.
+     Pre particle loop: 0.00016353 sec.
+     Particle loop: 0.70315 sec.
+     Current deposition: 0.377125 sec.
+     Field solver: 0.00516225 sec.
+     Other: 2.4392e-05 sec.
+Communications: 0.0609198 sec.
+     Particles: 0.047206 sec.
+     Currents: 0.00676469 sec.
+     Fields: 0.00694909 sec.
+Output, including data synchronization: 0.353905 sec.
+Other: 0.0897865 sec.
+
+Iterations 27100-27200: 1.69987 sec.
+Computations: 1.08697 sec.
+     Pre particle loop: 0.000163742 sec.
+     Particle loop: 0.704585 sec.
+     Current deposition: 0.377056 sec.
+     Field solver: 0.00514227 sec.
+     Other: 2.3199e-05 sec.
+Communications: 0.0661592 sec.
+     Particles: 0.0525562 sec.
+     Currents: 0.00677337 sec.
+     Fields: 0.00682963 sec.
+Output, including data synchronization: 0.447618 sec.
+Other: 0.0991236 sec.
+
+Iterations 27200-27300: 1.52123 sec.
+Computations: 1.09637 sec.
+     Pre particle loop: 0.00015502 sec.
+     Particle loop: 0.712823 sec.
+     Current deposition: 0.378255 sec.
+     Field solver: 0.00510886 sec.
+     Other: 2.452e-05 sec.
+Communications: 0.0603808 sec.
+     Particles: 0.047009 sec.
+     Currents: 0.00658159 sec.
+     Fields: 0.00679021 sec.
+Output, including data synchronization: 0.269633 sec.
+Other: 0.0948535 sec.
+
+Iterations 27300-27400: 1.62588 sec.
+Computations: 1.08433 sec.
+     Pre particle loop: 0.000150557 sec.
+     Particle loop: 0.702126 sec.
+     Current deposition: 0.376903 sec.
+     Field solver: 0.00512913 sec.
+     Other: 2.4319e-05 sec.
+Communications: 0.0603605 sec.
+     Particles: 0.0468782 sec.
+     Currents: 0.00652466 sec.
+     Fields: 0.00695756 sec.
+Output, including data synchronization: 0.38928 sec.
+Other: 0.0919083 sec.
+
+Iterations 27400-27500: 1.70471 sec.
+Computations: 1.08401 sec.
+     Pre particle loop: 0.000168022 sec.
+     Particle loop: 0.702 sec.
+     Current deposition: 0.376653 sec.
+     Field solver: 0.00516194 sec.
+     Other: 2.7665e-05 sec.
+Communications: 0.0608497 sec.
+     Particles: 0.0471951 sec.
+     Currents: 0.00668241 sec.
+     Fields: 0.00697224 sec.
+Output, including data synchronization: 0.418482 sec.
+Other: 0.141366 sec.
+
+Iterations 27500-27600: 1.53276 sec.
+Computations: 1.09134 sec.
+     Pre particle loop: 0.000150252 sec.
+     Particle loop: 0.703964 sec.
+     Current deposition: 0.382067 sec.
+     Field solver: 0.0051288 sec.
+     Other: 2.6569e-05 sec.
+Communications: 0.0603314 sec.
+     Particles: 0.0469551 sec.
+     Currents: 0.00660084 sec.
+     Fields: 0.00677556 sec.
+Output, including data synchronization: 0.276413 sec.
+Other: 0.104677 sec.
+
+Iterations 27600-27700: 1.59721 sec.
+Computations: 1.08559 sec.
+     Pre particle loop: 0.000170235 sec.
+     Particle loop: 0.702968 sec.
+     Current deposition: 0.377303 sec.
+     Field solver: 0.0051255 sec.
+     Other: 2.4576e-05 sec.
+Communications: 0.0617703 sec.
+     Particles: 0.0481931 sec.
+     Currents: 0.00670511 sec.
+     Fields: 0.00687209 sec.
+Output, including data synchronization: 0.32526 sec.
+Other: 0.12459 sec.
+
+Iterations 27700-27800: 1.70411 sec.
+Computations: 1.08667 sec.
+     Pre particle loop: 0.000162119 sec.
+     Particle loop: 0.703831 sec.
+     Current deposition: 0.377502 sec.
+     Field solver: 0.00515077 sec.
+     Other: 2.3341e-05 sec.
+Communications: 0.0605286 sec.
+     Particles: 0.0469931 sec.
+     Currents: 0.00668511 sec.
+     Fields: 0.00685038 sec.
+Output, including data synchronization: 0.423487 sec.
+Other: 0.133422 sec.
+
+Iterations 27800-27900: 1.60611 sec.
+Computations: 1.08695 sec.
+     Pre particle loop: 0.000171542 sec.
+     Particle loop: 0.702926 sec.
+     Current deposition: 0.37865 sec.
+     Field solver: 0.005174 sec.
+     Other: 2.6312e-05 sec.
+Communications: 0.0603638 sec.
+     Particles: 0.046804 sec.
+     Currents: 0.00663131 sec.
+     Fields: 0.0069284 sec.
+Output, including data synchronization: 0.359733 sec.
+Other: 0.0990692 sec.
+
+Iterations 27900-28000: 1.65023 sec.
+Computations: 1.08801 sec.
+     Pre particle loop: 0.000163856 sec.
+     Particle loop: 0.705021 sec.
+     Current deposition: 0.377645 sec.
+     Field solver: 0.00515637 sec.
+     Other: 2.4152e-05 sec.
+Communications: 0.060492 sec.
+     Particles: 0.0470442 sec.
+     Currents: 0.00662593 sec.
+     Fields: 0.00682187 sec.
+Output, including data synchronization: 0.404916 sec.
+Other: 0.0968087 sec.
+
+Iterations 28000-28100: 1.66706 sec.
+Computations: 1.08549 sec.
+     Pre particle loop: 0.000177929 sec.
+     Particle loop: 0.702921 sec.
+     Current deposition: 0.3772 sec.
+     Field solver: 0.00516608 sec.
+     Other: 2.43e-05 sec.
+Communications: 0.0605516 sec.
+     Particles: 0.0469594 sec.
+     Currents: 0.00668136 sec.
+     Fields: 0.00691079 sec.
+Output, including data synchronization: 0.419391 sec.
+Other: 0.101632 sec.
+
+Iterations 28100-28200: 1.50654 sec.
+Computations: 1.08525 sec.
+     Pre particle loop: 0.00016908 sec.
+     Particle loop: 0.703119 sec.
+     Current deposition: 0.376801 sec.
+     Field solver: 0.0051384 sec.
+     Other: 2.3694e-05 sec.
+Communications: 0.060471 sec.
+     Particles: 0.0469145 sec.
+     Currents: 0.00668799 sec.
+     Fields: 0.00686844 sec.
+Output, including data synchronization: 0.272705 sec.
+Other: 0.0881098 sec.
+
+Iterations 28200-28300: 1.6453 sec.
+Computations: 1.08567 sec.
+     Pre particle loop: 0.000170074 sec.
+     Particle loop: 0.702974 sec.
+     Current deposition: 0.376409 sec.
+     Field solver: 0.00608932 sec.
+     Other: 2.5306e-05 sec.
+Communications: 0.0674637 sec.
+     Particles: 0.0539276 sec.
+     Currents: 0.00663423 sec.
+     Fields: 0.0069019 sec.
+Output, including data synchronization: 0.387448 sec.
+Other: 0.104725 sec.
+
+Iterations 28300-28400: 1.78876 sec.
+Computations: 1.08414 sec.
+     Pre particle loop: 0.000167097 sec.
+     Particle loop: 0.702442 sec.
+     Current deposition: 0.376358 sec.
+     Field solver: 0.00514581 sec.
+     Other: 2.5475e-05 sec.
+Communications: 0.0607226 sec.
+     Particles: 0.0471609 sec.
+     Currents: 0.00669439 sec.
+     Fields: 0.00686727 sec.
+Output, including data synchronization: 0.543303 sec.
+Other: 0.100598 sec.
+
+Iterations 28400-28500: 1.5563 sec.
+Computations: 1.08388 sec.
+     Pre particle loop: 0.000164665 sec.
+     Particle loop: 0.702174 sec.
+     Current deposition: 0.376378 sec.
+     Field solver: 0.00513253 sec.
+     Other: 2.6428e-05 sec.
+Communications: 0.0604823 sec.
+     Particles: 0.0470815 sec.
+     Currents: 0.00661909 sec.
+     Fields: 0.00678165 sec.
+Output, including data synchronization: 0.30376 sec.
+Other: 0.108178 sec.
+
+Iterations 28500-28600: 1.95508 sec.
+Computations: 1.08274 sec.
+     Pre particle loop: 0.000161699 sec.
+     Particle loop: 0.700908 sec.
+     Current deposition: 0.376523 sec.
+     Field solver: 0.00512112 sec.
+     Other: 2.7423e-05 sec.
+Communications: 0.0646924 sec.
+     Particles: 0.0511382 sec.
+     Currents: 0.00666974 sec.
+     Fields: 0.00688446 sec.
+Output, including data synchronization: 0.707552 sec.
+Other: 0.100099 sec.
+
+Iterations 28600-28700: 1.69745 sec.
+Computations: 1.08227 sec.
+     Pre particle loop: 0.000166161 sec.
+     Particle loop: 0.70082 sec.
+     Current deposition: 0.37602 sec.
+     Field solver: 0.00523799 sec.
+     Other: 2.41e-05 sec.
+Communications: 0.0610491 sec.
+     Particles: 0.0472501 sec.
+     Currents: 0.00672672 sec.
+     Fields: 0.00707232 sec.
+Output, including data synchronization: 0.461837 sec.
+Other: 0.0922909 sec.
+
+Iterations 28700-28800: 1.55309 sec.
+Computations: 1.08157 sec.
+     Pre particle loop: 0.000171887 sec.
+     Particle loop: 0.700233 sec.
+     Current deposition: 0.375962 sec.
+     Field solver: 0.00518343 sec.
+     Other: 2.527e-05 sec.
+Communications: 0.0606684 sec.
+     Particles: 0.0471683 sec.
+     Currents: 0.00668226 sec.
+     Fields: 0.00681793 sec.
+Output, including data synchronization: 0.317762 sec.
+Other: 0.0930862 sec.
+
+Iterations 28800-28900: 1.60832 sec.
+Computations: 1.08524 sec.
+     Pre particle loop: 0.000167558 sec.
+     Particle loop: 0.702378 sec.
+     Current deposition: 0.377489 sec.
+     Field solver: 0.00518374 sec.
+     Other: 2.4704e-05 sec.
+Communications: 0.0615535 sec.
+     Particles: 0.0480029 sec.
+     Currents: 0.00669544 sec.
+     Fields: 0.00685516 sec.
+Output, including data synchronization: 0.370779 sec.
+Other: 0.0907429 sec.
+
+Iterations 28900-29000: 1.68073 sec.
+Computations: 1.08393 sec.
+     Pre particle loop: 0.000162593 sec.
+     Particle loop: 0.702317 sec.
+     Current deposition: 0.376278 sec.
+     Field solver: 0.00514281 sec.
+     Other: 2.6187e-05 sec.
+Communications: 0.0601548 sec.
+     Particles: 0.0467796 sec.
+     Currents: 0.00666709 sec.
+     Fields: 0.00670811 sec.
+Output, including data synchronization: 0.439663 sec.
+Other: 0.0969845 sec.
+
+Iterations 29000-29100: 1.5793 sec.
+Computations: 1.08407 sec.
+     Pre particle loop: 0.000168161 sec.
+     Particle loop: 0.702111 sec.
+     Current deposition: 0.376639 sec.
+     Field solver: 0.00512214 sec.
+     Other: 2.5149e-05 sec.
+Communications: 0.0605578 sec.
+     Particles: 0.04707 sec.
+     Currents: 0.00673452 sec.
+     Fields: 0.00675326 sec.
+Output, including data synchronization: 0.328391 sec.
+Other: 0.106283 sec.
+
+Iterations 29100-29200: 1.60504 sec.
+Computations: 1.08492 sec.
+     Pre particle loop: 0.000164491 sec.
+     Particle loop: 0.7029 sec.
+     Current deposition: 0.376659 sec.
+     Field solver: 0.0051722 sec.
+     Other: 2.5101e-05 sec.
+Communications: 0.0603851 sec.
+     Particles: 0.0469286 sec.
+     Currents: 0.00660036 sec.
+     Fields: 0.00685616 sec.
+Output, including data synchronization: 0.370946 sec.
+Other: 0.0887902 sec.
+
+Iterations 29200-29300: 1.67133 sec.
+Computations: 1.08533 sec.
+     Pre particle loop: 0.000157804 sec.
+     Particle loop: 0.701693 sec.
+     Current deposition: 0.377369 sec.
+     Field solver: 0.00608938 sec.
+     Other: 2.5574e-05 sec.
+Communications: 0.0613439 sec.
+     Particles: 0.0477429 sec.
+     Currents: 0.0067609 sec.
+     Fields: 0.00684009 sec.
+Output, including data synchronization: 0.433571 sec.
+Other: 0.091078 sec.
+
+Iterations 29300-29400: 1.51498 sec.
+Computations: 1.08261 sec.
+     Pre particle loop: 0.0001565 sec.
+     Particle loop: 0.701086 sec.
+     Current deposition: 0.37614 sec.
+     Field solver: 0.00520028 sec.
+     Other: 2.5059e-05 sec.
+Communications: 0.0605804 sec.
+     Particles: 0.0469859 sec.
+     Currents: 0.00667839 sec.
+     Fields: 0.00691611 sec.
+Output, including data synchronization: 0.284546 sec.
+Other: 0.0872413 sec.
+
+Iterations 29400-29500: 1.66314 sec.
+Computations: 1.08472 sec.
+     Pre particle loop: 0.000162591 sec.
+     Particle loop: 0.703195 sec.
+     Current deposition: 0.376187 sec.
+     Field solver: 0.00514987 sec.
+     Other: 2.5365e-05 sec.
+Communications: 0.0612631 sec.
+     Particles: 0.047863 sec.
+     Currents: 0.00658938 sec.
+     Fields: 0.00681073 sec.
+Output, including data synchronization: 0.421565 sec.
+Other: 0.0955921 sec.
+
+Iterations 29500-29600: 1.68379 sec.
+Computations: 1.08588 sec.
+     Pre particle loop: 0.000160969 sec.
+     Particle loop: 0.701179 sec.
+     Current deposition: 0.379325 sec.
+     Field solver: 0.00518614 sec.
+     Other: 2.6155e-05 sec.
+Communications: 0.0607795 sec.
+     Particles: 0.0470758 sec.
+     Currents: 0.00673823 sec.
+     Fields: 0.00696545 sec.
+Output, including data synchronization: 0.441665 sec.
+Other: 0.0954677 sec.
+
+Iterations 29600-29700: 1.63261 sec.
+Computations: 1.08474 sec.
+     Pre particle loop: 0.000158559 sec.
+     Particle loop: 0.70142 sec.
+     Current deposition: 0.377889 sec.
+     Field solver: 0.00524165 sec.
+     Other: 2.728e-05 sec.
+Communications: 0.0610353 sec.
+     Particles: 0.0476427 sec.
+     Currents: 0.00670585 sec.
+     Fields: 0.00668678 sec.
+Output, including data synchronization: 0.371669 sec.
+Other: 0.11517 sec.
+
+Iterations 29700-29800: 1.63457 sec.
+Computations: 1.08446 sec.
+     Pre particle loop: 0.000154115 sec.
+     Particle loop: 0.702402 sec.
+     Current deposition: 0.376708 sec.
+     Field solver: 0.00517413 sec.
+     Other: 2.5554e-05 sec.
+Communications: 0.0601655 sec.
+     Particles: 0.0468498 sec.
+     Currents: 0.00660952 sec.
+     Fields: 0.00670615 sec.
+Output, including data synchronization: 0.396236 sec.
+Other: 0.0937049 sec.
+
+Iterations 29800-29900: 1.60658 sec.
+Computations: 1.08422 sec.
+     Pre particle loop: 0.00015976 sec.
+     Particle loop: 0.70214 sec.
+     Current deposition: 0.376703 sec.
+     Field solver: 0.00518697 sec.
+     Other: 2.4929e-05 sec.
+Communications: 0.0604439 sec.
+     Particles: 0.0470382 sec.
+     Currents: 0.00660057 sec.
+     Fields: 0.00680504 sec.
+Output, including data synchronization: 0.359875 sec.
+Other: 0.102044 sec.
+
+Iterations 29900-30000: 1.60053 sec.
+Computations: 1.08379 sec.
+     Pre particle loop: 0.0001884 sec.
+     Particle loop: 0.701963 sec.
+     Current deposition: 0.376446 sec.
+     Field solver: 0.0051633 sec.
+     Other: 2.6349e-05 sec.
+Communications: 0.0603879 sec.
+     Particles: 0.0470529 sec.
+     Currents: 0.00660747 sec.
+     Fields: 0.00672759 sec.
+Output, including data synchronization: 0.370426 sec.
+Other: 0.0859254 sec.
+
+Iterations 30000-30100: 1.6314 sec.
+Computations: 1.08465 sec.
+     Pre particle loop: 0.000175899 sec.
+     Particle loop: 0.701509 sec.
+     Current deposition: 0.377795 sec.
+     Field solver: 0.00514307 sec.
+     Other: 2.6709e-05 sec.
+Communications: 0.0605486 sec.
+     Particles: 0.0471021 sec.
+     Currents: 0.00661193 sec.
+     Fields: 0.00683453 sec.
+Output, including data synchronization: 0.381446 sec.
+Other: 0.104754 sec.
+
+Iterations 30100-30200: 1.5571 sec.
+Computations: 1.08807 sec.
+     Pre particle loop: 0.000157119 sec.
+     Particle loop: 0.705598 sec.
+     Current deposition: 0.377118 sec.
+     Field solver: 0.00515474 sec.
+     Other: 3.885e-05 sec.
+Communications: 0.0608168 sec.
+     Particles: 0.0472007 sec.
+     Currents: 0.00670893 sec.
+     Fields: 0.00690717 sec.
+Output, including data synchronization: 0.310739 sec.
+Other: 0.0974732 sec.
+
+Iterations 30200-30300: 1.5983 sec.
+Computations: 1.08487 sec.
+     Pre particle loop: 0.000154787 sec.
+     Particle loop: 0.702232 sec.
+     Current deposition: 0.377293 sec.
+     Field solver: 0.00516714 sec.
+     Other: 2.5778e-05 sec.
+Communications: 0.0631727 sec.
+     Particles: 0.0496833 sec.
+     Currents: 0.0066561 sec.
+     Fields: 0.00683337 sec.
+Output, including data synchronization: 0.334528 sec.
+Other: 0.115726 sec.
+
+Iterations 30300-30400: 1.63872 sec.
+Computations: 1.08492 sec.
+     Pre particle loop: 0.000156701 sec.
+     Particle loop: 0.702523 sec.
+     Current deposition: 0.377042 sec.
+     Field solver: 0.00516954 sec.
+     Other: 2.4841e-05 sec.
+Communications: 0.0606508 sec.
+     Particles: 0.0471872 sec.
+     Currents: 0.00672246 sec.
+     Fields: 0.00674117 sec.
+Output, including data synchronization: 0.375994 sec.
+Other: 0.117163 sec.
+
+Iterations 30400-30500: 1.57028 sec.
+Computations: 1.08531 sec.
+     Pre particle loop: 0.000147893 sec.
+     Particle loop: 0.702978 sec.
+     Current deposition: 0.376983 sec.
+     Field solver: 0.00517406 sec.
+     Other: 2.5607e-05 sec.
+Communications: 0.0606063 sec.
+     Particles: 0.0472172 sec.
+     Currents: 0.00665185 sec.
+     Fields: 0.00673724 sec.
+Output, including data synchronization: 0.329462 sec.
+Other: 0.094904 sec.
+
+Iterations 30500-30600: 1.56048 sec.
+Computations: 1.08815 sec.
+     Pre particle loop: 0.000151694 sec.
+     Particle loop: 0.702454 sec.
+     Current deposition: 0.380385 sec.
+     Field solver: 0.00513217 sec.
+     Other: 2.5007e-05 sec.
+Communications: 0.0611 sec.
+     Particles: 0.0474429 sec.
+     Currents: 0.0067482 sec.
+     Fields: 0.00690886 sec.
+Output, including data synchronization: 0.326387 sec.
+Other: 0.0848435 sec.
+
+Iterations 30600-30700: 1.62168 sec.
+Computations: 1.0882 sec.
+     Pre particle loop: 0.000153995 sec.
+     Particle loop: 0.702783 sec.
+     Current deposition: 0.380018 sec.
+     Field solver: 0.00521701 sec.
+     Other: 2.4877e-05 sec.
+Communications: 0.0605883 sec.
+     Particles: 0.0470473 sec.
+     Currents: 0.00666242 sec.
+     Fields: 0.00687856 sec.
+Output, including data synchronization: 0.385986 sec.
+Other: 0.0869092 sec.
+
+Iterations 30700-30800: 1.69556 sec.
+Computations: 1.08608 sec.
+     Pre particle loop: 0.000154958 sec.
+     Particle loop: 0.703534 sec.
+     Current deposition: 0.377175 sec.
+     Field solver: 0.00519603 sec.
+     Other: 2.5253e-05 sec.
+Communications: 0.0605253 sec.
+     Particles: 0.0469405 sec.
+     Currents: 0.00667989 sec.
+     Fields: 0.00690489 sec.
+Output, including data synchronization: 0.423807 sec.
+Other: 0.125142 sec.
+
+Iterations 30800-30900: 1.59991 sec.
+Computations: 1.08524 sec.
+     Pre particle loop: 0.000157411 sec.
+     Particle loop: 0.702928 sec.
+     Current deposition: 0.376965 sec.
+     Field solver: 0.00516621 sec.
+     Other: 2.4527e-05 sec.
+Communications: 0.0606601 sec.
+     Particles: 0.0471327 sec.
+     Currents: 0.00668476 sec.
+     Fields: 0.00684255 sec.
+Output, including data synchronization: 0.351295 sec.
+Other: 0.102714 sec.
+
+Iterations 30900-31000: 1.62938 sec.
+Computations: 1.08582 sec.
+     Pre particle loop: 0.000161859 sec.
+     Particle loop: 0.703486 sec.
+     Current deposition: 0.377009 sec.
+     Field solver: 0.00514049 sec.
+     Other: 2.6863e-05 sec.
+Communications: 0.0675458 sec.
+     Particles: 0.0539973 sec.
+     Currents: 0.00667965 sec.
+     Fields: 0.00686883 sec.
+Output, including data synchronization: 0.374707 sec.
+Other: 0.101303 sec.
+
+Iterations 31000-31100: 1.70774 sec.
+Computations: 1.0859 sec.
+     Pre particle loop: 0.000163508 sec.
+     Particle loop: 0.703081 sec.
+     Current deposition: 0.377489 sec.
+     Field solver: 0.00513729 sec.
+     Other: 2.6012e-05 sec.
+Communications: 0.0643731 sec.
+     Particles: 0.0508515 sec.
+     Currents: 0.00667757 sec.
+     Fields: 0.00684412 sec.
+Output, including data synchronization: 0.460285 sec.
+Other: 0.0971893 sec.
+
+Iterations 31100-31200: 1.58389 sec.
+Computations: 1.08566 sec.
+     Pre particle loop: 0.000166131 sec.
+     Particle loop: 0.703602 sec.
+     Current deposition: 0.376748 sec.
+     Field solver: 0.00512376 sec.
+     Other: 2.4152e-05 sec.
+Communications: 0.0666599 sec.
+     Particles: 0.0532282 sec.
+     Currents: 0.00663581 sec.
+     Fields: 0.00679589 sec.
+Output, including data synchronization: 0.340023 sec.
+Other: 0.0915468 sec.
+
+Iterations 31200-31300: 1.61881 sec.
+Computations: 1.08635 sec.
+     Pre particle loop: 0.0001585 sec.
+     Particle loop: 0.704592 sec.
+     Current deposition: 0.376414 sec.
+     Field solver: 0.00516329 sec.
+     Other: 2.5184e-05 sec.
+Communications: 0.0608286 sec.
+     Particles: 0.0472008 sec.
+     Currents: 0.00667753 sec.
+     Fields: 0.00695029 sec.
+Output, including data synchronization: 0.386102 sec.
+Other: 0.0855221 sec.
+
+Iterations 31300-31400: 1.69061 sec.
+Computations: 1.0847 sec.
+     Pre particle loop: 0.000166255 sec.
+     Particle loop: 0.702407 sec.
+     Current deposition: 0.376918 sec.
+     Field solver: 0.00518162 sec.
+     Other: 2.5735e-05 sec.
+Communications: 0.0609987 sec.
+     Particles: 0.0472686 sec.
+     Currents: 0.00672024 sec.
+     Fields: 0.00700988 sec.
+Output, including data synchronization: 0.425788 sec.
+Other: 0.119121 sec.
+
+Iterations 31400-31500: 1.58158 sec.
+Computations: 1.08504 sec.
+     Pre particle loop: 0.000163753 sec.
+     Particle loop: 0.70311 sec.
+     Current deposition: 0.376566 sec.
+     Field solver: 0.00517077 sec.
+     Other: 2.5445e-05 sec.
+Communications: 0.0607795 sec.
+     Particles: 0.0471262 sec.
+     Currents: 0.00667582 sec.
+     Fields: 0.00697751 sec.
+Output, including data synchronization: 0.33115 sec.
+Other: 0.104615 sec.
+
+Iterations 31500-31600: 1.68192 sec.
+Computations: 1.08799 sec.
+     Pre particle loop: 0.000178173 sec.
+     Particle loop: 0.705637 sec.
+     Current deposition: 0.377015 sec.
+     Field solver: 0.00513292 sec.
+     Other: 2.5602e-05 sec.
+Communications: 0.0623589 sec.
+     Particles: 0.0487992 sec.
+     Currents: 0.00669828 sec.
+     Fields: 0.00686139 sec.
+Output, including data synchronization: 0.43865 sec.
+Other: 0.0929257 sec.
+
+Iterations 31600-31700: 1.59701 sec.
+Computations: 1.08567 sec.
+     Pre particle loop: 0.000156874 sec.
+     Particle loop: 0.703301 sec.
+     Current deposition: 0.377032 sec.
+     Field solver: 0.00515326 sec.
+     Other: 2.5822e-05 sec.
+Communications: 0.0603148 sec.
+     Particles: 0.0469353 sec.
+     Currents: 0.00667022 sec.
+     Fields: 0.00670934 sec.
+Output, including data synchronization: 0.341763 sec.
+Other: 0.109262 sec.
+
+Iterations 31700-31800: 1.55447 sec.
+Computations: 1.08716 sec.
+     Pre particle loop: 0.000169903 sec.
+     Particle loop: 0.704237 sec.
+     Current deposition: 0.37757 sec.
+     Field solver: 0.00516099 sec.
+     Other: 2.6337e-05 sec.
+Communications: 0.0635549 sec.
+     Particles: 0.049932 sec.
+     Currents: 0.00675037 sec.
+     Fields: 0.00687259 sec.
+Output, including data synchronization: 0.314456 sec.
+Other: 0.0892912 sec.
+
+Iterations 31800-31900: 1.58181 sec.
+Computations: 1.0873 sec.
+     Pre particle loop: 0.000158578 sec.
+     Particle loop: 0.704907 sec.
+     Current deposition: 0.377031 sec.
+     Field solver: 0.00517637 sec.
+     Other: 2.4404e-05 sec.
+Communications: 0.060828 sec.
+     Particles: 0.0472121 sec.
+     Currents: 0.00669137 sec.
+     Fields: 0.00692451 sec.
+Output, including data synchronization: 0.344279 sec.
+Other: 0.0894096 sec.
+
+Iterations 31900-31977: 1.22915 sec.
+Computations: 0.839156 sec.
+     Pre particle loop: 0.000140219 sec.
+     Particle loop: 0.544621 sec.
+     Current deposition: 0.290355 sec.
+     Field solver: 0.00401951 sec.
+     Other: 1.9302e-05 sec.
+Communications: 0.0498132 sec.
+     Particles: 0.0392564 sec.
+     Currents: 0.00519361 sec.
+     Fields: 0.00536328 sec.
+Output, including data synchronization: 0.281708 sec.
+Other: 0.0584728 sec.
+
+Overall: 491.129 sec.
+Computations: 323.92 sec.
+     Pre particle loop: 0.0512014 sec.
+     Particle loop: 205.829 sec.
+     Current deposition: 116.312 sec.
+     Field solver: 1.71942 sec.
+     Other: 0.00805623 sec.
+Communications: 19.565 sec.
+     Particles: 15.1998 sec.
+     Currents: 2.20153 sec.
+     Fields: 2.16369 sec.
+Output, including data synchronization: 116.647 sec.
+Initialization: 0.23417 sec.
+Other: 30.7626 sec.
+

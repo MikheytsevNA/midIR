@@ -1,0 +1,10 @@
+Running 1 process on 1 node
+
+List of processes by MPI rank
+MPI rank       3D index        node name
+0              (0, 0, 0)       n02p001
+
+List of ranks by node
+n02p001: 0
+
+

@@ -74,12 +74,19 @@ def spec_filter(fourier_of_field, flambda, lambda_gate, form_filter):
     # filtered_fourier - numpy.ndarray shape - (1, 20*t-1), filtered field in given spectral bandwidth.
     
     """
+    def filter_gauss(w, shift, sigma):
+        return np.exp(-((w-shift)/sigma)**2/2)
     if form_filter == "tophat":
         lfilter = np.where((flambda < lambda_gate[0]) | (flambda > lambda_gate[1]))
-    filtered_fourier = fourier_of_field.copy()
-    filtered_fourier[lfilter] = 0
+        filtered_fourier = fourier_of_field.copy()
+        filtered_fourier[lfilter] = 0
+        return filtered_fourier
+    if form_filter == "smooth":
+        filter_shape = filter_gauss(np.arange(len(fourier_of_field)), sum(lambda_gate)/2, (lambda_gate[1] - lambda_gate[0])/2)
+        filter_shape[lambda_gate[0]:int(sum(lambda_gate)/2)] = abs(np.ones(len(field_r)))[lambda_gate[0]:int(sum(lambda_gate)/2)]
+        filter_shape[0:lambda_gate[0]] = 0
+        return fourier_of_field*filter_shape
     
-    return filtered_fourier
     
 def reverse_fourier(fourier_of_field, flambda, lambda_gate, form_filter):
     """
