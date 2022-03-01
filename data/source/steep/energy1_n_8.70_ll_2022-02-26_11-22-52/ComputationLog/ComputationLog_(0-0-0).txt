@@ -1,0 +1,1929 @@
+Running PICADOR v1.0rc1 built on Mar 19 2021 09:41:51
+Using CPU, 16 OpenMP threads.
+
+WARNING: in function Energy_vs_p argument #3 has the same name as a variable and has probably been substituted incorrectly, please check it at ParsedInput.txt
+WARNING: in function Velocity_vs_p argument #4 has the same name as a variable and has probably been substituted incorrectly, please check it at ParsedInput.txt
+WARNING: some parameters might be incorrect, see ParameterValidation.txt for details.
+Handling domain: (-0.005, 0, 0) - (0.003, 1, 1), 8000 x 1 x 1 grid
+
+Sat Feb 26 11:22:53 2022:   0% - 0 iterations completed
+300000 particles (150000 aus, 150000 electrons), allocated 24.58 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:53 2022:   0% - 100 iterations completed
+299991 particles (150000 aus, 149991 electrons), allocated 25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:54 2022:   0% - 200 iterations completed
+299989 particles (150000 aus, 149989 electrons), allocated 25.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:54 2022:   0% - 300 iterations completed
+299987 particles (150000 aus, 149987 electrons), allocated 25.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:55 2022:   0% - 400 iterations completed
+299987 particles (150000 aus, 149987 electrons), allocated 25.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:55 2022:   1% - 500 iterations completed
+299986 particles (150000 aus, 149986 electrons), allocated 25.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:56 2022:   1% - 600 iterations completed
+299985 particles (150000 aus, 149985 electrons), allocated 25.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:56 2022:   1% - 700 iterations completed
+299984 particles (150000 aus, 149984 electrons), allocated 25.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:57 2022:   1% - 800 iterations completed
+299983 particles (150000 aus, 149983 electrons), allocated 25.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:57 2022:   1% - 900 iterations completed
+299983 particles (150000 aus, 149983 electrons), allocated 25.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:58 2022:   2% - 1000 iterations completed
+299983 particles (150000 aus, 149983 electrons), allocated 25.29 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:59 2022:   2% - 1100 iterations completed
+299983 particles (150000 aus, 149983 electrons), allocated 25.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:22:59 2022:   2% - 1200 iterations completed
+299982 particles (149999 aus, 149983 electrons), allocated 25.32 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:00 2022:   2% - 1300 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:00 2022:   2% - 1400 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:01 2022:   3% - 1500 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.34 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:01 2022:   3% - 1600 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.34 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:02 2022:   3% - 1700 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:02 2022:   3% - 1800 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:03 2022:   3% - 1900 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:03 2022:   4% - 2000 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:04 2022:   4% - 2100 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:04 2022:   4% - 2200 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:05 2022:   4% - 2300 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:05 2022:   5% - 2400 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:06 2022:   5% - 2500 iterations completed
+299980 particles (149999 aus, 149981 electrons), allocated 25.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:06 2022:   5% - 2600 iterations completed
+299979 particles (149999 aus, 149980 electrons), allocated 25.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:07 2022:   5% - 2700 iterations completed
+299979 particles (149999 aus, 149980 electrons), allocated 25.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:08 2022:   5% - 2800 iterations completed
+299979 particles (149999 aus, 149980 electrons), allocated 25.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:08 2022:   6% - 2900 iterations completed
+299979 particles (149999 aus, 149980 electrons), allocated 25.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:09 2022:   6% - 3000 iterations completed
+299979 particles (149999 aus, 149980 electrons), allocated 25.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:09 2022:   6% - 3100 iterations completed
+299978 particles (149999 aus, 149979 electrons), allocated 25.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:10 2022:   6% - 3200 iterations completed
+299978 particles (149999 aus, 149979 electrons), allocated 25.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:10 2022:   6% - 3300 iterations completed
+299977 particles (149999 aus, 149978 electrons), allocated 25.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:11 2022:   7% - 3400 iterations completed
+299977 particles (149999 aus, 149978 electrons), allocated 25.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:11 2022:   7% - 3500 iterations completed
+299977 particles (149999 aus, 149978 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:12 2022:   7% - 3600 iterations completed
+299977 particles (149999 aus, 149978 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:12 2022:   7% - 3700 iterations completed
+299977 particles (149999 aus, 149978 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:13 2022:   7% - 3800 iterations completed
+299977 particles (149999 aus, 149978 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:13 2022:   8% - 3900 iterations completed
+299975 particles (149999 aus, 149976 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:14 2022:   8% - 4000 iterations completed
+299975 particles (149999 aus, 149976 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:14 2022:   8% - 4100 iterations completed
+299974 particles (149999 aus, 149975 electrons), allocated 25.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:15 2022:   8% - 4200 iterations completed
+299974 particles (149999 aus, 149975 electrons), allocated 25.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:15 2022:   8% - 4300 iterations completed
+299973 particles (149999 aus, 149974 electrons), allocated 25.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:16 2022:   9% - 4400 iterations completed
+299972 particles (149999 aus, 149973 electrons), allocated 25.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:16 2022:   9% - 4500 iterations completed
+299970 particles (149999 aus, 149971 electrons), allocated 25.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:17 2022:   9% - 4600 iterations completed
+299970 particles (149999 aus, 149971 electrons), allocated 25.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:18 2022:   9% - 4700 iterations completed
+299967 particles (149999 aus, 149968 electrons), allocated 25.41 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:18 2022:  10% - 4800 iterations completed
+299966 particles (149999 aus, 149967 electrons), allocated 25.41 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:19 2022:  10% - 4900 iterations completed
+299965 particles (149999 aus, 149966 electrons), allocated 25.5 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:19 2022:  10% - 5000 iterations completed
+299964 particles (149999 aus, 149965 electrons), allocated 26.66 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:20 2022:  10% - 5100 iterations completed
+299964 particles (149999 aus, 149965 electrons), allocated 27.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:20 2022:  10% - 5200 iterations completed
+299964 particles (149999 aus, 149965 electrons), allocated 27.87 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:21 2022:  11% - 5300 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 28.69 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:21 2022:  11% - 5400 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 29.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:22 2022:  11% - 5500 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 30.41 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:22 2022:  11% - 5600 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 31.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:23 2022:  11% - 5700 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 32.01 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:24 2022:  12% - 5800 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 33.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:24 2022:  12% - 5900 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 33.72 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:25 2022:  12% - 6000 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 34.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:25 2022:  12% - 6100 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 35.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:26 2022:  12% - 6200 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 35.76 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:26 2022:  13% - 6300 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 36.43 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:27 2022:  13% - 6400 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 36.88 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:27 2022:  13% - 6500 iterations completed
+299963 particles (149998 aus, 149965 electrons), allocated 37.6 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:28 2022:  13% - 6600 iterations completed
+299961 particles (149998 aus, 149963 electrons), allocated 38.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:29 2022:  13% - 6700 iterations completed
+299960 particles (149998 aus, 149962 electrons), allocated 38.68 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:29 2022:  14% - 6800 iterations completed
+299959 particles (149998 aus, 149961 electrons), allocated 39.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:30 2022:  14% - 6900 iterations completed
+299959 particles (149998 aus, 149961 electrons), allocated 39.69 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:30 2022:  14% - 7000 iterations completed
+299959 particles (149998 aus, 149961 electrons), allocated 40.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:31 2022:  14% - 7100 iterations completed
+299958 particles (149998 aus, 149960 electrons), allocated 40.62 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:32 2022:  15% - 7200 iterations completed
+299958 particles (149998 aus, 149960 electrons), allocated 41 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:32 2022:  15% - 7300 iterations completed
+299958 particles (149998 aus, 149960 electrons), allocated 41.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:33 2022:  15% - 7400 iterations completed
+299957 particles (149998 aus, 149959 electrons), allocated 41.84 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:33 2022:  15% - 7500 iterations completed
+299955 particles (149998 aus, 149957 electrons), allocated 42.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:34 2022:  15% - 7600 iterations completed
+299955 particles (149998 aus, 149957 electrons), allocated 42.85 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:34 2022:  16% - 7700 iterations completed
+299954 particles (149998 aus, 149956 electrons), allocated 43.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:35 2022:  16% - 7800 iterations completed
+299954 particles (149998 aus, 149956 electrons), allocated 43.72 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:36 2022:  16% - 7900 iterations completed
+299954 particles (149998 aus, 149956 electrons), allocated 44.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:36 2022:  16% - 8000 iterations completed
+299954 particles (149998 aus, 149956 electrons), allocated 44.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:37 2022:  16% - 8100 iterations completed
+299954 particles (149998 aus, 149956 electrons), allocated 44.78 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:37 2022:  17% - 8200 iterations completed
+299953 particles (149998 aus, 149955 electrons), allocated 45.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:38 2022:  17% - 8300 iterations completed
+299953 particles (149998 aus, 149955 electrons), allocated 45.63 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:39 2022:  17% - 8400 iterations completed
+299952 particles (149998 aus, 149954 electrons), allocated 46.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:39 2022:  17% - 8500 iterations completed
+299952 particles (149998 aus, 149954 electrons), allocated 46.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:40 2022:  17% - 8600 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 46.87 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:40 2022:  18% - 8700 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 47.3 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:41 2022:  18% - 8800 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 47.71 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:42 2022:  18% - 8900 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 36.77 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:42 2022:  18% - 9000 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 37.65 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:43 2022:  18% - 9100 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 38.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:43 2022:  19% - 9200 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 38.82 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:44 2022:  19% - 9300 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 39.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:45 2022:  19% - 9400 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 39.84 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:45 2022:  19% - 9500 iterations completed
+299951 particles (149998 aus, 149953 electrons), allocated 40.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:46 2022:  20% - 9600 iterations completed
+299950 particles (149998 aus, 149952 electrons), allocated 40.81 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:46 2022:  20% - 9700 iterations completed
+299949 particles (149998 aus, 149951 electrons), allocated 41.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:47 2022:  20% - 9800 iterations completed
+299949 particles (149998 aus, 149951 electrons), allocated 41.81 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:48 2022:  20% - 9900 iterations completed
+299948 particles (149998 aus, 149950 electrons), allocated 42.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:48 2022:  20% - 10000 iterations completed
+299948 particles (149998 aus, 149950 electrons), allocated 43.02 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:49 2022:  21% - 10100 iterations completed
+299948 particles (149998 aus, 149950 electrons), allocated 43.59 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:50 2022:  21% - 10200 iterations completed
+299947 particles (149998 aus, 149949 electrons), allocated 44.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:50 2022:  21% - 10300 iterations completed
+299947 particles (149998 aus, 149949 electrons), allocated 44.61 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:51 2022:  21% - 10400 iterations completed
+299947 particles (149998 aus, 149949 electrons), allocated 45.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:51 2022:  21% - 10500 iterations completed
+299947 particles (149998 aus, 149949 electrons), allocated 45.72 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:52 2022:  22% - 10600 iterations completed
+299946 particles (149997 aus, 149949 electrons), allocated 46.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:53 2022:  22% - 10700 iterations completed
+299946 particles (149997 aus, 149949 electrons), allocated 46.92 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:53 2022:  22% - 10800 iterations completed
+299945 particles (149997 aus, 149948 electrons), allocated 47.42 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:54 2022:  22% - 10900 iterations completed
+299945 particles (149997 aus, 149948 electrons), allocated 47.97 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:54 2022:  22% - 11000 iterations completed
+299944 particles (149996 aus, 149948 electrons), allocated 44.55 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:55 2022:  23% - 11100 iterations completed
+299944 particles (149996 aus, 149948 electrons), allocated 45.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:56 2022:  23% - 11200 iterations completed
+299944 particles (149996 aus, 149948 electrons), allocated 45.71 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:56 2022:  23% - 11300 iterations completed
+299944 particles (149996 aus, 149948 electrons), allocated 46.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:57 2022:  23% - 11400 iterations completed
+299935 particles (149996 aus, 149939 electrons), allocated 46.62 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:58 2022:  23% - 11500 iterations completed
+299916 particles (149996 aus, 149920 electrons), allocated 47.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:58 2022:  24% - 11600 iterations completed
+299824 particles (149996 aus, 149828 electrons), allocated 47.58 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:59 2022:  24% - 11700 iterations completed
+299705 particles (149996 aus, 149709 electrons), allocated 45.48 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:23:59 2022:  24% - 11800 iterations completed
+299574 particles (149996 aus, 149578 electrons), allocated 46.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:00 2022:  24% - 11900 iterations completed
+299315 particles (149996 aus, 149319 electrons), allocated 46.55 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:01 2022:  25% - 12000 iterations completed
+299055 particles (149996 aus, 149059 electrons), allocated 46.98 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:01 2022:  25% - 12100 iterations completed
+298837 particles (149996 aus, 148841 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:02 2022:  25% - 12200 iterations completed
+298706 particles (149996 aus, 148710 electrons), allocated 46.27 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:03 2022:  25% - 12300 iterations completed
+298639 particles (149996 aus, 148643 electrons), allocated 46.82 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:03 2022:  25% - 12400 iterations completed
+298560 particles (149995 aus, 148565 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:04 2022:  26% - 12500 iterations completed
+298460 particles (149995 aus, 148465 electrons), allocated 47.58 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:04 2022:  26% - 12600 iterations completed
+298357 particles (149995 aus, 148362 electrons), allocated 46.84 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:05 2022:  26% - 12700 iterations completed
+298244 particles (149995 aus, 148249 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:06 2022:  26% - 12800 iterations completed
+298132 particles (149994 aus, 148138 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:06 2022:  26% - 12900 iterations completed
+298106 particles (149994 aus, 148112 electrons), allocated 47.61 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:07 2022:  27% - 13000 iterations completed
+298055 particles (149993 aus, 148062 electrons), allocated 47.46 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:07 2022:  27% - 13100 iterations completed
+298035 particles (149993 aus, 148042 electrons), allocated 47.5 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:08 2022:  27% - 13200 iterations completed
+298026 particles (149990 aus, 148036 electrons), allocated 47.56 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:09 2022:  27% - 13300 iterations completed
+297978 particles (149989 aus, 147989 electrons), allocated 47.6 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:09 2022:  27% - 13400 iterations completed
+297952 particles (149988 aus, 147964 electrons), allocated 47.6 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:10 2022:  28% - 13500 iterations completed
+297893 particles (149986 aus, 147907 electrons), allocated 47.61 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:10 2022:  28% - 13600 iterations completed
+297878 particles (149985 aus, 147893 electrons), allocated 47.63 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:11 2022:  28% - 13700 iterations completed
+297780 particles (149985 aus, 147795 electrons), allocated 47.63 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:12 2022:  28% - 13800 iterations completed
+297769 particles (149982 aus, 147787 electrons), allocated 47.61 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:12 2022:  28% - 13900 iterations completed
+297757 particles (149979 aus, 147778 electrons), allocated 47.64 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:13 2022:  29% - 14000 iterations completed
+297745 particles (149975 aus, 147770 electrons), allocated 47.57 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:13 2022:  29% - 14100 iterations completed
+297739 particles (149970 aus, 147769 electrons), allocated 47.63 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:14 2022:  29% - 14200 iterations completed
+297734 particles (149965 aus, 147769 electrons), allocated 47.55 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:15 2022:  29% - 14300 iterations completed
+297727 particles (149959 aus, 147768 electrons), allocated 47.63 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:15 2022:  30% - 14400 iterations completed
+297717 particles (149952 aus, 147765 electrons), allocated 47.6 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:16 2022:  30% - 14500 iterations completed
+297706 particles (149943 aus, 147763 electrons), allocated 47.58 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:16 2022:  30% - 14600 iterations completed
+297691 particles (149930 aus, 147761 electrons), allocated 47.63 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:17 2022:  30% - 14700 iterations completed
+297679 particles (149921 aus, 147758 electrons), allocated 47.57 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:18 2022:  30% - 14800 iterations completed
+297666 particles (149910 aus, 147756 electrons), allocated 47.6 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:18 2022:  31% - 14900 iterations completed
+297659 particles (149907 aus, 147752 electrons), allocated 47.62 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:19 2022:  31% - 15000 iterations completed
+297648 particles (149897 aus, 147751 electrons), allocated 47.61 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:19 2022:  31% - 15100 iterations completed
+297636 particles (149885 aus, 147751 electrons), allocated 47.55 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:20 2022:  31% - 15200 iterations completed
+297622 particles (149872 aus, 147750 electrons), allocated 47.62 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:21 2022:  31% - 15300 iterations completed
+297614 particles (149865 aus, 147749 electrons), allocated 47.54 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:21 2022:  32% - 15400 iterations completed
+297581 particles (149849 aus, 147732 electrons), allocated 47.58 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:22 2022:  32% - 15500 iterations completed
+297565 particles (149837 aus, 147728 electrons), allocated 47.59 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:23 2022:  32% - 15600 iterations completed
+297547 particles (149824 aus, 147723 electrons), allocated 47.59 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:23 2022:  32% - 15700 iterations completed
+297529 particles (149807 aus, 147722 electrons), allocated 47.56 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:24 2022:  32% - 15800 iterations completed
+297512 particles (149791 aus, 147721 electrons), allocated 47.54 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:24 2022:  33% - 15900 iterations completed
+297489 particles (149771 aus, 147718 electrons), allocated 47.49 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:25 2022:  33% - 16000 iterations completed
+297472 particles (149754 aus, 147718 electrons), allocated 47.6 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:26 2022:  33% - 16100 iterations completed
+297452 particles (149735 aus, 147717 electrons), allocated 47.56 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:26 2022:  33% - 16200 iterations completed
+297431 particles (149714 aus, 147717 electrons), allocated 47.52 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:27 2022:  33% - 16300 iterations completed
+297416 particles (149699 aus, 147717 electrons), allocated 47.49 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:27 2022:  34% - 16400 iterations completed
+297402 particles (149685 aus, 147717 electrons), allocated 47.47 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:28 2022:  34% - 16500 iterations completed
+297382 particles (149665 aus, 147717 electrons), allocated 47.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:29 2022:  34% - 16600 iterations completed
+297362 particles (149645 aus, 147717 electrons), allocated 47.55 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:29 2022:  34% - 16700 iterations completed
+297343 particles (149626 aus, 147717 electrons), allocated 47.54 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:30 2022:  35% - 16800 iterations completed
+297320 particles (149603 aus, 147717 electrons), allocated 47.51 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:30 2022:  35% - 16900 iterations completed
+297303 particles (149586 aus, 147717 electrons), allocated 47.5 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:31 2022:  35% - 17000 iterations completed
+297278 particles (149561 aus, 147717 electrons), allocated 47.48 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:32 2022:  35% - 17100 iterations completed
+297265 particles (149548 aus, 147717 electrons), allocated 47.56 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:32 2022:  35% - 17200 iterations completed
+297244 particles (149529 aus, 147715 electrons), allocated 47.54 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:33 2022:  36% - 17300 iterations completed
+297224 particles (149510 aus, 147714 electrons), allocated 47.53 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:34 2022:  36% - 17400 iterations completed
+297204 particles (149490 aus, 147714 electrons), allocated 47.48 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:34 2022:  36% - 17500 iterations completed
+297188 particles (149474 aus, 147714 electrons), allocated 47.55 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:35 2022:  36% - 17600 iterations completed
+297171 particles (149457 aus, 147714 electrons), allocated 47.5 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:35 2022:  36% - 17700 iterations completed
+297147 particles (149433 aus, 147714 electrons), allocated 47.43 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:36 2022:  37% - 17800 iterations completed
+297135 particles (149423 aus, 147712 electrons), allocated 47.51 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:37 2022:  37% - 17900 iterations completed
+297114 particles (149402 aus, 147712 electrons), allocated 47.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:37 2022:  37% - 18000 iterations completed
+297097 particles (149386 aus, 147711 electrons), allocated 47.52 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:38 2022:  37% - 18100 iterations completed
+297074 particles (149364 aus, 147710 electrons), allocated 47.47 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:38 2022:  37% - 18200 iterations completed
+297057 particles (149348 aus, 147709 electrons), allocated 47.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:39 2022:  38% - 18300 iterations completed
+297043 particles (149334 aus, 147709 electrons), allocated 47.46 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:40 2022:  38% - 18400 iterations completed
+297031 particles (149322 aus, 147709 electrons), allocated 47.49 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:40 2022:  38% - 18500 iterations completed
+297010 particles (149302 aus, 147708 electrons), allocated 47.52 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:41 2022:  38% - 18600 iterations completed
+296995 particles (149287 aus, 147708 electrons), allocated 47.5 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:42 2022:  38% - 18700 iterations completed
+296973 particles (149266 aus, 147707 electrons), allocated 47.47 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:42 2022:  39% - 18800 iterations completed
+296959 particles (149253 aus, 147706 electrons), allocated 47.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:43 2022:  39% - 18900 iterations completed
+296942 particles (149236 aus, 147706 electrons), allocated 47.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:43 2022:  39% - 19000 iterations completed
+296929 particles (149224 aus, 147705 electrons), allocated 47.49 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:44 2022:  39% - 19100 iterations completed
+296910 particles (149207 aus, 147703 electrons), allocated 47.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:45 2022:  40% - 19200 iterations completed
+296896 particles (149194 aus, 147702 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:45 2022:  40% - 19300 iterations completed
+296877 particles (149176 aus, 147701 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:46 2022:  40% - 19400 iterations completed
+296858 particles (149158 aus, 147700 electrons), allocated 47.47 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:47 2022:  40% - 19500 iterations completed
+296841 particles (149141 aus, 147700 electrons), allocated 47.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:47 2022:  40% - 19600 iterations completed
+296831 particles (149131 aus, 147700 electrons), allocated 47.42 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:48 2022:  41% - 19700 iterations completed
+296816 particles (149116 aus, 147700 electrons), allocated 47.43 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:48 2022:  41% - 19800 iterations completed
+296797 particles (149097 aus, 147700 electrons), allocated 47.44 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:49 2022:  41% - 19900 iterations completed
+296782 particles (149082 aus, 147700 electrons), allocated 47.44 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:50 2022:  41% - 20000 iterations completed
+296765 particles (149066 aus, 147699 electrons), allocated 47.42 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:50 2022:  41% - 20100 iterations completed
+296751 particles (149052 aus, 147699 electrons), allocated 47.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:51 2022:  42% - 20200 iterations completed
+296740 particles (149041 aus, 147699 electrons), allocated 47.3 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:52 2022:  42% - 20300 iterations completed
+296726 particles (149027 aus, 147699 electrons), allocated 47.44 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:52 2022:  42% - 20400 iterations completed
+296711 particles (149012 aus, 147699 electrons), allocated 47.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:53 2022:  42% - 20500 iterations completed
+296697 particles (148998 aus, 147699 electrons), allocated 47.41 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:53 2022:  42% - 20600 iterations completed
+296686 particles (148987 aus, 147699 electrons), allocated 47.45 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:54 2022:  43% - 20700 iterations completed
+296666 particles (148968 aus, 147698 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:55 2022:  43% - 20800 iterations completed
+296654 particles (148956 aus, 147698 electrons), allocated 47.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:55 2022:  43% - 20900 iterations completed
+296642 particles (148945 aus, 147697 electrons), allocated 47.39 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:56 2022:  43% - 21000 iterations completed
+296628 particles (148931 aus, 147697 electrons), allocated 47.43 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:57 2022:  43% - 21100 iterations completed
+296615 particles (148918 aus, 147697 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:57 2022:  44% - 21200 iterations completed
+296600 particles (148903 aus, 147697 electrons), allocated 47.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:58 2022:  44% - 21300 iterations completed
+296589 particles (148892 aus, 147697 electrons), allocated 47.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:58 2022:  44% - 21400 iterations completed
+296575 particles (148878 aus, 147697 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:24:59 2022:  44% - 21500 iterations completed
+296558 particles (148862 aus, 147696 electrons), allocated 47.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:00 2022:  45% - 21600 iterations completed
+296547 particles (148851 aus, 147696 electrons), allocated 47.42 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:00 2022:  45% - 21700 iterations completed
+296532 particles (148838 aus, 147694 electrons), allocated 47.44 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:01 2022:  45% - 21800 iterations completed
+296525 particles (148831 aus, 147694 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:02 2022:  45% - 21900 iterations completed
+296510 particles (148816 aus, 147694 electrons), allocated 47.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:02 2022:  45% - 22000 iterations completed
+296498 particles (148804 aus, 147694 electrons), allocated 47.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:03 2022:  46% - 22100 iterations completed
+296481 particles (148787 aus, 147694 electrons), allocated 47.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:03 2022:  46% - 22200 iterations completed
+296471 particles (148777 aus, 147694 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:04 2022:  46% - 22300 iterations completed
+296462 particles (148768 aus, 147694 electrons), allocated 47.4 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:05 2022:  46% - 22400 iterations completed
+296449 particles (148755 aus, 147694 electrons), allocated 47.41 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:05 2022:  46% - 22500 iterations completed
+296438 particles (148744 aus, 147694 electrons), allocated 47.42 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:06 2022:  47% - 22600 iterations completed
+296426 particles (148733 aus, 147693 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:06 2022:  47% - 22700 iterations completed
+296416 particles (148723 aus, 147693 electrons), allocated 47.29 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:07 2022:  47% - 22800 iterations completed
+296409 particles (148716 aus, 147693 electrons), allocated 47.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:08 2022:  47% - 22900 iterations completed
+296392 particles (148699 aus, 147693 electrons), allocated 47.32 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:08 2022:  47% - 23000 iterations completed
+296379 particles (148686 aus, 147693 electrons), allocated 47.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:09 2022:  48% - 23100 iterations completed
+296371 particles (148678 aus, 147693 electrons), allocated 47.34 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:10 2022:  48% - 23200 iterations completed
+296359 particles (148666 aus, 147693 electrons), allocated 47.35 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:10 2022:  48% - 23300 iterations completed
+296346 particles (148653 aus, 147693 electrons), allocated 47.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:11 2022:  48% - 23400 iterations completed
+296343 particles (148650 aus, 147693 electrons), allocated 47.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:11 2022:  48% - 23500 iterations completed
+296332 particles (148640 aus, 147692 electrons), allocated 47.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:12 2022:  49% - 23600 iterations completed
+296321 particles (148629 aus, 147692 electrons), allocated 47.36 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:13 2022:  49% - 23700 iterations completed
+296311 particles (148619 aus, 147692 electrons), allocated 47.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:13 2022:  49% - 23800 iterations completed
+296298 particles (148607 aus, 147691 electrons), allocated 47.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:14 2022:  49% - 23900 iterations completed
+296288 particles (148597 aus, 147691 electrons), allocated 47.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:15 2022:  50% - 24000 iterations completed
+296282 particles (148591 aus, 147691 electrons), allocated 47.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:15 2022:  50% - 24100 iterations completed
+296268 particles (148577 aus, 147691 electrons), allocated 47.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:16 2022:  50% - 24200 iterations completed
+296258 particles (148567 aus, 147691 electrons), allocated 47.37 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:17 2022:  50% - 24300 iterations completed
+296248 particles (148557 aus, 147691 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:17 2022:  50% - 24400 iterations completed
+296237 particles (148550 aus, 147687 electrons), allocated 47.38 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:18 2022:  51% - 24500 iterations completed
+296227 particles (148543 aus, 147684 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:18 2022:  51% - 24600 iterations completed
+296198 particles (148532 aus, 147666 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:19 2022:  51% - 24700 iterations completed
+296127 particles (148525 aus, 147602 electrons), allocated 47.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:20 2022:  51% - 24800 iterations completed
+296098 particles (148516 aus, 147582 electrons), allocated 47.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:20 2022:  51% - 24900 iterations completed
+296069 particles (148506 aus, 147563 electrons), allocated 47.29 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:21 2022:  52% - 25000 iterations completed
+296057 particles (148499 aus, 147558 electrons), allocated 47.3 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:22 2022:  52% - 25100 iterations completed
+296014 particles (148489 aus, 147525 electrons), allocated 47.3 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:22 2022:  52% - 25200 iterations completed
+295987 particles (148478 aus, 147509 electrons), allocated 47.3 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:23 2022:  52% - 25300 iterations completed
+295964 particles (148469 aus, 147495 electrons), allocated 47.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:23 2022:  52% - 25400 iterations completed
+295943 particles (148464 aus, 147479 electrons), allocated 47.31 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:24 2022:  53% - 25500 iterations completed
+295901 particles (148455 aus, 147446 electrons), allocated 47.32 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:25 2022:  53% - 25600 iterations completed
+295872 particles (148451 aus, 147421 electrons), allocated 47.33 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:25 2022:  53% - 25700 iterations completed
+295831 particles (148442 aus, 147389 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:26 2022:  53% - 25800 iterations completed
+295778 particles (148430 aus, 147348 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:27 2022:  53% - 25900 iterations completed
+295734 particles (148416 aus, 147318 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:27 2022:  54% - 26000 iterations completed
+295706 particles (148407 aus, 147299 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:28 2022:  54% - 26100 iterations completed
+295680 particles (148405 aus, 147275 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:28 2022:  54% - 26200 iterations completed
+295666 particles (148401 aus, 147265 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:29 2022:  54% - 26300 iterations completed
+295653 particles (148397 aus, 147256 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:30 2022:  55% - 26400 iterations completed
+295644 particles (148390 aus, 147254 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:30 2022:  55% - 26500 iterations completed
+295633 particles (148382 aus, 147251 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:31 2022:  55% - 26600 iterations completed
+295619 particles (148370 aus, 147249 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:32 2022:  55% - 26700 iterations completed
+295612 particles (148365 aus, 147247 electrons), allocated 47.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:32 2022:  55% - 26800 iterations completed
+295603 particles (148356 aus, 147247 electrons), allocated 47.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:33 2022:  56% - 26900 iterations completed
+295593 particles (148347 aus, 147246 electrons), allocated 47.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:33 2022:  56% - 27000 iterations completed
+295585 particles (148339 aus, 147246 electrons), allocated 47.27 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:34 2022:  56% - 27100 iterations completed
+295577 particles (148333 aus, 147244 electrons), allocated 47.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:35 2022:  56% - 27200 iterations completed
+295569 particles (148326 aus, 147243 electrons), allocated 47.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:35 2022:  56% - 27300 iterations completed
+295563 particles (148322 aus, 147241 electrons), allocated 47.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:36 2022:  57% - 27400 iterations completed
+295555 particles (148314 aus, 147241 electrons), allocated 47.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:36 2022:  57% - 27500 iterations completed
+295546 particles (148306 aus, 147240 electrons), allocated 47.28 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:37 2022:  57% - 27600 iterations completed
+295539 particles (148300 aus, 147239 electrons), allocated 47.05 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:38 2022:  57% - 27700 iterations completed
+295532 particles (148295 aus, 147237 electrons), allocated 47.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:38 2022:  57% - 27800 iterations completed
+295521 particles (148286 aus, 147235 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:39 2022:  58% - 27900 iterations completed
+295512 particles (148277 aus, 147235 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:40 2022:  58% - 28000 iterations completed
+295508 particles (148274 aus, 147234 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:40 2022:  58% - 28100 iterations completed
+295499 particles (148266 aus, 147233 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:41 2022:  58% - 28200 iterations completed
+295493 particles (148260 aus, 147233 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:41 2022:  59% - 28300 iterations completed
+295487 particles (148254 aus, 147233 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:42 2022:  59% - 28400 iterations completed
+295482 particles (148250 aus, 147232 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:43 2022:  59% - 28500 iterations completed
+295475 particles (148243 aus, 147232 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:43 2022:  59% - 28600 iterations completed
+295466 particles (148235 aus, 147231 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:44 2022:  59% - 28700 iterations completed
+295460 particles (148229 aus, 147231 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:44 2022:  60% - 28800 iterations completed
+295453 particles (148223 aus, 147230 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:45 2022:  60% - 28900 iterations completed
+295446 particles (148216 aus, 147230 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:46 2022:  60% - 29000 iterations completed
+295438 particles (148208 aus, 147230 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:46 2022:  60% - 29100 iterations completed
+295430 particles (148200 aus, 147230 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:47 2022:  60% - 29200 iterations completed
+295424 particles (148194 aus, 147230 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:48 2022:  61% - 29300 iterations completed
+295420 particles (148190 aus, 147230 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:48 2022:  61% - 29400 iterations completed
+295415 particles (148186 aus, 147229 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:49 2022:  61% - 29500 iterations completed
+295408 particles (148180 aus, 147228 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:49 2022:  61% - 29600 iterations completed
+295403 particles (148175 aus, 147228 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:50 2022:  61% - 29700 iterations completed
+295396 particles (148168 aus, 147228 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:51 2022:  62% - 29800 iterations completed
+295389 particles (148162 aus, 147227 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:51 2022:  62% - 29900 iterations completed
+295380 particles (148153 aus, 147227 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:52 2022:  62% - 30000 iterations completed
+295374 particles (148147 aus, 147227 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:53 2022:  62% - 30100 iterations completed
+295369 particles (148143 aus, 147226 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:53 2022:  62% - 30200 iterations completed
+295365 particles (148139 aus, 147226 electrons), allocated 47.25 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:54 2022:  63% - 30300 iterations completed
+295361 particles (148135 aus, 147226 electrons), allocated 47.26 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:54 2022:  63% - 30400 iterations completed
+295352 particles (148126 aus, 147226 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:55 2022:  63% - 30500 iterations completed
+295345 particles (148119 aus, 147226 electrons), allocated 47.13 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:56 2022:  63% - 30600 iterations completed
+295339 particles (148113 aus, 147226 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:56 2022:  64% - 30700 iterations completed
+295334 particles (148108 aus, 147226 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:57 2022:  64% - 30800 iterations completed
+295331 particles (148106 aus, 147225 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:58 2022:  64% - 30900 iterations completed
+295325 particles (148101 aus, 147224 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:58 2022:  64% - 31000 iterations completed
+295316 particles (148092 aus, 147224 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:59 2022:  64% - 31100 iterations completed
+295310 particles (148086 aus, 147224 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:25:59 2022:  65% - 31200 iterations completed
+295307 particles (148083 aus, 147224 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:00 2022:  65% - 31300 iterations completed
+295303 particles (148079 aus, 147224 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:01 2022:  65% - 31400 iterations completed
+295295 particles (148072 aus, 147223 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:01 2022:  65% - 31500 iterations completed
+295288 particles (148065 aus, 147223 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:02 2022:  65% - 31600 iterations completed
+295283 particles (148060 aus, 147223 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:02 2022:  66% - 31700 iterations completed
+295277 particles (148054 aus, 147223 electrons), allocated 47.24 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:03 2022:  66% - 31800 iterations completed
+295273 particles (148050 aus, 147223 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:04 2022:  66% - 31900 iterations completed
+295266 particles (148043 aus, 147223 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:04 2022:  66% - 32000 iterations completed
+295264 particles (148041 aus, 147223 electrons), allocated 47.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:05 2022:  66% - 32100 iterations completed
+295258 particles (148035 aus, 147223 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:06 2022:  67% - 32200 iterations completed
+295254 particles (148031 aus, 147223 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:06 2022:  67% - 32300 iterations completed
+295250 particles (148027 aus, 147223 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:07 2022:  67% - 32400 iterations completed
+295244 particles (148021 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:07 2022:  67% - 32500 iterations completed
+295241 particles (148018 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:08 2022:  67% - 32600 iterations completed
+295234 particles (148011 aus, 147223 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:09 2022:  68% - 32700 iterations completed
+295229 particles (148006 aus, 147223 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:09 2022:  68% - 32800 iterations completed
+295223 particles (148000 aus, 147223 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:10 2022:  68% - 32900 iterations completed
+295220 particles (147997 aus, 147223 electrons), allocated 47.22 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:11 2022:  68% - 33000 iterations completed
+295217 particles (147994 aus, 147223 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:11 2022:  69% - 33100 iterations completed
+295213 particles (147990 aus, 147223 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:12 2022:  69% - 33200 iterations completed
+295206 particles (147983 aus, 147223 electrons), allocated 47.23 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:12 2022:  69% - 33300 iterations completed
+295202 particles (147979 aus, 147223 electrons), allocated 47.03 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:13 2022:  69% - 33400 iterations completed
+295198 particles (147975 aus, 147223 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:14 2022:  69% - 33500 iterations completed
+295192 particles (147969 aus, 147223 electrons), allocated 47.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:14 2022:  70% - 33600 iterations completed
+295189 particles (147966 aus, 147223 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:15 2022:  70% - 33700 iterations completed
+295183 particles (147960 aus, 147223 electrons), allocated 47.13 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:16 2022:  70% - 33800 iterations completed
+295178 particles (147955 aus, 147223 electrons), allocated 47.13 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:16 2022:  70% - 33900 iterations completed
+295174 particles (147951 aus, 147223 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:17 2022:  70% - 34000 iterations completed
+295170 particles (147947 aus, 147223 electrons), allocated 47.15 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:17 2022:  71% - 34100 iterations completed
+295168 particles (147945 aus, 147223 electrons), allocated 47.15 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:18 2022:  71% - 34200 iterations completed
+295163 particles (147940 aus, 147223 electrons), allocated 47.15 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:19 2022:  71% - 34300 iterations completed
+295159 particles (147936 aus, 147223 electrons), allocated 47.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:19 2022:  71% - 34400 iterations completed
+295157 particles (147934 aus, 147223 electrons), allocated 47.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:20 2022:  71% - 34500 iterations completed
+295150 particles (147927 aus, 147223 electrons), allocated 47.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:20 2022:  72% - 34600 iterations completed
+295143 particles (147920 aus, 147223 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:21 2022:  72% - 34700 iterations completed
+295140 particles (147917 aus, 147223 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:22 2022:  72% - 34800 iterations completed
+295137 particles (147914 aus, 147223 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:22 2022:  72% - 34900 iterations completed
+295131 particles (147908 aus, 147223 electrons), allocated 47.17 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:23 2022:  72% - 35000 iterations completed
+295128 particles (147905 aus, 147223 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:24 2022:  73% - 35100 iterations completed
+295125 particles (147902 aus, 147223 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:24 2022:  73% - 35200 iterations completed
+295118 particles (147895 aus, 147223 electrons), allocated 47.18 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:25 2022:  73% - 35300 iterations completed
+295115 particles (147892 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:25 2022:  73% - 35400 iterations completed
+295110 particles (147887 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:26 2022:  74% - 35500 iterations completed
+295109 particles (147886 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:27 2022:  74% - 35600 iterations completed
+295104 particles (147881 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:27 2022:  74% - 35700 iterations completed
+295096 particles (147873 aus, 147223 electrons), allocated 47.19 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:28 2022:  74% - 35800 iterations completed
+295093 particles (147870 aus, 147223 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:28 2022:  74% - 35900 iterations completed
+295091 particles (147868 aus, 147223 electrons), allocated 47.21 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:29 2022:  75% - 36000 iterations completed
+295086 particles (147863 aus, 147223 electrons), allocated 47.03 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:30 2022:  75% - 36100 iterations completed
+295082 particles (147859 aus, 147223 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:30 2022:  75% - 36200 iterations completed
+295081 particles (147858 aus, 147223 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:31 2022:  75% - 36300 iterations completed
+295075 particles (147852 aus, 147223 electrons), allocated 47.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:32 2022:  75% - 36400 iterations completed
+295071 particles (147848 aus, 147223 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:32 2022:  76% - 36500 iterations completed
+295066 particles (147843 aus, 147223 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:33 2022:  76% - 36600 iterations completed
+295064 particles (147841 aus, 147223 electrons), allocated 47.13 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:33 2022:  76% - 36700 iterations completed
+295058 particles (147835 aus, 147223 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:34 2022:  76% - 36800 iterations completed
+295056 particles (147833 aus, 147223 electrons), allocated 47.16 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:35 2022:  76% - 36900 iterations completed
+295012 particles (147828 aus, 147184 electrons), allocated 47.2 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:35 2022:  77% - 37000 iterations completed
+294957 particles (147825 aus, 147132 electrons), allocated 47.01 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:36 2022:  77% - 37100 iterations completed
+294939 particles (147823 aus, 147116 electrons), allocated 47.05 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:37 2022:  77% - 37200 iterations completed
+294915 particles (147819 aus, 147096 electrons), allocated 47.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:37 2022:  77% - 37300 iterations completed
+294891 particles (147816 aus, 147075 electrons), allocated 47.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:38 2022:  77% - 37400 iterations completed
+294880 particles (147814 aus, 147066 electrons), allocated 47.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:38 2022:  78% - 37500 iterations completed
+294862 particles (147807 aus, 147055 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:39 2022:  78% - 37600 iterations completed
+294854 particles (147806 aus, 147048 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:40 2022:  78% - 37700 iterations completed
+294835 particles (147801 aus, 147034 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:40 2022:  78% - 37800 iterations completed
+294818 particles (147795 aus, 147023 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:41 2022:  79% - 37900 iterations completed
+294800 particles (147793 aus, 147007 electrons), allocated 47.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:42 2022:  79% - 38000 iterations completed
+294783 particles (147790 aus, 146993 electrons), allocated 47.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:42 2022:  79% - 38100 iterations completed
+294762 particles (147785 aus, 146977 electrons), allocated 47.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:43 2022:  79% - 38200 iterations completed
+294740 particles (147780 aus, 146960 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:43 2022:  79% - 38300 iterations completed
+294736 particles (147779 aus, 146957 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:44 2022:  80% - 38400 iterations completed
+294726 particles (147774 aus, 146952 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:45 2022:  80% - 38500 iterations completed
+294716 particles (147771 aus, 146945 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:45 2022:  80% - 38600 iterations completed
+294711 particles (147770 aus, 146941 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:46 2022:  80% - 38700 iterations completed
+294702 particles (147764 aus, 146938 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:46 2022:  80% - 38800 iterations completed
+294687 particles (147758 aus, 146929 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:47 2022:  81% - 38900 iterations completed
+294682 particles (147756 aus, 146926 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:48 2022:  81% - 39000 iterations completed
+294674 particles (147748 aus, 146926 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:48 2022:  81% - 39100 iterations completed
+294670 particles (147747 aus, 146923 electrons), allocated 47.12 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:49 2022:  81% - 39200 iterations completed
+294666 particles (147745 aus, 146921 electrons), allocated 47.13 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:50 2022:  81% - 39300 iterations completed
+294664 particles (147744 aus, 146920 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:50 2022:  82% - 39400 iterations completed
+294660 particles (147740 aus, 146920 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:51 2022:  82% - 39500 iterations completed
+294656 particles (147736 aus, 146920 electrons), allocated 47.14 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:51 2022:  82% - 39600 iterations completed
+294649 particles (147730 aus, 146919 electrons), allocated 46.88 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:52 2022:  82% - 39700 iterations completed
+294645 particles (147726 aus, 146919 electrons), allocated 46.9 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:53 2022:  82% - 39800 iterations completed
+294643 particles (147724 aus, 146919 electrons), allocated 46.91 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:53 2022:  83% - 39900 iterations completed
+294638 particles (147719 aus, 146919 electrons), allocated 46.93 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:54 2022:  83% - 40000 iterations completed
+294633 particles (147714 aus, 146919 electrons), allocated 46.93 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:55 2022:  83% - 40100 iterations completed
+294631 particles (147712 aus, 146919 electrons), allocated 46.93 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:55 2022:  83% - 40200 iterations completed
+294625 particles (147707 aus, 146918 electrons), allocated 46.94 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:56 2022:  84% - 40300 iterations completed
+294623 particles (147705 aus, 146918 electrons), allocated 46.94 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:56 2022:  84% - 40400 iterations completed
+294618 particles (147700 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:57 2022:  84% - 40500 iterations completed
+294613 particles (147695 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:58 2022:  84% - 40600 iterations completed
+294610 particles (147692 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:58 2022:  84% - 40700 iterations completed
+294605 particles (147687 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:59 2022:  85% - 40800 iterations completed
+294600 particles (147682 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:26:59 2022:  85% - 40900 iterations completed
+294595 particles (147677 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:00 2022:  85% - 41000 iterations completed
+294592 particles (147674 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:01 2022:  85% - 41100 iterations completed
+294588 particles (147670 aus, 146918 electrons), allocated 46.95 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:01 2022:  85% - 41200 iterations completed
+294586 particles (147668 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:02 2022:  86% - 41300 iterations completed
+294580 particles (147662 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:02 2022:  86% - 41400 iterations completed
+294579 particles (147661 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:03 2022:  86% - 41500 iterations completed
+294573 particles (147655 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:04 2022:  86% - 41600 iterations completed
+294572 particles (147654 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:04 2022:  86% - 41700 iterations completed
+294568 particles (147650 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:05 2022:  87% - 41800 iterations completed
+294563 particles (147645 aus, 146918 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:06 2022:  87% - 41900 iterations completed
+294560 particles (147643 aus, 146917 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:06 2022:  87% - 42000 iterations completed
+294557 particles (147640 aus, 146917 electrons), allocated 46.97 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:07 2022:  87% - 42100 iterations completed
+294553 particles (147636 aus, 146917 electrons), allocated 46.98 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:07 2022:  87% - 42200 iterations completed
+294550 particles (147633 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:08 2022:  88% - 42300 iterations completed
+294542 particles (147625 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:09 2022:  88% - 42400 iterations completed
+294537 particles (147620 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:09 2022:  88% - 42500 iterations completed
+294536 particles (147619 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:10 2022:  88% - 42600 iterations completed
+294534 particles (147617 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:11 2022:  89% - 42700 iterations completed
+294529 particles (147612 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:11 2022:  89% - 42800 iterations completed
+294524 particles (147607 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:12 2022:  89% - 42900 iterations completed
+294521 particles (147604 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:12 2022:  89% - 43000 iterations completed
+294515 particles (147598 aus, 146917 electrons), allocated 47.04 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:13 2022:  89% - 43100 iterations completed
+294511 particles (147594 aus, 146917 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:14 2022:  90% - 43200 iterations completed
+294508 particles (147591 aus, 146917 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:14 2022:  90% - 43300 iterations completed
+294503 particles (147586 aus, 146917 electrons), allocated 47.01 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:15 2022:  90% - 43400 iterations completed
+294499 particles (147582 aus, 146917 electrons), allocated 47.05 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:16 2022:  90% - 43500 iterations completed
+294494 particles (147577 aus, 146917 electrons), allocated 47.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:16 2022:  90% - 43600 iterations completed
+294494 particles (147577 aus, 146917 electrons), allocated 47.11 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:17 2022:  91% - 43700 iterations completed
+294491 particles (147574 aus, 146917 electrons), allocated 46.96 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:17 2022:  91% - 43800 iterations completed
+294488 particles (147571 aus, 146917 electrons), allocated 46.99 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:18 2022:  91% - 43900 iterations completed
+294485 particles (147568 aus, 146917 electrons), allocated 47.01 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:19 2022:  91% - 44000 iterations completed
+294480 particles (147563 aus, 146917 electrons), allocated 47.03 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:19 2022:  91% - 44100 iterations completed
+294472 particles (147557 aus, 146915 electrons), allocated 47.04 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:20 2022:  92% - 44200 iterations completed
+294469 particles (147554 aus, 146915 electrons), allocated 47.05 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:20 2022:  92% - 44300 iterations completed
+294465 particles (147551 aus, 146914 electrons), allocated 47.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:21 2022:  92% - 44400 iterations completed
+294461 particles (147547 aus, 146914 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:22 2022:  92% - 44500 iterations completed
+294454 particles (147541 aus, 146913 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:22 2022:  92% - 44600 iterations completed
+294449 particles (147538 aus, 146911 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:23 2022:  93% - 44700 iterations completed
+294443 particles (147533 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:24 2022:  93% - 44800 iterations completed
+294440 particles (147530 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:24 2022:  93% - 44900 iterations completed
+294440 particles (147530 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:25 2022:  93% - 45000 iterations completed
+294435 particles (147525 aus, 146910 electrons), allocated 47.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:25 2022:  94% - 45100 iterations completed
+294432 particles (147522 aus, 146910 electrons), allocated 47.09 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:26 2022:  94% - 45200 iterations completed
+294427 particles (147517 aus, 146910 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:27 2022:  94% - 45300 iterations completed
+294426 particles (147516 aus, 146910 electrons), allocated 47.1 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:27 2022:  94% - 45400 iterations completed
+294418 particles (147508 aus, 146910 electrons), allocated 46.9 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:28 2022:  94% - 45500 iterations completed
+294415 particles (147505 aus, 146910 electrons), allocated 46.94 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:29 2022:  95% - 45600 iterations completed
+294412 particles (147502 aus, 146910 electrons), allocated 46.97 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:29 2022:  95% - 45700 iterations completed
+294409 particles (147499 aus, 146910 electrons), allocated 46.98 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:30 2022:  95% - 45800 iterations completed
+294406 particles (147496 aus, 146910 electrons), allocated 47 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:30 2022:  95% - 45900 iterations completed
+294404 particles (147494 aus, 146910 electrons), allocated 47 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:31 2022:  95% - 46000 iterations completed
+294396 particles (147486 aus, 146910 electrons), allocated 47.01 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:32 2022:  96% - 46100 iterations completed
+294396 particles (147486 aus, 146910 electrons), allocated 47.01 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:32 2022:  96% - 46200 iterations completed
+294394 particles (147484 aus, 146910 electrons), allocated 47.02 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:33 2022:  96% - 46300 iterations completed
+294389 particles (147479 aus, 146910 electrons), allocated 47.03 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:34 2022:  96% - 46400 iterations completed
+294387 particles (147477 aus, 146910 electrons), allocated 47.04 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:34 2022:  96% - 46500 iterations completed
+294384 particles (147474 aus, 146910 electrons), allocated 47.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:35 2022:  97% - 46600 iterations completed
+294379 particles (147469 aus, 146910 electrons), allocated 47.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:35 2022:  97% - 46700 iterations completed
+294376 particles (147466 aus, 146910 electrons), allocated 47.06 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:36 2022:  97% - 46800 iterations completed
+294375 particles (147465 aus, 146910 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:37 2022:  97% - 46900 iterations completed
+294369 particles (147459 aus, 146910 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:37 2022:  97% - 47000 iterations completed
+294365 particles (147455 aus, 146910 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:38 2022:  98% - 47100 iterations completed
+294361 particles (147451 aus, 146910 electrons), allocated 47.07 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:38 2022:  98% - 47200 iterations completed
+294355 particles (147445 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:39 2022:  98% - 47300 iterations completed
+294353 particles (147443 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:40 2022:  98% - 47400 iterations completed
+294351 particles (147441 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:40 2022:  99% - 47500 iterations completed
+294349 particles (147439 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:41 2022:  99% - 47600 iterations completed
+294345 particles (147435 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:42 2022:  99% - 47700 iterations completed
+294341 particles (147431 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:42 2022:  99% - 47800 iterations completed
+294339 particles (147429 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Sat Feb 26 11:27:43 2022:  99% - 47900 iterations completed
+294336 particles (147426 aus, 146910 electrons), allocated 47.08 MB
+8000 grid cells, allocated 2.305 MB
+
+Simulation finished. Total run time: 290.611 sec.

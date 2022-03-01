@@ -1,0 +1,22 @@
+Field solver stability condition:
+   c * dt < dx --- PASSED
+   5e-07 < 1e-06
+   dt = 1.66782e-17
+   dx = 1e-06
+
+Plasma period resolution:
+   Tp / dt > 8 --- PASSED
+   54.2451 > 8
+   Ne = 1.5155e+22
+   Tp = 9.04711e-16
+
+Debye radius:
+   R / dx >= 0.5 --- FAILED
+   0.0603657 < 0.5
+   R = 6.03657e-08
+
+
+Estimated memory consumption for whole simulation area:
+   Particles: 0.0384896 GB, approximately 300700 particles
+   Grid:      0.000576 GB, approximately 8000 grid values
+   Total:     0.0390656 GB

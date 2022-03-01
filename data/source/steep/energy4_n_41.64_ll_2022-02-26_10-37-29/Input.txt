@@ -1,0 +1,350 @@
+#-------------USER-DEFINED CONSTANTS------------#
+
+p0 = ElectronMass*LightVelocity;
+P0 = ProtonMass*LightVelocity;
+eV = -ElectronCharge/300;
+keV = 1e3*eV;
+MeV = 1e6*eV;
+GeV = 1e9*eV;
+Joule = 1e7;
+
+#-------------USER-DEFINED FUNCTIONS------------#
+
+Gauss(x) = exp(-sqr(x));
+SuperGauss(x) = exp(-sqr(sqr(x)));
+Trpz(x0, x1) = 0.5*(tanh(x0) - tanh(x1));
+
+Step(x) = sign(x);
+Block(x, xmin, xmax)=(Step(x - xmin) + Step(xmax - x))/2;
+
+Line(x, xmin, xmax, ymin, ymax) = Block(x, xmin, xmax)*((x - xmin)*ymax+(xmax - x)*ymin)/(xmax - xmin);
+R(x, y, z) = sqrt(sqr(x) + sqr(y) + sqr(z));
+
+Minimum(a, b) = ((Step(a-b)+1)*b + (Step(b-a)+1)*a)/2;
+
+Energy_vs_p(px,py,pz,p0) = (sqrt(px*px + py*py + pz*pz + p0*p0) - p0)*LightVelocity;
+Velocity_vs_p(p,px,py,pz,p0) = p*LightVelocity/sqrt(px*px + py*py + pz*pz + p0*p0);
+
+#---------------GENERAL PARAMETERS--------------#
+##---------------LASER PARAMETERS--------------##
+
+Wavelength = 0.8e-4; # cm
+
+k = 2*Pi/Wavelength;
+Omega = 2*Pi * LightVelocity / Wavelength;
+
+RelativisticField = 2*Pi * ElectronMass * sqr(LightVelocity) / (-ElectronCharge * Wavelength);
+
+Module('PML')
+{
+ Size_X = 16;
+ Size_Y = 0;
+ Size_Z = 0;
+}
+
+Module('FieldInterpolation')
+{
+ type = 'TSC';
+}
+
+Module('CurrentDeposition')
+{
+ type = 'VB';
+}
+
+##--------------PLASMA PARAMETERS--------------##
+
+NumStepsPerPlasmaPeriod = 8;
+
+Ncr = ElectronMass * Omega * Omega / (4*Pi * sqr(ElectronCharge));
+w_cr = sqrt(Ncr)*2*Pi/1.113e-4;
+Tcr = 1.113e-4/sqrt(Ncr);
+
+Module('ParticleBC')
+{
+ x = 'absorbing';
+ y = 'periodic';
+ z = 'periodic';
+}
+
+#-------------CALCULATION PARAMETERS-------------#
+
+MatrixSize_X = 8000;
+MatrixSize_Y = 1;
+MatrixSize_Z = 1;
+
+X_Min = -5.0e-3;
+X_Max =  3.0e-3;
+Y_Min =  0;
+Y_Max =  1;
+Z_Min =  0;
+Z_Max =  1;
+
+DeltaX = (X_Max - X_Min)/MatrixSize_X;
+
+ParticlesPerCell = 50;
+
+#----------------LASER PARAMETERS---------------#
+
+PulseDurationFWHM1 = 2e-15; # s
+PulseTau1 = PulseDurationFWHM1/sqrt(2*log(2));
+PulseDurationFWHM2 = 20e-15; # s
+PulseTau2 = PulseDurationFWHM2/sqrt(2*log(2));
+
+PulseEnergy = 5.5*Joule;
+
+FocalSpotWidthFWHM = 5e-4; # cm
+FocalSpotRadius = FocalSpotWidthFWHM/sqrt(2*log(2));
+
+PulseIntensityCGS = 2*16*(log(2)/Pi)^1.5 * PulseEnergy / ((PulseDurationFWHM1 + PulseDurationFWHM2) * sqr(FocalSpotWidthFWHM));
+PulseIntensitySI  = PulseIntensityCGS*1e-7;
+
+PulseAmplitudeAtFocus = sqrt(PulseIntensityCGS*4*Pi/LightVelocity);
+A_0 = PulseAmplitudeAtFocus/RelativisticField;
+
+PulseEnvelope(t) = Gauss(t/PulseTau1)*Block(t,0,PulseTau1*6) + Gauss(t/PulseTau2)*Block(t,(-3)*PulseTau2,0);
+
+Pulse(t) = PulseAmplitudeAtFocus*PulseEnvelope(t);
+
+Ey0(x, y, z) =  Pulse((x - X_Min/2)/LightVelocity)*sin(k*x);
+Bz0(x, y, z) =  Pulse((x - X_Min/2)/LightVelocity)*sin(k*x);
+Ez0(x, y, z) =  0;
+By0(x, y, z) =  0;
+#---------------PLASMA PARAMETERS---------------#
+
+AuMass = 197;
+AuCharge = 69;
+
+n0 = 41.64;
+N = n0*Ncr;
+w_p = sqrt(n0)*w_cr;
+Tp = Tcr/sqrt(n0);
+
+ElectronsPerCell = N*DeltaX;
+ParticlesFactor = ElectronsPerCell/ParticlesPerCell;
+
+Temperature = 100*eV;
+Debye = sqrt((Temperature)/(4*Pi*N))/(-ElectronCharge);
+
+#--------------------FOIL-----------------------#
+
+##--------------BASIC PARAMETERS---------------##
+
+FoilThickness = 3.0e-3; # cm
+
+##----------------DISTRIBUTIONS----------------##
+Add_particles('electron')
+{
+ charge = ElectronCharge;
+ mass = ElectronMass;
+ distribution(x, y, z) = N*Block(x,0,FoilThickness)*Block(y, Y_Min, Y_Max)*Block(z, Z_Min, Z_Max);
+ initialTemperature(x, y, z) = Temperature;
+}
+
+Add_particles('au')
+{
+ charge = -ElectronCharge;
+ mass = 100*(AuMass/AuCharge)*ProtonMass;
+ distribution(x, y, z) = N*Block(x,0,FoilThickness)*Block(y, Y_Min, Y_Max)*Block(z, Z_Min, Z_Max);
+ initialTemperature(x, y, z) = Temperature;
+}
+
+#---------------TIME PARAMETERS----------------#
+
+InitialTime = 0;
+TimeStep = Minimum(Tp/NumStepsPerPlasmaPeriod, ((X_Max - X_Min)/MatrixSize_X)/LightVelocity/2);
+
+IterationsNumber = 800e-15/TimeStep;
+IterationsBetweenDumps = PulseTau1/(LightVelocity*TimeStep);
+
+#--------------OUTPUT PARAMETERS----------------#
+
+##---------------MISCELLANEOUS-----------------##
+
+pau = P0*au.mass/ProtonMass;
+
+##-------------BASIC PARAMETERS----------------##
+
+IfBasicOutputIsNeeded = 1;
+
+IfBODataIsNeeded = 1;
+BODataFormat = 'bin';
+
+IfBOPicsIsNeeded = 0;
+
+BOIterationPass = IterationsNumber/2000;
+
+
+##--------------DATA PARAMETERS----------------##
+
+PlotGridNX = 1
+PlotGridNY = 1
+
+BO_Field('by2dxy')
+{
+ dim = 2
+
+ SetPosition_0 = PlotGridNX
+ SetPosition_1 = PlotGridNY
+ SetPosition_2 = 7
+
+ SetMatrixSize_0 = MatrixSize_X
+ SetMatrixSize_1 = MatrixSize_Y
+
+ SetBounds_0 = X_Min
+ SetBounds_1 = X_Max
+ SetBounds_2 = Y_Min
+ SetBounds_3 = Y_Max
+
+ SetValues_0 = -PulseAmplitudeAtFocus
+ SetValues_1 =  PulseAmplitudeAtFocus
+
+ X(x,y) = x
+ Y(x,y) = (Y_Min + Y_Max) / 2
+ Z(x,y) = (Z_Min + Z_Max) / 2
+
+ Value(Ex,Ey,Ez,Bx,By,Bz) = By;
+
+ Color = 'BbwrR'
+}
+
+BO_Field('bz2dxy')
+{
+ dim = 2
+
+ SetPosition_0 = PlotGridNX
+ SetPosition_1 = PlotGridNY
+ SetPosition_2 = 7
+
+ SetMatrixSize_0 = MatrixSize_X
+ SetMatrixSize_1 = MatrixSize_Y
+
+ SetBounds_0 = X_Min
+ SetBounds_1 = X_Max
+ SetBounds_2 = Y_Min
+ SetBounds_3 = Y_Max
+
+ SetValues_0 = -PulseAmplitudeAtFocus
+ SetValues_1 =  PulseAmplitudeAtFocus
+
+ X(x,y) = x
+ Y(x,y) = (Y_Min + Y_Max) / 2
+ Z(x,y) = (Z_Min + Z_Max) / 2
+
+ Value(Ex,Ey,Ez,Bx,By,Bz) = Bz;
+
+ Color = 'BbwrR'
+}
+
+BO_Field('ez2dxy')
+{
+ dim = 2
+
+ SetPosition_0 = PlotGridNX
+ SetPosition_1 = PlotGridNY
+ SetPosition_2 = 7
+
+ SetMatrixSize_0 = MatrixSize_X
+ SetMatrixSize_1 = MatrixSize_Y
+
+ SetBounds_0 = X_Min
+ SetBounds_1 = X_Max
+ SetBounds_2 = Y_Min
+ SetBounds_3 = Y_Max
+
+ SetValues_0 = -PulseAmplitudeAtFocus
+ SetValues_1 =  PulseAmplitudeAtFocus
+
+ X(x,y) = x
+ Y(x,y) = (Y_Min + Y_Max) / 2
+ Z(x,y) = (Z_Min + Z_Max) / 2
+
+ Value(Ex,Ey,Ez,Bx,By,Bz) = Ez;
+
+ Color = 'BbwrR'
+}
+
+BO_Field('ey2dxy')
+{
+ dim = 2
+
+ SetPosition_0 = PlotGridNX
+ SetPosition_1 = PlotGridNY
+ SetPosition_2 = 7
+
+ SetMatrixSize_0 = MatrixSize_X
+ SetMatrixSize_1 = MatrixSize_Y
+
+ SetBounds_0 = X_Min
+ SetBounds_1 = X_Max
+ SetBounds_2 = Y_Min
+ SetBounds_3 = Y_Max
+
+ SetValues_0 = -PulseAmplitudeAtFocus
+ SetValues_1 =  PulseAmplitudeAtFocus
+
+ X(x,y) = x
+ Y(x,y) = (Y_Min + Y_Max) / 2
+ Z(x,y) = (Z_Min + Z_Max) / 2
+
+ Value(Ex,Ey,Ez,Bx,By,Bz) = Ey;
+
+ Color = 'BbwrR'
+}
+
+BO_Density('electron2dxy')
+{
+ dim = 2
+ type = 'electron'
+
+ SetPosition_0 = PlotGridNX
+ SetPosition_1 = PlotGridNY
+ SetPosition_2 = 0
+
+ SetMatrixSize_0 = MatrixSize_X
+ SetMatrixSize_1 = MatrixSize_Y
+
+ SetBounds_0 = X_Min
+ SetBounds_1 = X_Max
+ SetBounds_2 = Y_Min
+ SetBounds_3 = Y_Max
+
+ SetValues_0 = 0
+ SetValues_1 = 2*ElectronsPerCell
+
+ x(x,y,z,px,py,pz) = x
+ y(x,y,z,px,py,pz) = (Y_Min + Y_Max) / 2
+
+ Weight(x,y,z,px,py,pz) = 1
+
+ Color = 'wegG'
+}
+
+BO_Density('au2dxy')
+{
+ dim = 2
+ type = 'au'
+
+ SetPosition_0 = PlotGridNX
+ SetPosition_1 = PlotGridNY
+ SetPosition_2 = 1
+
+ SetMatrixSize_0 = MatrixSize_X
+ SetMatrixSize_1 = MatrixSize_Y
+
+ SetBounds_0 = X_Min
+ SetBounds_1 = X_Max
+ SetBounds_2 = Y_Min
+ SetBounds_3 = Y_Max
+
+ SetValues_0 = 0
+ SetValues_1 = ElectronsPerCell
+
+ x(x,y,z,px,py,pz) = x
+ y(x,y,z,px,py,pz) = (Y_Min + Y_Max) / 2
+
+ Weight(x,y,z,px,py,pz) = 1
+
+ Color = 'wrR'
+}
+
