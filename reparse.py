@@ -202,7 +202,9 @@ class reparse:
         print(folders[:])
         n_0_list = [x[-8:-4] for x in folders]
         def change_name(old_name, variable):
-            return (old_name[:-11] + variable + old_name[-9:])
+            print(old_name[:-12])
+            print(old_name[-9:])
+            return (old_name[:-12] + variable + old_name[-10:])
         data = []
         for folderr in folders:
             folder = change_name(folderr[2:], "t")
